@@ -12,12 +12,12 @@ pullquote: "You're 5 steps from a community archive!"
 image: "IUB_SampleGates.jpg"
 ---
 
-Sub Section 3.1: [Object Lesson 2: A Neurology Lab’s Collections]({% link _items/2022-07-18-Brains-In-Jars-3.1.md %}).
+Sub Section 3.1: [Object Lesson 2: A Neurology Lab’s Collections]({{ site.baseurl }}/items/2022-07-18-Brains-In-Jars-3.1.html)
 
-Sub Section 3.2: [Autopsy & Medical Science: The Vesalian Paradigm]({% link _items/2022-07-18-Brains-In-Jars-3.2.md %}). 
+Sub Section 3.2: [Autopsy & Medical Science: The Vesalian Paradigm]({{ site.baseurl }}/items/2022-07-18-Brains-In-Jars-3.2.html) 
 
-Sub Section 3.3: [Specimen Studies Part Two: Capta]({% link _items/2022-07-18-Brains-In-Jars-3.3.md %}).
+Sub Section 3.3: [Specimen Studies Part Two: Capta]({{ site.baseurl }}/items/2022-07-18-Brains-In-Jars-3.3.html)
 
-Sub Section 3.4: [Posthumous Bodily Autonomy]({% link _items/2022-07-18-Brains-In-Jars-3.4.md %}).
+Sub Section 3.4: [Posthumous Bodily Autonomy]({{ site.baseurl }}/items/2022-07-18-Brains-In-Jars-3.4.html)
 
 
