@@ -57,7 +57,7 @@ pullquote: "Find out more about community archiving!"
 <button class="toggle-button" onclick="toggleOpacity('opaque')">Opaque</button>
 </div>
 
-<img src="{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158.jpg" alt="ReportoftheHenryPhippsIns3" width="1200" height="600">
+<img id="HenryReport" src="{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158.jpg" alt="ReportoftheHenryPhippsIns3" width="1200" height="600">
 
 
 Figure 1. A picture of the Henry Phipps Institute’s Neurology Lab. From the Third Annual Report of the Henry Phipps Institute,
@@ -102,6 +102,7 @@ Figure 2. That’s a lot of brains. From the Third Annual Report of the Henry Ph
     function toggleOpacity(mode) {
         const partialLines = document.querySelectorAll('.partial-lines');
         const opaqueLines = document.querySelectorAll('.opaque-lines');
+        const HenryReport = document.getElementById('HenryReport');
 
         if (mode === 'partial') {
             // Toggle partial lines
@@ -112,6 +113,9 @@ Figure 2. That’s a lot of brains. From the Third Annual Report of the Henry Ph
             opaqueLines.forEach(line => {
                 line.style.opacity = '1';
             });
+
+            HenryReport.src = "{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158_Partial.png";
+            
         } else if (mode === 'opaque') {
             // Toggle opaque lines
             opaqueLines.forEach(line => {
