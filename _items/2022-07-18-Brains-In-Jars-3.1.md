@@ -57,7 +57,7 @@ pullquote: "Find out more about community archiving!"
 <button class="toggle-button" onclick="toggleOpacity('opaque')">Opaque</button>
 </div>
 
-<img src="{{site.baseurl}}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158.jpg" alt="ReportoftheHenryPhippsIns3" width="1200" height="600">
+<img src="{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158.jpg" alt="ReportoftheHenryPhippsIns3" width="1200" height="600">
 
 
 Figure 1. A picture of the Henry Phipps Institute’s Neurology Lab. From the Third Annual Report of the Henry Phipps Institute,
@@ -75,7 +75,7 @@ In this growing national research environment, Henry Phipps, a guilded age baron
 Chapter 4 will look more closely at the Phipps Institute (4.0.1), for this section, I want to focus instead on the image supplied above (fig. 1). This image is not a specimen in the sense of Koch’s specimens, so much as a photograph of a neurological lab, that just so happens to depict specimens in addition to the space. For this section, I will focus on the foreground of the image, to what appears to be about two dozen wet tissue specimens preserved in jars (fig. 2). The importance of these objects is linked to the epistemic and ideological value which is purported to be held within these human remains, and to the work of Andreas Vesalius and other medical scientists in the early modern period.
 
 <br>
-<img src="{{site.baseurl}}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158_Resize.jpg" alt="ReportoftheHenryPhippsIns3" width="1200" height="600">
+<img src="{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158_Resize.jpg" alt="ReportoftheHenryPhippsIns3" width="1200" height="600">
 
 Figure 2. That’s a lot of brains. From the Third Annual Report of the Henry Phipps Institute. 1905-1906.
 <hr>
