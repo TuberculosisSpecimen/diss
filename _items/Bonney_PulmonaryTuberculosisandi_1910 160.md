@@ -6,7 +6,7 @@ contributor:
 group: 
 author: Sherman G. Bonney
 externalurl: 
-embedurl: https://tuberculosisspecimen.github.io/diss/assets/img/Bonney_PulmonaryTuberculosisandi_1910_160.jpg
+embedurl: https://github.com/tuberculosisspecimen/diss/assets/img/Bonney_PulmonaryTuberculosisandi_1910_160.jpg
 creationdate: 
 type: Illustration
 shortdesc: 
