@@ -6,7 +6,7 @@ contributor:
 group: 
 author: Sherman G. Bonney
 externalurl: 
-embedurl: Bonney_PulmonaryTuberculosisandi_1910_160.jpg
+embedurl: /assets/img/Bonney_PulmonaryTuberculosisandi_1910_160.jpg
 creationdate: 
 type: Illustration
 shortdesc: 
