@@ -15,11 +15,11 @@ format: post
 	<div class="grid-x grid-padding-x">
 		<div class="large-12 cell">
 
-				  {% if page.image %}<img class="article-image float-right thumbnail" src="{{ site.baseurl }}{{ site.urlimg }}{{page.image}}">{% endif %}
+				{% if page.image %}<img class="article-image float-right thumbnail" src="{{ site.baseurl }}{{ site.urlimg }}{{page.image}}">{% endif %}
 				<!--page start-->
 				{{ content }}
 				<!--page end-->
-			</div>
+			
 		</div>
 	</div>
 </div>
