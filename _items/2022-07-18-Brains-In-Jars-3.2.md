@@ -102,7 +102,7 @@ While this is a specimen (0.2.3), it is also something that is engrained in a wh
             // Toggle partial lines
             partialLines.forEach(line => {
                 line.style.backgroundColor = '#000000'; // Set background color to black
-                CroftonImg.src = "/diss/assets/img/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_partial.jpg";
+                CroftonImg.src = "/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_partial.jpg";
             });
             // Ensure opaque lines are fully visible
             opaqueLines.forEach(line => {
@@ -114,7 +114,7 @@ While this is a specimen (0.2.3), it is also something that is engrained in a wh
             // Toggle opaque lines
             opaqueLines.forEach(line => {
                 line.style.backgroundColor = '#000000'; // Set background color to black
-                CroftonImg.src = "/diss/assets/img/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_full.jpg";
+                CroftonImg.src = "/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_full.jpg";
             });
             // Ensure partial lines are fully visible
             partialLines.forEach(line => {
@@ -122,7 +122,7 @@ While this is a specimen (0.2.3), it is also something that is engrained in a wh
             });
         }
         else if (mode === 'non-opaque'){
-            HenryReport.src = "{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158.jpg";
+            CroftonImg.src = "/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg";
             partialLines.forEach(line => {
                 line.style.opacity = '1';
                 line.style.backgroundColor = ''
