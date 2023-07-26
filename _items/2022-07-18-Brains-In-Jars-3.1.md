@@ -58,7 +58,7 @@ pullquote: "Find out more about community archiving!"
 <button class="toggle-button" onclick="toggleOpacity('non-opaque')">Non-Opaque</button>
 </div>
 
-<img id="HenryReport" src="{{ site.baseurl }}/assets/items/ReportoftheHenryPhippsIns3_1905-1906158.jpg" alt="ReportoftheHenryPhippsIns3" width="1200" height="600">
+<img id="HenryReport" src="{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158.jpg" alt="ReportoftheHenryPhippsIns3" width="1200" height="600">
 
 
 Figure 1. A picture of the Henry Phipps Institute’s Neurology Lab. From the Third Annual Report of the Henry Phipps Institute,
