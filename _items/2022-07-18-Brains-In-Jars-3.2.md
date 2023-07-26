@@ -57,7 +57,7 @@ pullquote: "Find out more about community archiving!"
 <button class="toggle-button" onclick="toggleOpacity('non-opaque')">Non-Opaque</button>
 </div>
 
-<img id="CroftonImg" src="/diss/assets/img/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg" alt="ID: Crofton_PulmonaryTuberculosisItsD_1917_36" width="1200" height="600">
+<img id="CroftonImg" src="/assets/img/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg" alt="ID: Crofton_PulmonaryTuberculosisItsD_1917_36" width="1200" height="600">
 0.4.1 Object Lesson Three: The Patient's Body
 
 ![][Crofton_PulmonaryTuberculosisItsD_191736]
