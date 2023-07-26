@@ -107,25 +107,20 @@ Figure 2. That’s a lot of brains. From the Third Annual Report of the Henry Ph
         if (mode === 'partial') {
             // Toggle partial lines
             partialLines.forEach(line => {
-                line.style.opacity = (line.style.opacity === '1') ? '0.5' : '1';
-                if(line.style.opacity === '0.5'){
-                    line.style.backgroundColor = '#000000'
-                }
+                line.style.backgroundColor = '#000000'; // Set background color to black
+                HenryReport.src = "{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158_Partial.png";
             });
             // Ensure opaque lines are fully visible
             opaqueLines.forEach(line => {
                 line.style.opacity = '1';
             });
 
-            HenryReport.src = "{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158_Partial.png";
             
         } else if (mode === 'opaque') {
             // Toggle opaque lines
             opaqueLines.forEach(line => {
-                line.style.opacity = (line.style.opacity === '1') ? '0.5' : '1';
-                if(line.style.opacity === '0.5'){
-                    line.style.backgroundColor = '#000000'
-                }
+                line.style.backgroundColor = '#000000'; // Set background color to black
+                HenryReport.src = "{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158.png";
             });
             // Ensure partial lines are fully visible
             partialLines.forEach(line => {
