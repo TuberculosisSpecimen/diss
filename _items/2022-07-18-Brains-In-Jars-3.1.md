@@ -55,6 +55,7 @@ pullquote: "Find out more about community archiving!"
 <div class="toggle-buttons">
 <button class="toggle-button active" onclick="toggleOpacity('partial')">Partial</button>
 <button class="toggle-button" onclick="toggleOpacity('opaque')">Opaque</button>
+<button class="toggle-button" onclick="toggleOpacity('non-opaque')">Non-Opaque</button>
 </div>
 
 <img id="HenryReport" src="{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158.jpg" alt="ReportoftheHenryPhippsIns3" width="1200" height="600">
@@ -125,6 +126,17 @@ Figure 2. That’s a lot of brains. From the Third Annual Report of the Henry Ph
             // Ensure partial lines are fully visible
             partialLines.forEach(line => {
                 line.style.opacity = '1';
+            });
+        }
+        else if (mode === 'non-opaque'){
+            HenryReport.src = "{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158.jpg";
+            partialLines.forEach(line => {
+                line.style.opacity = '1';
+                line.style.backgroundColor = ''
+            });
+            opaqueLines.forEach(line => {
+                line.style.opacity = '1';
+                line.style.backgroundColor = ''
             });
         }
     }
