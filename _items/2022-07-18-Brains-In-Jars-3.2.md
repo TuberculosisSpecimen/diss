@@ -57,7 +57,7 @@ pullquote: "Find out more about community archiving!"
 <button class="toggle-button" onclick="toggleOpacity('non-opaque')">Non-Opaque</button>
 </div>
 
-<img id="CroftonImg" src="/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg" alt="Crofton_PulmonaryTuberculosisItsD_1917_36.jpg" >
+<img id="CroftonImg" src="/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg" alt="Crofton_PulmonaryTuberculosisItsD_1917_36.jpg" width="1200" height="600">
 
 Figure 1
 
