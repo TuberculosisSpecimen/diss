@@ -96,7 +96,7 @@ While this is a specimen (0.2.3), it is also something that is engrained in a wh
     function toggleOpacity(mode) {
         const partialLines = document.querySelectorAll('.partial-lines');
         const opaqueLines = document.querySelectorAll('.opaque-lines');
-        const HenryReport = document.getElementById('HenryReport');
+        const CroftonImg = document.getElementById('CroftonImg');
 
         if (mode === 'partial') {
             // Toggle partial lines
