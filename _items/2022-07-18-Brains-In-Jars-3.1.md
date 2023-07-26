@@ -6,6 +6,7 @@ author: sagar-prabhu
 pullquote: "Find out more about community archiving!"
 ---
 
+<br>
 <style>
     .popup {
         display: none;
@@ -34,11 +35,15 @@ pullquote: "Find out more about community archiving!"
     }
 
     .toggle-buttons {
-        display: flex;
-        gap: 10px;
-        margin-bottom: 10px;
+        display: inline-flex;
+        gap: 20px;
+        padding: 10px;
+        background-color: grey;
+        border-radius: 5px;
+        justify-content: center; /* Center the buttons within the container */
+        margin: 0 auto;
     }
-    .toggle-button {
+    /* .toggle-button {
         padding: 8px 12px;
         background-color: #f1f1f1;
         border: none;
@@ -47,8 +52,39 @@ pullquote: "Find out more about community archiving!"
     }
     .toggle-button.active {
         background-color: #007bff; /* Change to your preferred active button color */
-        color: white;
+        /* color: white;
+    }  */
+
+    .toggle-button {
+
+      background-color: #4c4843;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 10px;
+      cursor: pointer;
+      border-radius: 4px;
+      width: 150px;
+
     }
+    /* Button styles for hover state */
+
+    .toggle-button:hover {
+      background-color: #252422;
+    }
+
+    /* Button styles for active state */
+
+    .toggle-button.active {
+      background-color: #eb5e28;
+      /* color: #252422; */
+
+    }
+
 
 </style>
 
