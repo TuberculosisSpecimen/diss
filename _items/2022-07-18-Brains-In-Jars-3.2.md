@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Object Lesson 3: The Patient's Body
+title: Object Lesson 3 The Patient's Body
 excerpt: This sample blog post explores community archiving and links to a few example community-archive sites
 author: sagar-prabhu
 pullquote: "Find out more about community archiving!"
