@@ -57,7 +57,7 @@ pullquote: "Find out more about community archiving!"
 <button class="toggle-button" onclick="toggleOpacity('non-opaque')">Non-Opaque</button>
 </div>
 
-<img id="CroftonImg" src="{{ site.baseurl }}/assets/img/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg" alt="ID: Crofton_PulmonaryTuberculosisItsD_1917_36" width="1200" height="600">
+<img id="CroftonImg" src="/diss/assets/img/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg" alt="ID: Crofton_PulmonaryTuberculosisItsD_1917_36" width="1200" height="600">
 0.4.1 Object Lesson Three: The Patient's Body
 
 ![][Crofton_PulmonaryTuberculosisItsD_191736]
@@ -102,7 +102,7 @@ While this is a specimen (0.2.3), it is also something that is engrained in a wh
             // Toggle partial lines
             partialLines.forEach(line => {
                 line.style.backgroundColor = '#000000'; // Set background color to black
-                CroftonImg.src = "{{ site.baseurl }}/assets/img/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_partial.jpg";
+                CroftonImg.src = "/diss/assets/img/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_partial.jpg";
             });
             // Ensure opaque lines are fully visible
             opaqueLines.forEach(line => {
@@ -114,7 +114,7 @@ While this is a specimen (0.2.3), it is also something that is engrained in a wh
             // Toggle opaque lines
             opaqueLines.forEach(line => {
                 line.style.backgroundColor = '#000000'; // Set background color to black
-                CroftonImg.src = "{{ site.baseurl }}/assets/img/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_full.jpg";
+                CroftonImg.src = "/diss/assets/img/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_full.jpg";
             });
             // Ensure partial lines are fully visible
             partialLines.forEach(line => {
