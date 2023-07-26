@@ -63,7 +63,7 @@ Figure 1
 
 ## 0.4.1 Object Lesson Three: The Patient's Body ##
 
-To produce my arguments, I compiled a <span id="corpus-tooltip">corpus</span> of a little more than 700 texts. I have done a number of analyses on this corpus, as well as using the coding process as a means to become familiar with general trends in the history of tuberculosis (x.2.0). I use this corpus to make arguments regarding medicine's history, and the first two chapters (1.1.1; 2.1.1) rely heavily on images like this one to make arguments about medicine's visual culture (1.1.2). The object displayed above (fig. 1), comes from a publication in the corpus, and was one of the more striking images I came across when organizing the \[however thousand images\] which were drawn from the collection.
+To produce my arguments, I compiled a <span id="corpus-tooltip">corpus</span> of a little more than 700 texts. I have done a number of analyses on this corpus, as well as using the coding process as a means to become familiar with general trends in the history of tuberculosis (x.2.0). <span class="opaque-lines">I use this corpus to make arguments regarding <span class="partial-lines">medicine's history,</span> and the first two chapters (1.1.1; 2.1.1) rely heavily on images like this one to make arguments about medicine's visual culture (1.1.2).</span> The object displayed above (fig. 1), comes from a publication in the corpus, and was one of the more striking images I came across when organizing the \[however thousand images\] which were drawn from the collection.
 
 This section is less interested in the image itself, and much more about the methodological and theoretical approaches I am bringing to this corpus. This image will serve as an entry point to my approach to methods popularized in the digital humanities and which straddle different disciplines. I adopt methods such as content analysis with a 'productive unease', to borrow Julia Flanders' term, to make use of them in a singular (perhaps methodologically impure) way. Paraphrasing Tara McPherson, sitting between disciplines and working with the digital creates possibilities for critique and novel interventions. I have gone into detail as to my methods in the appendix (x.1.0; x.2.0), and so this section will instead focus on some theoretical ideas which scaffold my thinking.
 
@@ -88,24 +88,6 @@ While this is a specimen (0.2.3), it is also something that is engrained in a wh
     });
 
     corpusTooltip.addEventListener("mouseout", () => {
-        popup.style.display = "none";
-        popup.remove();
-    });
-    
-    const inscribeTooltip = document.getElementById("inscribe-tooltip");
-    const popup = document.createElement("div");
-    popup.classList.add("popup");
-    popup.innerText = "Inscribe is used in the field of science and technology studies to point to the moments of creation in the production of scientific knowledge (0.4.3).";
-
-    inscribeTooltip.addEventListener("mouseover", () => {
-        document.body.appendChild(popup);
-        const rect = inscribeTooltip.getBoundingClientRect();
-        popup.style.top = `${rect.top - popup.clientHeight + 580}px`; // Adjust positioning to display above the word
-        popup.style.left = `${rect.left}px`;
-        popup.style.display = "block";
-    });
-
-    inscribeTooltip.addEventListener("mouseout", () => {
         popup.style.display = "none";
         popup.remove();
     });
