@@ -30,7 +30,7 @@ pullquote: "Find out more about community archiving!"
     }
 
     .opaque-lines {
-        opacity: 0.5; /* Set initial opacity for partial view */
+        opacity: 1; /* Set initial opacity for partial view */
     }
 
     .toggle-buttons {
@@ -108,6 +108,9 @@ Figure 2. That’s a lot of brains. From the Third Annual Report of the Henry Ph
             // Toggle partial lines
             partialLines.forEach(line => {
                 line.style.opacity = (line.style.opacity === '1') ? '0.5' : '1';
+                if(line.style.opacity === '0.5'){
+                    line.style.backgroundColor = '#000000'
+                }
             });
             // Ensure opaque lines are fully visible
             opaqueLines.forEach(line => {
@@ -120,6 +123,9 @@ Figure 2. That’s a lot of brains. From the Third Annual Report of the Henry Ph
             // Toggle opaque lines
             opaqueLines.forEach(line => {
                 line.style.opacity = (line.style.opacity === '1') ? '0.5' : '1';
+                if(line.style.opacity === '0.5'){
+                    line.style.backgroundColor = '#000000'
+                }
             });
             // Ensure partial lines are fully visible
             partialLines.forEach(line => {
