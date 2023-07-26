@@ -151,11 +151,12 @@ Figure 2. That’s a lot of brains. From the Third Annual Report of the Henry Ph
             // Toggle partial lines
             partialLines.forEach(line => {
                 line.style.backgroundColor = '#000000'; // Set background color to black
-                HenryReport.src = "{{ site.baseurl }}/assets/items/ReportoftheHenryPhippsIns3_1905-1906158_Partial.png";
+                HenryReport.src = "{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158_Partial.png";
             });
             // Ensure opaque lines are fully visible
             opaqueLines.forEach(line => {
                 line.style.opacity = '1';
+                line.style.backgroundColor = ''
             });
 
             
@@ -163,11 +164,12 @@ Figure 2. That’s a lot of brains. From the Third Annual Report of the Henry Ph
             // Toggle opaque lines
             opaqueLines.forEach(line => {
                 line.style.backgroundColor = '#000000'; // Set background color to black
-                HenryReport.src = "{{ site.baseurl }}/assets/items/ReportoftheHenryPhippsIns3_1905-1906158.jpg";
+                HenryReport.src = "{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158.jpg";
             });
             // Ensure partial lines are fully visible
             partialLines.forEach(line => {
                 line.style.opacity = '1';
+                line.style.backgroundColor = ''
             });
         }
         else if (mode === 'non-opaque'){
