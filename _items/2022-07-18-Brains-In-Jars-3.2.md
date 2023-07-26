@@ -1,28 +1,137 @@
 ---
 layout: post
-title: Autopsy & Medical Science- The Vesalian Paradigm
+title: Object Lesson 3: The Patient's Body
 excerpt: This sample blog post explores community archiving and links to a few example community-archive sites
 author: sagar-prabhu
 pullquote: "Find out more about community archiving!"
 ---
+<style>
+    .popup {
+        display: none;
+        position: absolute;
+        background-color: white;
+        color: black;
+        padding: 5px;
+        border-radius: 5px;
+        border-color: black;
+        border-style: solid; 
+        border-width: 1px; /* Added border-width */
+        z-index: 9999;
+        max-width: 220px; /* Set the maximum width for the popup */
+        font-size: 15px; /* Added text size */
+        font-style: oblique; /* Added text style */
+    }
 
-<br>
-The prevailing, macro-scale narrative of medical history told by medical historians, medical practitioners, and other scholars, stresses a few key figures and moments in medicine. These narratives enshrine medical ancients--- Aristotle (who may have practiced dissection), Hippocrates, and then the Roman physician Galen. Much of this history skips over the rich and generative scholarship in the medieval period (especially those in the Islamic world), oversimplifying medicine during these centuries as backwards and staid. During the medieval period, the most prominent thinker was Galen. The Roman doctor did not perform dissections, so much as attempt to guess at human anatomy through the glimpses of organs spied as a gladatorial surgeon and through comparison to animal anatomy. A prolific writer, (which assisted in the preservation of his work) Galen’s scholarship formed the spine of medical knowledge for centuries. In the centuries following the decline of Rome, Galen’s observations and conclusions would be lectured by a distanced, hands-off professor while an assistant disassembled a corpse for the view of an audience. Galen’s many errors were never questioned, and medical students would learn anatomy from afar, relying on the Roman doctor’s writing as opposed to confirming or rejecting ideas based on perception, evidence, or scientific rigor.
+    /* Style for the word "influential" when hovered */
+    #word-tooltip:hover {
+        text-decoration: underline;
+        color: blue; /* Change the color to your preferred hover color */
+    }
 
-Figure 3
+    .opaque-lines {
+        opacity: 1; /* Set initial opacity for partial view */
+    }
 
-Andreas Vesalius, the Early Modern Flemish anatomist, would, as this narrative goes, invert this paradigm through his charismatic anatomical lectures and the publishing of his opus, De humani corporis fabrica libri septem (which I will shorten to Fabrica) (fig. 3. The exhaustive work innovated in form and method of analysis, and transformed the way medical knowledge was produced and understood. Important for medical epistemics post-Fabrica was first, a reliance on the material seat of human anatomy---the cadaver, or “the book of the body”. Vesalius’ epistemological intervention displaced the authority of knowledge away from a secondary source---Galen---and onto human material remains, which could be opened (as a book) and read by a trained anatomist. In parallel with this literary metaphor, was a second epistemic shift, made possible by the concurrent upheaval in the Catholic church---the Protestant Reformation. As Andrew Cunningham has convincingly argued, Vesalius’ scholarship was reinforced by a newly individualist approach to knowledge production. In the same way Martin Luther challenged the a single subject to read and understand biblical texts and knowledge, so did the Flemish anatomist challenge medical students and researchers to read the body in relation to established knowledge to confirm or deny what is true. When Vesalius rejected Galen, the anatomist always pointed not to his own authority, but to the authority of the cadaver to prove which was right.
+    .toggle-buttons {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .toggle-button {
+        padding: 8px 12px;
+        background-color: #f1f1f1;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .toggle-button.active {
+        background-color: #007bff; /* Change to your preferred active button color */
+        color: white;
+    }
 
-I write this (perhaps too flippant) narrative to point to a common theme in medical history: Vesalius is a significant figure in the history of medical epistemics. This dominant narrative stresses the value of the human corpse in medical knowledge production. Vesalius needed cadavers to upend centuries of ignorance, the narrative goes; he saw the value of posthumous human material, going so far as to steal it from Padua’s gibbets, and through this theft gave modern medicine centuries of medical progress.
+</style>
 
-The Vesalian paradigm depends on the index extracted from another subject and inspected by a medical researcher. This practice has been commonplace in the history of medicine, particularly, as the Parisian method of anatomy---which required every medical student to dissect their own cadaver---gained traction internationally. However, the Parisian method brought with it the objectification and commodification of the human corpse. Grave robbing has historically run hand-in-hand with the rise of this kind of medical practice, with resurrectionists plundering the graves of whomever they could most easily gain access. In America, it was the Black community graveyards from which human material was most regularly stolen. To remedy the illegal trade of human remains, utilitarian methods of corpse acquisition were encoded into law; however, these laws, like the Poor Laws in Georgian England, usually transformed the unclaimed poor into clinical and anatomical material. As Ruth Richardson convincingly argued, these laws made the punishment for dying poor in the workhouse the same as being executed for murder: both would leave the individual’s body on the anatomist's slab.
+<div class="toggle-buttons">
+<button class="toggle-button active" onclick="toggleOpacity('partial')">Partial</button>
+<button class="toggle-button" onclick="toggleOpacity('opaque')">Opaque</button>
+<button class="toggle-button" onclick="toggleOpacity('non-opaque')">Non-Opaque</button>
+</div>
 
-Implicit in Vesalius’ paradigm are two ethical elisions: the first is is a value
+<img id="CroftonImg" src="{{ site.baseurl }}/assets/img/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg" alt="ID: Crofton_PulmonaryTuberculosisItsD_1917_36" width="1200" height="600">
+0.4.1 Object Lesson Three: The Patient's Body
 
-the the production of medical knowledge is always more important than the bodily autonomy of an individual. This is a broad critique, but medical science has a penchant for unethical research (from the practice of Nazi science that led to the codification of informed consent, to the extended suffering caused by the Tuskeegee Syphilis Study, to the torture enacted by Dr. Sims on enslaved women, to the theft of biological material from the body of Henrietta Lacks, to the extracted posthumous remains of children revealed in the Alder Hey scandal). Second, the only index of value for medical research is the body itself. Medical knowledge produced in the Modern period depends on this indexical relationship between a subject’s body and a supported claim. Michel Foucault most famously noted this relation in the clinical method developed by French clinicians in post-revolutionary France, where clinical symptoms could be mapped onto an aberrant organ discovered in postmortem analysis. Foucault’s “clinical gaze”---the systematized, dehumanizing way of seeing disease upon a subject’s body in contrast to an idealized ‘normal’ human body---emerges as a result of this inspection (2,x,x), but at a larger scale: it takes advantage of the sick and dying patient in relation to the cadaver, but it still depends on the study of, abstraction of, and dehumanization of an individual. In a more contemporary example, after the Tuskegee Syphilis study ran out of funds to treat the black men in 1932 and shifted to tracking and examining the black men who were never told or treated of their syphilis, the study became one of posthumous examination: the only value for thos esuffering from latent syphillis was the ability to autopsy them at death.
+![][Crofton_PulmonaryTuberculosisItsD_191736]
 
-This relationship between the dehumanized, commoditized human subject can be seen in medical practices at the turn of the twentieth century. Erin O’Connor argued that the development of photography afforded a new means of mapping and standardizing the body. Clinical photography took advantage of photography's indexicality and reproducibility, affording new avenues for teaching medical professionals about rare pathologies. Most famously, in the case of Nouvelle iconographie de la Salpêtrière where mental illness was mapped onto the images captured of asylum patients, this progressed biologistic, eugenicist conceptions of hysteria. Elsewhere I have argued that there is a secondary residue on the clinical photograph: it is not just that these studies photograph disease (in ways that dehumanize the subject), but to question who is photographed and who, in that process, is indexed as diseased.
+Figure 1
 
-The problem that arises with the Vesalian paradigm is that the material from which medicine draws its arguments is always someone, and that built into this is a need to extract that for the benefit of the profession. Returning to the Henry Phipps Institute’s neurology lab, and its jars of brains (fig. 1 and 2), the question I want to ask are from whom were those brains collected? And, how were they made to be positivistic representations of the natural?
+To produce my arguments, I compiled a corpus of a little more than 700 texts. I have done a number of analyses on this corpus, as well as using the coding process as a means to become familiar with general trends in the history of tuberculosis (x.2.0). I use this corpus to make arguments regarding medicine's history, and the first two chapters (1.1.1; 2.1.1) rely heavily on images like this one to make arguments about medicine's visual culture (1.1.2). The object displayed above (fig. 1), comes from a publication in the corpus, and was one of the more striking images I came across when organizing the \[however thousand images\] which were drawn from the collection.
 
+This section is less interested in the image itself, and much more about the methodological and theoretical approaches I am bringing to this corpus. This image will serve as an entry point to my approach to methods popularized in the digital humanities and which straddle different disciplines. I adopt methods such as content analysis with a 'productive unease', to borrow Julia Flanders' term, to make use of them in a singular (perhaps methodologically impure) way. Paraphrasing Tara McPherson, sitting between disciplines and working with the digital creates possibilities for critique and novel interventions. I have gone into detail as to my methods in the appendix (x.1.0; x.2.0), and so this section will instead focus on some theoretical ideas which scaffold my thinking.
 
+Returning to the concept of *capta*---or a way of thinking of quantitative research objects as a product of extractive practices (0.3.3)---my analysis of the corpus and its two major outputs---the analysis of its images (1.0.1; 2.0.1), and the analysis of the text (4.0.1)---depends on a critical (but imperfect) engagement with the objects extracted by medical scientists. These objects do not sit and moulder on the shelf, but also find themselves entangled and recaptured by various modes of mediation: the initial theft brings a specimen into a disciplinary apparatus (0.3.2), which may be copied, rejected, remixed or otherwise made useful for another researcher (0.4.3; 0.5.2), be they another tuberculosis scholar at the beginning of the twentieth century, the digital archivists who scanned and maintain the objects on HathiTrust,  or the PhD candidate who has taken advantage of any transformation of the object and included it into this digital dissertation. What is inscribed on a specimen and its reproductions and preservations is a mess of indexes: from the scientific purpose of that object, to the way it is made to represent an argument, to the embodied, lived self of the subject from which it was stolen.
+
+To make my point, I turn to the object lesson at the top of this section: this image (fig. 1) depicts the kinds of coersive, reciprocal, and discursievly useful ways in which a specimen has been leveraged for research. Importantly, this image is not just the reproduction, but a scan of the reproduction which has been uploaded to a server, which was then downloaded, copied again, ingested into a photo editing program (Photoshop), exported in a more web friendly format, and then reuploaded to another server to be viewed by the reader. The transmission of aura would make Walter Benjamin blush.
+
+While this is a specimen (0.2.3), it is also something that is engrained in a whole system of knowledge production and capital that has seen it valuable enough to maintain and reproduce. Its value for medical epistemics is only part of why it is valuable. In this process the object in question has been written and rewritten, turned from a body, to an index of light, to an index of that index, to a set of bits and so on. My interest in this object is both its use as a discursive specimen, but also its various continuity before and after light was exposed to a sensitive chemical, and before and after that image was reproduce in a book. Thinking of the specimen in this entangled, networked way helps contradict the various black boxes which blur dominant ideologies within the sciences. The specimen helps open this black box. It helps bring into the foreground the inscribed objects which represent the real, and bring into focus the extractive practices on which those epistemics depend.
+
+<script>
+    const wordTooltip = document.getElementById("word-tooltip");
+    const popup = document.createElement("div");
+    popup.classList.add("popup");
+    popup.innerText = "Influential, here, refers to having the power to shape or affect significant change or outcomes.";
+
+    wordTooltip.addEventListener("mouseover", () => {
+        document.body.appendChild(popup);
+        const rect = wordTooltip.getBoundingClientRect();
+        popup.style.top = `${rect.top - popup.clientHeight + 580}px`; // Adjust positioning to display above the word
+        popup.style.left = `${rect.left}px`;
+        popup.style.display = "block";
+    });
+
+    wordTooltip.addEventListener("mouseout", () => {
+        popup.style.display = "none";
+        popup.remove();
+    });
+
+    function toggleOpacity(mode) {
+        const partialLines = document.querySelectorAll('.partial-lines');
+        const opaqueLines = document.querySelectorAll('.opaque-lines');
+        const HenryReport = document.getElementById('HenryReport');
+
+        if (mode === 'partial') {
+            // Toggle partial lines
+            partialLines.forEach(line => {
+                line.style.backgroundColor = '#000000'; // Set background color to black
+                CroftonImg.src = "{{ site.baseurl }}/assets/img/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_partial.jpg";
+            });
+            // Ensure opaque lines are fully visible
+            opaqueLines.forEach(line => {
+                line.style.opacity = '1';
+            });
+
+            
+        } else if (mode === 'opaque') {
+            // Toggle opaque lines
+            opaqueLines.forEach(line => {
+                line.style.backgroundColor = '#000000'; // Set background color to black
+                CroftonImg.src = "{{ site.baseurl }}/assets/img/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_full.jpg";
+            });
+            // Ensure partial lines are fully visible
+            partialLines.forEach(line => {
+                line.style.opacity = '1';
+            });
+        }
+        else if (mode === 'non-opaque'){
+            HenryReport.src = "{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158.jpg";
+            partialLines.forEach(line => {
+                line.style.opacity = '1';
+                line.style.backgroundColor = ''
+            });
+            opaqueLines.forEach(line => {
+                line.style.opacity = '1';
+                line.style.backgroundColor = ''
+            });
+        }
+    }
+
+</script>
