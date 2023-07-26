@@ -58,11 +58,10 @@ pullquote: "Find out more about community archiving!"
 </div>
 
 <img id="CroftonImg" src="/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg" alt="Crofton_PulmonaryTuberculosisItsD_1917_36.jpg" >
-0.4.1 Object Lesson Three: The Patient's Body
-
-![][Crofton_PulmonaryTuberculosisItsD_191736]
 
 Figure 1
+
+## 0.4.1 Object Lesson Three: The Patient's Body ##
 
 To produce my arguments, I compiled a corpus of a little more than 700 texts. I have done a number of analyses on this corpus, as well as using the coding process as a means to become familiar with general trends in the history of tuberculosis (x.2.0). I use this corpus to make arguments regarding medicine's history, and the first two chapters (1.1.1; 2.1.1) rely heavily on images like this one to make arguments about medicine's visual culture (1.1.2). The object displayed above (fig. 1), comes from a publication in the corpus, and was one of the more striking images I came across when organizing the \[however thousand images\] which were drawn from the collection.
 
