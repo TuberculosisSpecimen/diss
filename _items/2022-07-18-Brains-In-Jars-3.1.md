@@ -89,9 +89,9 @@ pullquote: "Find out more about community archiving!"
 </style>
 
 <div class="toggle-buttons">
-<button class="toggle-button active" onclick="toggleOpacity('partial')">Partial</button>
-<button class="toggle-button" onclick="toggleOpacity('opaque')">Opaque</button>
-<button class="toggle-button" onclick="toggleOpacity('non-opaque')">Non-Opaque</button>
+<button class="toggle-button" onclick="toggleOpacity('partial')" data-mode="partial">Partial</button>
+<button class="toggle-button" onclick="toggleOpacity('opaque')" data-mode="opaque">Opaque</button>
+<button class="toggle-button" onclick="toggleOpacity('non-opaque')" data-mode="non-opaque">Non-Opaque</button>
 </div>
 
 <img id="HenryReport" src="{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158.jpg" alt="ReportoftheHenryPhippsIns3" width="1200" height="600">
@@ -141,6 +141,12 @@ Figure 2. That’s a lot of brains. From the Third Annual Report of the Henry Ph
         const opaqueLines = document.querySelectorAll('.opaque-lines');
         const HenryReport = document.getElementById('HenryReport');
 
+        // Remove the "active" class from all buttons
+        const buttons = document.querySelectorAll('.toggle-button');
+        buttons.forEach(button => {
+            button.classList.remove('active');
+        });
+
         if (mode === 'partial') {
             // Toggle partial lines
             partialLines.forEach(line => {
@@ -175,6 +181,11 @@ Figure 2. That’s a lot of brains. From the Third Annual Report of the Henry Ph
                 line.style.backgroundColor = ''
             });
         }
+
+        // Add the "active" class to the clicked button
+        const activeButton = document.querySelector(`button[data-mode="${mode}"]`);
+        activeButton.classList.add('active');
+        
     }
 
 </script>
