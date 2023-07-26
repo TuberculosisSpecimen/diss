@@ -58,7 +58,7 @@ pullquote: "Find out more about community archiving!"
 <button class="toggle-button" onclick="toggleOpacity('non-opaque')">Non-Opaque</button>
 </div>
 
-<img id="HenryReport" src="{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158.jpg" alt="ReportoftheHenryPhippsIns3" width="1200" height="600">
+<img id="HenryReport" src="{{ site.baseurl }}/assets/items/ReportoftheHenryPhippsIns3_1905-1906158.jpg" alt="ReportoftheHenryPhippsIns3" width="1200" height="600">
 
 
 Figure 1. A picture of the Henry Phipps Institute’s Neurology Lab. From the Third Annual Report of the Henry Phipps Institute,
@@ -109,7 +109,7 @@ Figure 2. That’s a lot of brains. From the Third Annual Report of the Henry Ph
             // Toggle partial lines
             partialLines.forEach(line => {
                 line.style.backgroundColor = '#000000'; // Set background color to black
-                HenryReport.src = "{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158_Partial.png";
+                HenryReport.src = "{{ site.baseurl }}/assets/items/ReportoftheHenryPhippsIns3_1905-1906158_Partial.png";
             });
             // Ensure opaque lines are fully visible
             opaqueLines.forEach(line => {
@@ -121,7 +121,7 @@ Figure 2. That’s a lot of brains. From the Third Annual Report of the Henry Ph
             // Toggle opaque lines
             opaqueLines.forEach(line => {
                 line.style.backgroundColor = '#000000'; // Set background color to black
-                HenryReport.src = "{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158.jpg";
+                HenryReport.src = "{{ site.baseurl }}/assets/items/ReportoftheHenryPhippsIns3_1905-1906158.jpg";
             });
             // Ensure partial lines are fully visible
             partialLines.forEach(line => {
