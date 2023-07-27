@@ -194,7 +194,7 @@ Figure 2. That’s a lot of brains. From the Third Annual Report of the Henry Ph
             // Toggle opaque lines
             opaqueLines.forEach(line => {
                 line.style.backgroundColor = '#000000'; // Set background color to black
-                HenryReport.src = "{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158.jpg";
+                HenryReport.src = "{{ site.baseurl }}/assets/img/OpaqueImage.png";
             });
             // Ensure partial lines are fully visible
             partialLines.forEach(line => {
