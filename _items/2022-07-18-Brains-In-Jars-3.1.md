@@ -19,7 +19,7 @@ pullquote: "Find out more about community archiving!"
         border-style: solid; 
         border-width: 1px; /* Added border-width */
         z-index: 9999;
-        max-width: 220px; /* Set the maximum width for the popup */
+        max-width: 260px; /* Set the maximum width for the popup */
         font-size: 15px; /* Added text size */
         font-style: oblique; /* Added text style */
     }
@@ -101,7 +101,7 @@ Figure 1. A picture of the Henry Phipps Institute’s Neurology Lab. From the Th
 1905-1906.
 <hr>
 <br>
-In the decades following Koch’s <span id="word-tooltip">influential</span> 1882 essay, Die Aetiologie der Tuberkuose, American tuberculosis research made large strides profesionally and culturally. This period also saw the rise of American medical schools, these medical school’s centralization and professionalization during the late nineteenth and early twentieth century, the rapid industrialization of American cities, and the aftermath of World War I. These larger societal scale, and discipline scale shifts were underpinned by the work of scientists like <span class="opaque-lines">Edward L. Trudeau and the <span class="partial-lines">doctors at his Saranac Lake Sanatorium</span> (at one time known as the Adirondack Cottage Sanatorium) in upstate New York and Karl Von Ruck in Asheville, North Carolina.</span> This period saw a shift in approaches to tuberculosis, driven by the slow adoption of germ theory conceptions of the disease, the shift of health resorts to sanatoria---a more specialized tuberculosis institution---and the public health intervention by doctors, cities, and states (1.2.1).
+In the decades following Koch’s influential 1882 essay, Die Aetiologie der Tuberkuose, American tuberculosis research made large strides profesionally and culturally. This period also saw the rise of American medical schools, these medical school’s centralization and professionalization during the late nineteenth and early twentieth century, the rapid industrialization of American cities, and the aftermath of World War I. These larger societal scale, and discipline scale shifts were underpinned by the work of scientists like <span class="opaque-lines">Edward L. Trudeau and the <span class="partial-lines">doctors at his Saranac Lake Sanatorium</span> (at one time known as the Adirondack Cottage Sanatorium) in upstate New York and Karl Von Ruck in Asheville, North Carolina.</span> This period saw a shift in approaches to tuberculosis, driven by the slow adoption of germ theory conceptions of the disease, the shift of health resorts to <span id="word-tooltip">sanatoria</span>---a more specialized tuberculosis institution---and the public health intervention by doctors, cities, and states (1.2.1).
 
 In addition to these larger scale shifts, a number of research centered care centers began treating patients and reporting their findings in the scientific literature. The most influential of these institutions was Trudeau’s Adirondack Cottage Sanatorium. Opening in 1885, Trudeau’s sanatorium was modeled after his own experience seeking the healing airs of upstate New York, after he became sick with tuberculosis at a young age. The doctor cited the shift out of New York City, and the embrace of a more rugged lifestyle as being crucial in his recovery. In the years following its opening, the Saranac Lake Sanatorium would both treat and study the patients that came under its care. Trudeau and his sanatorium became a key aspirational figure in the study and treatment of tuberculosis, inasmuch as the cultural an scientific work engaged by the sanatorium (1.2.1).
 
@@ -121,20 +121,50 @@ Figure 2. That’s a lot of brains. From the Third Annual Report of the Henry Ph
     const wordTooltip = document.getElementById("word-tooltip");
     const popup = document.createElement("div");
     popup.classList.add("popup");
-    popup.innerText = "Influential, here, refers to having the power to shape or affect significant change or outcomes.";
+    popup.innerText = "'Sanatoria','The sanatorium, sometimes called sanitarium or sanitorium, was a specialized institution where patients were able to be treated for a specific disease.";
 
+    // Attach the tooltip to a specific fixed position on the page
+    const tooltipOffsetX = 10; // Adjust the X offset (horizontal distance from the wordTooltip element)
+    const tooltipOffsetY = -16; // Adjust the Y offset (vertical distance from the wordTooltip element)
+
+    // Position the tooltip at a fixed location relative to the wordTooltip element
+    popup.style.position = "absolute";
+    popup.style.top = `${wordTooltip.offsetTop + tooltipOffsetY}px`;
+    popup.style.left = `${wordTooltip.offsetLeft + tooltipOffsetX}px`;
+
+    // Append the tooltip to the body element
+    document.body.appendChild(popup);
+
+    // Hide the tooltip initially
+    popup.style.display = "none";
+
+    // Add a mouseover event listener to the wordTooltip element
     wordTooltip.addEventListener("mouseover", () => {
-        document.body.appendChild(popup);
-        const rect = wordTooltip.getBoundingClientRect();
-        popup.style.top = `${rect.top - popup.clientHeight + 580}px`; // Adjust positioning to display above the word
-        popup.style.left = `${rect.left}px`;
         popup.style.display = "block";
     });
 
+    // Add a mouseout event listener to the wordTooltip element
     wordTooltip.addEventListener("mouseout", () => {
         popup.style.display = "none";
-        popup.remove();
     });
+
+    // wordTooltip.addEventListener("mouseover", () => {
+    //     document.body.appendChild(popup);
+    //     const rect = wordTooltip.getBoundingClientRect();
+    //     // popup.style.top = `${rect.top - popup.clientHeight + 580}px`; // Adjust positioning to display above the word
+    //     // popup.style.left = `${rect.left}px`;
+    //     // popup.style.display = "block";
+    //     const tooltipOffsetX = 10; // Adjust the X offset (horizontal distance from the word)
+    //     const tooltipOffsetY = -80; // Adjust the Y offset (vertical distance from the word)
+    //     popup.style.top = `${rect.top + tooltipOffsetY}px`; // Adjust positioning relative to the word
+    //     popup.style.left = `${rect.left + tooltipOffsetX}px`;
+    //     popup.style.display = "block";
+    // });
+
+    // wordTooltip.addEventListener("mouseout", () => {
+    //     popup.style.display = "none";
+    //     popup.remove();
+    // });
 
     function toggleOpacity(mode) {
         const partialLines = document.querySelectorAll('.partial-lines');
