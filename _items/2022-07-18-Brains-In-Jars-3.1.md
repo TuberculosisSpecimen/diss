@@ -170,6 +170,7 @@ Figure 2. That’s a lot of brains. From the Third Annual Report of the Henry Ph
         const partialLines = document.querySelectorAll('.partial-lines');
         const opaqueLines = document.querySelectorAll('.opaque-lines');
         const HenryReport = document.getElementById('HenryReport');
+        const henrydetail = document.getElementById('henrydetail');
 
         // Remove the "active" class from all buttons
         const buttons = document.querySelectorAll('.toggle-button');
@@ -195,8 +196,8 @@ Figure 2. That’s a lot of brains. From the Third Annual Report of the Henry Ph
             // Toggle opaque lines
             opaqueLines.forEach(line => {
                 line.style.backgroundColor = '#000000'; // Set background color to black
-                HenryReport.src = "{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158_Full.png";
-                henrydetail.src = "{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158_Resize_Full";
+                HenryReport.src = "{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158_Full.jpg";
+                henrydetail.src = "{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158_Resize_Full.jpg";
             });
             // Ensure partial lines are fully visible
             partialLines.forEach(line => {
