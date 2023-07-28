@@ -207,7 +207,7 @@ Figure 2. That’s a lot of brains. From the Third Annual Report of the Henry Ph
         }
         else if (mode === 'non-opaque'){
             HenryReport.src = "{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158.jpg";
-            henrydetail.src = "{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158_Partial.jpg";
+            henrydetail.src = "{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158_Resize.jpg";
             partialLines.forEach(line => {
                 line.style.opacity = '1';
                 line.style.backgroundColor = ''
