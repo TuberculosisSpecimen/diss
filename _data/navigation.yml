@@ -1,26 +1,21 @@
 # Site navigation links
 
-- title: About This Theme
-  url: /
+- title: How to Use this Site
+  url: /faq
   excerpt:
   image:
 
-- title: Quick Start Guide
-  url: /quickstart
+- title: Dissertation
+  url: /dissertation
   excerpt:
   image:
 
+- title: Images
+  url: /collection
+  excerpt:
+  image:
+  
 - title: Blog
   url: /blog
-  excerpt:
-  image:
-  
-- title: Theme Docs
-  url: /docs
-  excerpt:
-  image:
-  
-- title: Example Collection
-  url: https://idahatiu.github.io
   excerpt:
   image:
