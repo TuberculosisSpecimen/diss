@@ -40,30 +40,30 @@
 #---------------------
 
 # Title of your website
-title: "Community-Archive Jekyll Theme"
+title: "The Tuberculosis Specimen"
 
 # Subtitle of your website. Leave blank if you want to.
-subtitle: "An easy-to-use Jekyll Theme for Github Pages"
+subtitle: "The Dying Body and its Use in the War Against the 'Great White Plague'"
 
 # A longer description of your site (max 150 words). Helps search engines find you.
-description: "Community Archive Jekyll Github Pages theme for communities with heirlooms, stories or other artifacts to save for historical purposes."
+description: "This dissertation examines the history of medical research into tuberculosis."
 
 # These credits show up in the includes/_footer.html
 # Main author of the website.
-author: "Kalani Craig"
-authorname : "Kalani Craig"
-sitelogo: site_logo.jpg
+author: "Sean Purcell"
+authorname : "Sean Purcell"
+sitelogo: 
 
 # What year did you start up this community project?
-sitedate : 2022
+sitedate : 2023
 
 # Other community social media. Leave blank if you don't have these.
-email : "kalani [at] kalanicraig.com"
-website : "https://www.kalanicraig.com/"
-twitter : kalanicraig
-github : kalanicraig
+email : "spurcel [at] iu [dot] edu"
+website : "seanpurcell.net"
+twitter : 
+github : TuberculosisSpecimen
 facebook : 
-instagram : kalanicraig
+instagram : 
 
 # If you need to know how many people visit your site, go to https://analytics.google.com/
 # When you finish the setup assistant, it will give you a Measurement ID: G-ABCDEFGHIJ
