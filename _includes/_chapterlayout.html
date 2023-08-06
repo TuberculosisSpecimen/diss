@@ -1,4 +1,4 @@
 {% assign grouplist = "" | split: ';' %}
 {% for item in site.sections %}
-  {% if item.group %}{% assign grouplist = grouplist | push item.group 
+  {% if item.group %}{% assign grouplist = grouplist | push item.group %}{%endif%}
 {% end for %}
