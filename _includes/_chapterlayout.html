@@ -1,6 +1,6 @@
-{% assign grouplist = "" | split: ';' %}
-{% for item in site.sections %}
-  {% if item.group %}{% assign grouplist = grouplist | push item.group %}{%endif%}
+{% assign chaplist = "" | split: ';' %}
+{% for item in section.format %}
+  {% if section.format %}{% assign chaplist = chaplist | push section.format %}{%endif%}
 {% endfor %}
 
-{{ grouplist }}
+{{ chaplist }}
