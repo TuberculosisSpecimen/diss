@@ -1,1 +1,1 @@
-{% capture sections.chapterpart %}{{ item.url }}{% endcapture %} {% capture sections.number %}
+<h1>{{ page.segment }} - {{ page.number }}</h1>
