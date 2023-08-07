@@ -1,6 +1,5 @@
-{% assign chaplist = "" | split: ';' %}
-{% for item in section.format %}
-  {% if section.format %}{% assign chaplist = chaplist | push section.format %}{%endif%}
+{% for section in site.sections %}
+  {% assign chaplist = "" | split: ';' %}
 {% endfor %}
 
 {{ chaplist }}
