@@ -1,6 +1,8 @@
-1 {{ section.format }}
+1 {{ section }}
 2 {{ section.number }}
-3 {{ sections.section.format }}
-4 {{ sections.section.number }}
+3 {{ section.format }}
+4 {{ section.identifier }}
 
+{% assign seclist = section.identifier | split: ',' %}
+5 {{ seclist }}
 testing
