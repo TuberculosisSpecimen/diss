@@ -148,6 +148,7 @@ baseurl: '/diss'
 urlimg: '/assets/img/'
 urlitemimg: '/assets/items/'
 permalink: /:categories/:year/:month/:day/:title:output_ext
+section: '/sections/'
 
 markdown : kramdown
 syntax_highlighter: rouge
