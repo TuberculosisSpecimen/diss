@@ -1,7 +1,8 @@
 ---
 layout: section
 format: chapter
-number: 1.0.0
+number: 0
+title: introduction
 ---
 
 Text goes here.
