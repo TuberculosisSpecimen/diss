@@ -1,11 +1,4 @@
-{% for identifier in section %}
-{{ identifier }}
-{% endfor %}
-1 {{ section }}
-2 {{ section.number }}
-3 {{ section.format }}
-4 {{ section.identifier }}
+{% capture sectionnumber %} {{section.identifier | split ';' }} {% endcapture %}
 
-{% assign seclist = section.identifier | split: ',' %}
-5 {{ seclist }}
+{{ sectionnumber }}
 testing
