@@ -1,4 +1,4 @@
-{% capture sectionnumber %} {{section.identifier | split ';' }} {% endcapture %}
+{% capture sectionnumber %} {{section.identifier | split ';' | last }} {% endcapture %}
 
 {{ sectionnumber }}
 testing
