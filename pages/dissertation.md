@@ -5,4 +5,4 @@ permalink: /dissertation
 ---
 
 {{ site.description }}
-{% include chapterlayout.html %}
+{% include _chapterlayout.html %}
