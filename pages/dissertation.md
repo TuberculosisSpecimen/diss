@@ -1,8 +1,7 @@
 ---
 title: Dissertation
-layout: collection
+layout: section
 permalink: /dissertation
 ---
 
-{{ site.description }}
 {% include _chapterlayout.html %}

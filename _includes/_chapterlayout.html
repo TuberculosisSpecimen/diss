@@ -1,1 +1,6 @@
+{% for layout in site.sections %}
+	{% if layout contains "chapter" %}{{ layout.identifier }}
+	{% endif %}
+	{% endfor %}
+	
 this is a placeholder for when I figure out more about liquid.
