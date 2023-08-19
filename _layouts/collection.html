@@ -17,6 +17,9 @@ format: collection
 	{% if page.url contains "blog" %}{% include _postlist.html %}
 	{% else %}{% include _itemlist.html %}
 	{% endif %}
+	
+	{% if page.url contains "dissertation" %}{% include _chapterlayout.html %}
+	{% endif %}
 
 		</div>
 	</div>
