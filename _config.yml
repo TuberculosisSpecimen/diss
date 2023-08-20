@@ -148,7 +148,7 @@ baseurl: '/diss'
 urlimg: '/assets/img/'
 urlitemimg: '/assets/items/'
 permalink: /:categories/:year/:month/:day/:title:output_ext
-
+section: '/_sections'
 
 markdown : kramdown
 syntax_highlighter: rouge
@@ -162,7 +162,7 @@ exclude :
     - pages/PagesOld
     - INSTALL.md
     - screenshot.png
-include: ['_pages'] ['_sections']
+include: ['_pages' '_sections']
 
 sass:
   sass_dir: _sass
