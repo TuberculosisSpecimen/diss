@@ -1,7 +1,7 @@
 ---
 layout: section
 title: Introduction
-format: chapter
+format: section
 chapter: 0
 section: 0
 subsection: 0
