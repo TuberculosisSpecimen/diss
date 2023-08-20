@@ -162,7 +162,7 @@ exclude :
     - pages/PagesOld
     - INSTALL.md
     - screenshot.png
-include: ['_pages' '_sections']
+include: ['_pages']
 
 sass:
   sass_dir: _sass
