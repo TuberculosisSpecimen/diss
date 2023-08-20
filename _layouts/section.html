@@ -2,3 +2,14 @@
 layout: page
 format: section
 ---
+
+<div class="large-12 cell">
+		<!--collection start-->
+
+		{{ content }}
+
+		<!--collection end-->
+	</div>
+	
+	{% if page.url contains "dissertation" %}{% include _chapterlayout.html %}
+	{% endif %}
