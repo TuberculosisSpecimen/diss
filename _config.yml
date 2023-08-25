@@ -112,7 +112,7 @@ collections:
     group: true
   sections:
     output: true
-    permalink: /:dissertation/:path:output_ext
+    permalink: /:section/:path:output_ext
     identifier: true
 
 # If your collection items need to be grouped by person, family or some other group, uncomment this collection
