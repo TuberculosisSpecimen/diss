@@ -2,9 +2,9 @@ version: '2.2'
 
 services:
   jekyll:
-    image: jekyll/jekyll:3.8
+    image: jekyll/jekyll:latest
     command: >
-      sh -c "gem install jekyll-seo-tag jekyll-sitemap jemoji &&
+      sh -c "gem install jekyll-seo-tag jekyll-sitemap jemoji webrick &&
              jekyll build &&
              jekyll serve --watch --force_polling --verbose"
     ports:

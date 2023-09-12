@@ -4,6 +4,15 @@ format: section
 ---
 
 <div class="large-12 cell">
+
+{% assign listofsections = site.dissertation | sort: "chapter" %}
+{% for chapterinfo in listofsections %}
+
+Chapter: {{ chapterinfo.chapter }}
+{{ chapterinfo.content }}
+
+{% endfor %}
+
 		<!--collection start-->
 
 		{{ content }}
