@@ -1,6 +1,6 @@
 ---
 layout: section
-title: Oooh, Look It's the Next Section!
+title: "Oooh, Look It's the Next Section!"
 identifier: 1.0.1
 chapter: 1
 section: 0
