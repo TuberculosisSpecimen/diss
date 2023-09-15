@@ -2,12 +2,12 @@
 layout: section
 title: “Three Steps Back: The Reflective Arts”
 identifier: 4.1.1
-chapter: 1
-section: 000
-subsection: 000
-chapterdisplay: 1
-sectiondisplay: 0
-subsectiondisplay: 0
+chapter: 4
+section: 001
+subsection: 001
+chapterdisplay: 4
+sectiondisplay: 1
+subsectiondisplay: 1
 ---
 
 In 2016 I reedited a short film (originally produced in 2014), I made as part of an MFA in film and television production at Loyola Marymount. This film was, ostensibly, about the history of the atomic bomb, its aftermath, and my wide eyed horror, as well as my guilt, about the images the United States produced to study the aftermaths of the Hiroshima and Nagasaki bombings (figs. 89 - 90). The film’s title, “The Modern Orpheus”, made reference to two texts: the secondary title to Mary Shelly’s *Frankenstein*, *Or the Modern Prometheus*, and to the Grecian Orpheus myth. Mary Shelly’s *Frankenstein* responded to the rise of the emirical sciences, and was written out of Shelly’s own experience watching graverobbers while visiting her mother’s grave.[^fn1] Orpheus is an oft remixed tale of love, loss, and the failure in trust, as Orpheus’ undoing is his gaze: he looks back to see if Eurydice is following him out of the underworld. 
