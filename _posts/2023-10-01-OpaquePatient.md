@@ -162,11 +162,12 @@ background-color: #eb5e28;
 I want to start with three images from the history of tuberculosis; these three pictures are ones I regularly return to when writing, and are ones that help me articulate the kind of useful, productive loss which I argue for today. They come from three different publications in a larger corpus of around 700 textbooks, journals, and government reports made between 1882 and 1926. 
 
 The first is an image of two doctors working in the Chicago Municipal Sanatorium’s pathology lab (fig. 1). Reproduced in the mid-1920’s in a public facing, montly periodical, this picture displays the pathology lab, its contents, and the potentially candid action of two doctors at work. 
+<img id=ChicagoPathology" src="{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520.jpg" alt="Pathology Room of the Research Laboratory" style="max-width:100%;height:auto;">
 <img id=“ChicagoPathology” src="{{ site.baseurl }}/assets/item/CityofChicagoMunicipalTub5-_1925-26_520.jpg" alt=“Pathology Room of the Research Laboratory”>
 Figure 1. Picture of the pathology lab of the Municipal Tuberculosis Sanatorium. In the foreground are wet tissue specimens presumably taken at autopsy from human patients. Found in Pinner, Max. “The Epidemiology of Tuberculosis” \*City of Chicago Municipal Tuberculosis Sanatarium Bulletin\*, 6(5). (1926). 9. [Link to HathiTrust version](https://hdl.handle.net/2027/chi.41675716?urlappend=%3Bseq=519%3Bownerid=13510798900036313-595).
 
 The second image is of a patient, photographed for use in W. M. Crofton’s \*Pulmonary Tuberculosis: Its Diagnosis, Prevention and Treatment\* (fig.2). Found in a short book for the aid of doctors, this image displays visual symptoms of tuberculosis as it appears on the body of a male patient. The diagrams were most likely added after the initial exposure. 
-<img id=“CroftonFigure” src="{{ site.baseurl }}/assets/item/Crofton\_PulmonaryTuberculosisItsD_1917_36.jpg" alt=“A picture of a patient showing the ways to diagnose tuberculosis through vision”>
+<img id=“CroftonFigure” src="{{ site.baseurl }}/assets/items/Crofton\_PulmonaryTuberculosisItsD_1917_36.jpg" alt=“A picture of a patient showing the ways to diagnose tuberculosis through vision”>
 Figure 2. A photograph of a man with tuberculosis with drawn material added to the image to aid in the diagnosis of the disease. Found in Crofton, W. M.. \*Pulmonary Tuberculosis: Its Diagnosis, Prevention and Treatment\*. (Philadelphia: P. Blakiston's Son & Co., 1917), 16. [Link to HathiTrust version](https://hdl.handle.net/2027/chi.087018856?urlappend=%3Bseq=35%3Bownerid=13510798902025121-39).
 
 <img id="Modorph2" src="{{ site.baseurl }}/assets/items/Modorph2.jpg" alt="Modorph2.jpg" style="max-width:100%;height:auto;">
