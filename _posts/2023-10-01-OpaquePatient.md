@@ -162,10 +162,9 @@ background-color: #eb5e28;
 I want to start with three images from the history of tuberculosis; these three pictures are ones I regularly return to when writing, and are ones that help me articulate the kind of useful, productive loss which I argue for today. They come from three different publications in a larger corpus of around 700 textbooks, journals, and government reports made between 1882 and 1926. 
 
 The first is an image of two doctors working in the Chicago Municipal Sanatorium’s pathology lab (fig. 1). Reproduced in the mid-1920’s in a public facing, montly periodical, this picture displays the pathology lab, its contents, and the potentially candid action of two doctors at work. 
-
-
+<html>
 <img id=“ChicagoPathology” src="{{ site.baseurl }}/assets/item/CityofChicagoMunicipalTub5-_1925-26_520.jpg" alt=“Pathology Room of the Research Laboratory”>
-
+</html>
 
 Figure 1. Picture of the pathology lab of the Municipal Tuberculosis Sanatorium. In the foreground are wet tissue specimens presumably taken at autopsy from human patients. Found in Pinner, Max. “The Epidemiology of Tuberculosis” \*City of Chicago Municipal Tuberculosis Sanatarium Bulletin\*, 6(5). (1926). 9. [Link to HathiTrust version](https://hdl.handle.net/2027/chi.41675716?urlappend=%3Bseq=519%3Bownerid=13510798900036313-595).
 
