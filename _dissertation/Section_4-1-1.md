@@ -16,7 +16,9 @@ In 2016 I reedited a short film (originally produced in 2014), I made as part of
 
 Figure 89. A still from *The Modern Orpheus*. This was originally footage taken by Americans looking at the wreckage in the aftermath of the Hiroshima and Nagasaki bombings.
 
+
 <img id="Modorph1” src="{{ site.baseurl }}/assets/items/Modorph1.jpg" alt="Modorph1.jpg" style="max-width:100%;height:auto;">
+
 
 Figure 91. A still from *The Modern Orpheus*. This image shows a Japanese subject suffering from health problems related to the bomb was used multiple times in multiple ways in the film.
 
