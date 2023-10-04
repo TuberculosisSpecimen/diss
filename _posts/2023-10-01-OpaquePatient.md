@@ -100,6 +100,7 @@ pullquote: "Find out more about community archiving!"
 <button class="toggle-button" onclick="toggleOpacity('non-opaque')" data-mode="non-opaque">Non-Opaque</button>
 </div>
 
+<img id="HenryReport" src="{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158.jpg" alt="ReportoftheHenryPhippsIns3" width="1200" height="600">
 
 # Making Opaque the Patient: Loss as Critical Methodology in the History of Medicine #
 
@@ -216,6 +217,7 @@ Thank You.
                 ChicagoPathology.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520_partial.jpg”;
            		CroftonFigure.src = "{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_partial.jpg";
            		BushnellSpecimen.src = "{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193_partial.jpg";
+           		HenryReport.src = "{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158_Partial.png";
             });
             // Ensure opaque lines are fully visible
             opaqueLines.forEach(line => {
@@ -231,6 +233,7 @@ Thank You.
                 ChicagoPathology.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520_full.jpg";
                 CroftonFigure.src = "{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_full.jpg";
                 BushnellSpecimen.src = "{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193_full.jpg";
+                HenryReport.src = "{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158_Full.jpg";
             });
             // Ensure partial lines are fully visible
             partialLines.forEach(line => {
@@ -242,6 +245,7 @@ Thank You.
            	ChicagoPathology.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520.jpg";
             CroftonFigure.src = "{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg";
             BushnellSpecimen.src = "{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193.jpg";
+            HenryReport.src = "{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158.jpg";
             partialLines.forEach(line => {
                 line.style.opacity = '1';
                 line.style.backgroundColor = ''
