@@ -13,140 +13,84 @@ pullquote: "Find out more about community archiving!"
 ---
 
 <br>
-
 <style>
+    .popup {
+        display: none;
+        position: absolute;
+        background-color: white;
+        color: black;
+        padding: 5px;
+        border-radius: 5px;
+        border-color: black;
+        border-style: solid; 
+        border-width: 1px; /* Added border-width */
+        z-index: 9999;
+        max-width: 260px; /* Set the maximum width for the popup */
+        font-size: 15px; /* Added text size */
+        font-style: oblique; /* Added text style */
+    }
+
+    /* Style for the word "influential" when hovered */
+    #word-tooltip:hover {
+        text-decoration: underline;
+        color: blue; /* Change the color to your preferred hover color */
+    }
+
+    .opaque-lines {
+        opacity: 1; /* Set initial opacity for partial view */
+    }
+
+    .toggle-buttons {
+        display: inline-flex;
+        gap: 20px;
+        padding: 10px;
+        background-color: grey;
+        border-radius: 5px;
+        justify-content: center; /* Center the buttons within the container */
+        margin: 0 auto;
+    }
+    /* .toggle-button {
+        padding: 8px 12px;
+        background-color: #f1f1f1;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .toggle-button.active {
+        background-color: #007bff; /* Change to your preferred active button color */
+        /* color: white;
+    }  */
+
+    .toggle-button {
+
+      background-color: #4c4843;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 10px;
+      cursor: pointer;
+      border-radius: 4px;
+      width: 150px;
+
+    }
+    /* Button styles for hover state */
+
+    .toggle-button:hover {
+      background-color: #252422;
+    }
+
+    /* Button styles for active state */
+
+    .toggle-button.active {
+      background-color: #eb5e28;
+      /* color: #252422; */
+
+    }
 
-.popup {
-
-display: none;
-
-position: absolute;
-
-background-color: white;
-
-color: black;
-
-padding: 5px;
-
-border-radius: 5px;
-
-border-color: black;
-
-border-style: solid; 
-
-border-width: 1px; /\* Added border-width \*/
-
-z-index: 9999;
-
-max-width: 260px; /\* Set the maximum width for the popup \*/
-
-font-size: 15px; /\* Added text size \*/
-
-font-style: oblique; /\* Added text style \*/
-
-}
-
-/\* Style for the word "influential" when hovered \*/
-
-#word-tooltip:hover {
-
-text-decoration: underline;
-
-color: blue; /\* Change the color to your preferred hover color \*/
-
-}
-
-.opaque-lines {
-
-opacity: 1; /\* Set initial opacity for partial view \*/
-
-}
-
-.toggle-buttons {
-
-display: inline-flex;
-
-gap: 20px;
-
-padding: 10px;
-
-background-color: grey;
-
-border-radius: 5px;
-
-justify-content: center; /\* Center the buttons within the container \*/
-
-margin: 0 auto;
-
-}
-
-/\* .toggle-button {
-
-padding: 8px 12px;
-
-background-color: #f1f1f1;
-
-border: none;
-
-border-radius: 4px;
-
-cursor: pointer;
-
-}
-
-.toggle-button.active {
-
-background-color: #007bff; /\* Change to your preferred active button color \*/
-
-/\* color: white;
-
-}  \*/
-
-.toggle-button {
-
-background-color: #4c4843;
-
-border: none;
-
-color: white;
-
-padding: 10px 20px;
-
-text-align: center;
-
-text-decoration: none;
-
-display: inline-block;
-
-font-size: 16px;
-
-margin: 10px;
-
-cursor: pointer;
-
-border-radius: 4px;
-
-width: 150px;
-
-}
-
-/\* Button styles for hover state \*/
-
-.toggle-button:hover {
-
-background-color: #252422;
-
-}
-
-/\* Button styles for active state \*/
-
-.toggle-button.active {
-
-background-color: #eb5e28;
-
-/\* color: #252422; \*/
-
-}
 
 </style>
 
@@ -165,26 +109,26 @@ The first is an image of two doctors working in the Chicago Municipal Sanatorium
 
 <img id="ChicagoPathology" src="{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520.jpg" alt="Pathology Room of the Research Laboratory" style="max-width:100%;height:auto;">
 
-Figure 1. Picture of the pathology lab of the Municipal Tuberculosis Sanatorium. In the foreground are wet tissue specimens presumably taken at autopsy from human patients. Found in Pinner, Max. “The Epidemiology of Tuberculosis” \*City of Chicago Municipal Tuberculosis Sanatarium Bulletin\*, 6(5). (1926). 9. [Link to HathiTrust version](https://hdl.handle.net/2027/chi.41675716?urlappend=%3Bseq=519%3Bownerid=13510798900036313-595).
+Figure 1. Picture of the pathology lab of the Municipal Tuberculosis Sanatorium. In the foreground are wet tissue specimens presumably taken at autopsy from human patients. Found in Pinner, Max. “The Epidemiology of Tuberculosis” *City of Chicago Municipal Tuberculosis Sanatarium Bulletin*, 6(5). (1926). 9. [Link to HathiTrust version](https://hdl.handle.net/2027/chi.41675716?urlappend=%3Bseq=519%3Bownerid=13510798900036313-595).
 
-The second image is of a patient, photographed for use in W. M. Crofton’s \*Pulmonary Tuberculosis: Its Diagnosis, Prevention and Treatment\* (fig.2). Found in a short book for the aid of doctors, this image displays visual symptoms of tuberculosis as it appears on the body of a male patient. The diagrams were most likely added after the initial exposure. 
+The second image is of a patient, photographed for use in W. M. Crofton’s *Pulmonary Tuberculosis: Its Diagnosis, Prevention and Treatment* (fig.2). Found in a short book for the aid of doctors, this image displays visual symptoms of tuberculosis as it appears on the body of a male patient. The diagrams were most likely added after the initial exposure. 
 
 <img id="CroftonFigure" src="{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg" alt="A picture of a patient showing the ways to diagnose tuberculosis through vision." style="max-width:100%;height:auto;">
 
 
-Figure 2. A photograph of a man with tuberculosis with drawn material added to the image to aid in the diagnosis of the disease. Found in Crofton, W. M.. \*Pulmonary Tuberculosis: Its Diagnosis, Prevention and Treatment\*. (Philadelphia: P. Blakiston's Son & Co., 1917), 16. [Link to HathiTrust version](https://hdl.handle.net/2027/chi.087018856?urlappend=%3Bseq=35%3Bownerid=13510798902025121-39).
+Figure 2. A photograph of a man with tuberculosis with drawn material added to the image to aid in the diagnosis of the disease. Found in Crofton, W. M.. *Pulmonary Tuberculosis: Its Diagnosis, Prevention and Treatment*. (Philadelphia: P. Blakiston's Son & Co., 1917), 16. [Link to HathiTrust version](https://hdl.handle.net/2027/chi.087018856?urlappend=%3Bseq=35%3Bownerid=13510798902025121-39).
 
-The final image is from a journal article by George E. Bushnell published in 1919 by the \*American Review of Tuberculosis\* (fig. 3). This specimen is a photograph of the upper lobe of a patient who died of tuberculosis and whose body was mined for useful material at autopsy. As viewers, we are supposed to be able to see the pathological difference between this organ and an idea \*natural\* or \*normal\* organ.
+The final image is from a journal article by George E. Bushnell published in 1919 by the *American Review of Tuberculosis* (fig. 3). This specimen is a photograph of the upper lobe of a patient who died of tuberculosis and whose body was mined for useful material at autopsy. As viewers, we are supposed to be able to see the pathological difference between this organ and an idea *natural* or *normal* organ.
 
 <img id="BushnellSpecimen" src="{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193.jpg" alt="A wet specimen of the human lung showing the upper lobe." style="max-width:100%;height:auto;">
 
-Figure 3. A photograph of the upper lobe of a lung, extracted through the autopsy of an individual who died of tuberculosis. Found in Bushnell, George. “Manifest Pulmonary Tuberculosis” in \*The American Review of Tuberculosis\* 2(3). (1918), 170. [Link to HathiTrust version](https://hdl.handle.net/2027/hvd.32044089508287?urlappend=%3Bseq=190%3Bownerid=27021597764544085-196).
+Figure 3. A photograph of the upper lobe of a lung, extracted through the autopsy of an individual who died of tuberculosis. Found in Bushnell, George. “Manifest Pulmonary Tuberculosis” in *The American Review of Tuberculosis* 2(3). (1918), 170. [Link to HathiTrust version](https://hdl.handle.net/2027/hvd.32044089508287?urlappend=%3Bseq=190%3Bownerid=27021597764544085-196).
 
 Figure 3. TheAmericanReviewofTuberc2\_1918-1919\_193
 
 These images have a few things in common: they are photographs, they relate to the scientific discourses around tuberculosis in the early twentieth century, and they all depend on an extractive relationship with the tuberculous patient. This hunk of viscera, expertly dissected and reproduced through photograph was probably originally from the body of a US army soldier who died under the care of the author, who was a doctor affiliated with the military at the time of publishing. The man photographed by Crofton is framed in such a way that his body is the focus, but his gaze seems to signal a disapproval or complete willingness to be framed. And finally, the two doctors who are working studiously in the lab are secondary to the jars of human viscera which have been prominently framed in the foreground. Each of these images, unique as they are, share a unifying thread: they rely on varying levels of extraction and exploitation of human subjects, made made possible by the fuzzy, tenuous ethical standards of medicine in the period prior to the Nuremberg Code,
 
-These images, and the thousands like them which populate the corpus from which my dissertation, \*The Tuberculosis Speicmen: The Dying Body and its Use Against the “Great White Plague”\* are examples of an ethical crisis in the history of medicine. Megan Rosenbloom, writing about a challenge to Eduard Pernkoft’s \*Topographische Anatomie des Menschen\* (also known as \*Pernkopf’s Atlas\*) at the University of California’s Norris Medical Library, provides an apt example of this problem. The challenge was centered around an issue of establishing consent: the subjects whose bodies were used for the illustrations may have been victims of the Nazi regime, and may have been sent to be anatomized without consent after they had been executed. Rosenbloom and her colleagues decided to keep the book, adding a detailed description to the book’s digital catalog information. After describing her decision, Rosenbloom outlines a broader existential crisis for medical librarians, archivists, and museum workers. She writes, “Through the challenge process, it became clear to me that if books have to be removed from a medical library because the bodies depicted in them were obtained through unethical and nonconsensual means, there might not be an anatomical text left on the shelf.”[^fn1] 
+These images, and the thousands like them which populate the corpus from which my dissertation, *The Tuberculosis Speicmen: The Dying Body and its Use Against the “Great White Plague”* are examples of an ethical crisis in the history of medicine. Megan Rosenbloom, writing about a challenge to Eduard Pernkoft’s *Topographische Anatomie des Menschen* (also known as *Pernkopf’s Atlas*) at the University of California’s Norris Medical Library, provides an apt example of this problem. The challenge was centered around an issue of establishing consent: the subjects whose bodies were used for the illustrations may have been victims of the Nazi regime, and may have been sent to be anatomized without consent after they had been executed. Rosenbloom and her colleagues decided to keep the book, adding a detailed description to the book’s digital catalog information. After describing her decision, Rosenbloom outlines a broader existential crisis for medical librarians, archivists, and museum workers. She writes, “Through the challenge process, it became clear to me that if books have to be removed from a medical library because the bodies depicted in them were obtained through unethical and nonconsensual means, there might not be an anatomical text left on the shelf.”[^fn1] 
 
 In light of historical violence against Black and Indigenous populations in the United States,[^fn2] the egregious mistreatment of the bodies of Saartjie Baartman[^fn3] and Charles Byrne, and the classed violence in the passage of anatomy laws,[^fn4] as well as recent exposés by the Washington Post on the hundreds of human brains kept in the Smithsonian,[^fn5] handwringing at Philadlephia’s Mütter Museum regarding the display of remains with no record of consent,[^fn6] and the high profile arrest of Harvard morgue managers over the selling of human remains,[^fn7] issues of systemic racism, colonialist epistemics, and patient consent remain a huge problem for anyone interested in the history of medicine.
 
@@ -218,7 +162,7 @@ The dissertation platform functionalizes opacity in two ways and at three levels
 
 Returning to the three photographs I started this paper with, what happens when I apply these levels of opacity to the image?
 
-What strikes me, though, is that the loss of the image, as I continue to black out and flatten what might be a spectacular kind of imagination of the human body, is that I do not see much \*loss\* in the kinds of arguments I can make with these images. What is \*lost\* in fact is a knowledge enriching \*praxis\*. The process of making these images opaque, and the bespoke moments of erasure which comes with the use Adobe Photoshop’s polygonal lasso tool, gives me time to meditate on the images themselves. As the unnamed narrator of Chris Marker’s \*San Soleil\* argues, “[c]ensorship is not the mutilation of the show, it is the show. The code is the message. It points to the absolute by hiding it.”[^fn12] The final products, too, give me a way to frame out the object of the discourse and through this erasure see the implicit arguments in stark relief.
+What strikes me, though, is that the loss of the image, as I continue to black out and flatten what might be a spectacular kind of imagination of the human body, is that I do not see much *loss* in the kinds of arguments I can make with these images. What is *lost* in fact is a knowledge enriching *praxis*. The process of making these images opaque, and the bespoke moments of erasure which comes with the use Adobe Photoshop’s polygonal lasso tool, gives me time to meditate on the images themselves. As the unnamed narrator of Chris Marker’s *San Soleil* argues, “[c]ensorship is not the mutilation of the show, it is the show. The code is the message. It points to the absolute by hiding it.”[^fn12] The final products, too, give me a way to frame out the object of the discourse and through this erasure see the implicit arguments in stark relief.
 
 This argument, however, points to a useful problem, one which a contemporary critique of past research ethics helps point to: even with all of my handwringing, my careful intervention, I still rely on the bodies of others in my arguments. In challenging the necessity of these materials, my end goal is to think of processes where communities of knowledge workers can process the bulk of material in ways that prioritizes and respects the lives of the humans rather than seeing these objects as containing knowledge that just needs to be tapped, reaped, plundered, or extracted. 
 
@@ -249,6 +193,7 @@ Thank You.
 [^fn11]: See: Some of those visual medicine ethics papers.
 
 [^fn12]: Chris Marker. *Sans Soleil*, 1984.
+<hr>
 
 <script>
 
