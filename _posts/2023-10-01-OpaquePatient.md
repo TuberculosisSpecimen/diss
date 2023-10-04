@@ -124,7 +124,7 @@ The final image is from a journal article by George E. Bushnell published in 191
 
 Figure 3. A photograph of the upper lobe of a lung, extracted through the autopsy of an individual who died of tuberculosis. Found in Bushnell, George. “Manifest Pulmonary Tuberculosis” in *The American Review of Tuberculosis* 2(3). (1918), 170. [Link to HathiTrust version](https://hdl.handle.net/2027/hvd.32044089508287?urlappend=%3Bseq=190%3Bownerid=27021597764544085-196).
 
-Figure 3. TheAmericanReviewofTuberc2\_1918-1919\_193
+Figure 3. TheAmericanReviewofTuberc2_1918-1919_193
 
 These images have a few things in common: they are photographs, they relate to the scientific discourses around tuberculosis in the early twentieth century, and they all depend on an extractive relationship with the tuberculous patient. This hunk of viscera, expertly dissected and reproduced through photograph was probably originally from the body of a US army soldier who died under the care of the author, who was a doctor affiliated with the military at the time of publishing. The man photographed by Crofton is framed in such a way that his body is the focus, but his gaze seems to signal a disapproval or complete willingness to be framed. And finally, the two doctors who are working studiously in the lab are secondary to the jars of human viscera which have been prominently framed in the foreground. Each of these images, unique as they are, share a unifying thread: they rely on varying levels of extraction and exploitation of human subjects, made made possible by the fuzzy, tenuous ethical standards of medicine in the period prior to the Nuremberg Code,
 
@@ -303,13 +303,13 @@ opaqueLines.forEach(line => {
 
 line.style.backgroundColor = '#000000'; // Set background color to black
 
-ChicagoPathology.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-\_1925-26\_520\_full.jpg";
+ChicagoPathology.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520_full.jpg";
 
-CroftonFigure.src = "{{ site.baseurl }}/assets/items/Crofton\_PulmonaryTuberculosisItsD\_1917\_36\_OP\_full.jpg";
+CroftonFigure.src = "{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_full.jpg";
 
 });
 
-BushnellSpecimen.src = "{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2\_1918-1919\_193\_full.jpg";
+BushnellSpecimen.src = "{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193_full.jpg";
 
 });
 
@@ -327,38 +327,121 @@ line.style.backgroundColor = ''
 
 else if (mode === 'non-opaque'){
 
-ChicagoPathology.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-\_1925-26\_520\_partial.jpg”;
+ChicagoPathology.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520_partial.jpg”;
 
-CroftonFigure.src = "{{ site.baseurl }}/assets/items/Crofton\_PulmonaryTuberculosisItsD\_1917\_36\_OP\_partial.jpg";
+CroftonFigure.src = "{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_partial.jpg";
 
-BushnellSpecimen.src = "{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2\_1918-1919\_193\_partial.jpg";
+BushnellSpecimen.src = "{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193_partial.jpg";
 
-partialLines.forEach(line => {
+<script>
+    const wordTooltip = document.getElementById("word-tooltip");
+    const popup = document.createElement("div");
+    popup.classList.add("popup");
+    popup.innerText = "'Sanatoria','The sanatorium, sometimes called sanitarium or sanitorium, was a specialized institution where patients were able to be treated for a specific disease.";
 
-line.style.opacity = '1';
+    // Attach the tooltip to a specific fixed position on the page
+    const tooltipOffsetX = 10; // Adjust the X offset (horizontal distance from the wordTooltip element)
+    const tooltipOffsetY = -16; // Adjust the Y offset (vertical distance from the wordTooltip element)
 
-line.style.backgroundColor = ''
+    // Position the tooltip at a fixed location relative to the wordTooltip element
+    popup.style.position = "absolute";
+    popup.style.top = `${wordTooltip.offsetTop + tooltipOffsetY}px`;
+    popup.style.left = `${wordTooltip.offsetLeft + tooltipOffsetX}px`;
 
-});
+    // Append the tooltip to the body element
+    document.body.appendChild(popup);
 
-opaqueLines.forEach(line => {
+    // Hide the tooltip initially
+    popup.style.display = "none";
 
-line.style.opacity = '1';
+    // Add a mouseover event listener to the wordTooltip element
+    wordTooltip.addEventListener("mouseover", () => {
+        popup.style.display = "block";
+    });
 
-line.style.backgroundColor = ''
+    // Add a mouseout event listener to the wordTooltip element
+    wordTooltip.addEventListener("mouseout", () => {
+        popup.style.display = "none";
+    });
 
-});
+    // wordTooltip.addEventListener("mouseover", () => {
+    //     document.body.appendChild(popup);
+    //     const rect = wordTooltip.getBoundingClientRect();
+    //     // popup.style.top = `${rect.top - popup.clientHeight + 580}px`; // Adjust positioning to display above the word
+    //     // popup.style.left = `${rect.left}px`;
+    //     // popup.style.display = "block";
+    //     const tooltipOffsetX = 10; // Adjust the X offset (horizontal distance from the word)
+    //     const tooltipOffsetY = -80; // Adjust the Y offset (vertical distance from the word)
+    //     popup.style.top = `${rect.top + tooltipOffsetY}px`; // Adjust positioning relative to the word
+    //     popup.style.left = `${rect.left + tooltipOffsetX}px`;
+    //     popup.style.display = "block";
+    // });
 
-}
+    // wordTooltip.addEventListener("mouseout", () => {
+    //     popup.style.display = "none";
+    //     popup.remove();
+    // });
 
-// Add the "active" class to the clicked button
+    function toggleOpacity(mode) {
+        const partialLines = document.querySelectorAll('.partial-lines');
+        const opaqueLines = document.querySelectorAll('.opaque-lines');
+        const HenryReport = document.getElementById('HenryReport');
+        const henrydetail = document.getElementById('henrydetail');
 
-const activeButton = document.querySelector(`button[data-mode="${mode}"]`);
+        // Remove the "active" class from all buttons
+        const buttons = document.querySelectorAll('.toggle-button');
+        buttons.forEach(button => {
+            button.classList.remove('active');
+        });
 
-activeButton.classList.add('active');
+        if (mode === 'partial') {
+            // Toggle partial lines
+            partialLines.forEach(line => {
+                line.style.backgroundColor = '#000000'; // Set background color to black
+                ChicagoPathology.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520_partial.jpg”;
+           		CroftonFigure.src = "{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_partial.jpg";
+           		BushnellSpecimen.src = "{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193_partial.jpg";
+            });
+            // Ensure opaque lines are fully visible
+            opaqueLines.forEach(line => {
+                line.style.opacity = '1';
+                line.style.backgroundColor = ''
+            });
 
+            
+        } else if (mode === 'opaque') {
+            // Toggle opaque lines
+            opaqueLines.forEach(line => {
+                line.style.backgroundColor = '#000000'; // Set background color to black
+                ChicagoPathology.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520_full.jpg";
+                CroftonFigure.src = "{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_full.jpg";
+                BushnellSpecimen.src = "{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193_full.jpg";
+            });
+            // Ensure partial lines are fully visible
+            partialLines.forEach(line => {
+                line.style.opacity = '1';
+                line.style.backgroundColor = ''
+            });
+        }
+        else if (mode === 'non-opaque'){
+           		ChicagoPathology.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520.jpg";
+                CroftonFigure.src = "{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg";
+                BushnellSpecimen.src = "{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193.jpg";
+            
+            partialLines.forEach(line => {
+                line.style.opacity = '1';
+                line.style.backgroundColor = ''
+            });
+            opaqueLines.forEach(line => {
+                line.style.opacity = '1';
+                line.style.backgroundColor = ''
+            });
+        }
+
+        // Add the "active" class to the clicked button
+        const activeButton = document.querySelector(`button[data-mode="${mode}"]`);
+        activeButton.classList.add('active');
         
-
-}
+    }
 
 </script>
