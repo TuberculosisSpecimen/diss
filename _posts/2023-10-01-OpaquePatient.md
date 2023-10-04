@@ -197,6 +197,54 @@ Thank You.
 <hr>
 
 <script>
+    const wordTooltip = document.getElementById("word-tooltip");
+    const popup = document.createElement("div");
+    popup.classList.add("popup");
+    popup.innerText = "'Sanatoria','The sanatorium, sometimes called sanitarium or sanitorium, was a specialized institution where patients were able to be treated for a specific disease.";
+
+    // Attach the tooltip to a specific fixed position on the page
+    const tooltipOffsetX = 10; // Adjust the X offset (horizontal distance from the wordTooltip element)
+    const tooltipOffsetY = -16; // Adjust the Y offset (vertical distance from the wordTooltip element)
+
+    // Position the tooltip at a fixed location relative to the wordTooltip element
+    popup.style.position = "absolute";
+    popup.style.top = `${wordTooltip.offsetTop + tooltipOffsetY}px`;
+    popup.style.left = `${wordTooltip.offsetLeft + tooltipOffsetX}px`;
+
+    // Append the tooltip to the body element
+    document.body.appendChild(popup);
+
+    // Hide the tooltip initially
+    popup.style.display = "none";
+
+    // Add a mouseover event listener to the wordTooltip element
+    wordTooltip.addEventListener("mouseover", () => {
+        popup.style.display = "block";
+    });
+
+    // Add a mouseout event listener to the wordTooltip element
+    wordTooltip.addEventListener("mouseout", () => {
+        popup.style.display = "none";
+    });
+
+    // wordTooltip.addEventListener("mouseover", () => {
+    //     document.body.appendChild(popup);
+    //     const rect = wordTooltip.getBoundingClientRect();
+    //     // popup.style.top = `${rect.top - popup.clientHeight + 580}px`; // Adjust positioning to display above the word
+    //     // popup.style.left = `${rect.left}px`;
+    //     // popup.style.display = "block";
+    //     const tooltipOffsetX = 10; // Adjust the X offset (horizontal distance from the word)
+    //     const tooltipOffsetY = -80; // Adjust the Y offset (vertical distance from the word)
+    //     popup.style.top = `${rect.top + tooltipOffsetY}px`; // Adjust positioning relative to the word
+    //     popup.style.left = `${rect.left + tooltipOffsetX}px`;
+    //     popup.style.display = "block";
+    // });
+
+    // wordTooltip.addEventListener("mouseout", () => {
+    //     popup.style.display = "none";
+    //     popup.remove();
+    // });
+    
     function toggleOpacity(mode) {
         const partialLines = document.querySelectorAll('.partial-lines');
         const opaqueLines = document.querySelectorAll('.opaque-lines');
