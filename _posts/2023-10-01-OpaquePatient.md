@@ -385,8 +385,9 @@ BushnellSpecimen.src = "{{ site.baseurl }}/assets/items/TheAmericanReviewofTuber
     function toggleOpacity(mode) {
         const partialLines = document.querySelectorAll('.partial-lines');
         const opaqueLines = document.querySelectorAll('.opaque-lines');
-        const HenryReport = document.getElementById('HenryReport');
-        const henrydetail = document.getElementById('henrydetail');
+        const ChicagoPathology = document.getElementById('ChicagoPathology');
+        const CroftonFigure = document.getElementById('CroftonFigure');
+        const BushnellSpecimen = document.getElementById('BushnellSpecimen');
 
         // Remove the "active" class from all buttons
         const buttons = document.querySelectorAll('.toggle-button');
