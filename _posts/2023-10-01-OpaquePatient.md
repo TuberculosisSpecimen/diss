@@ -171,13 +171,12 @@ The second image is of a patient, photographed for use in W. M. Crofton’s \*Pu
 
 <img id="CroftonFigure" src="{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg" alt="A picture of a patient showing the ways to diagnose tuberculosis through vision." style="max-width:100%;height:auto;">
 
-<img id=“CroftonFigure” src="{{ site.baseurl }}/assets/items/Crofton\_PulmonaryTuberculosisItsD_1917_36.jpg" alt=“A picture of a patient showing the ways to diagnose tuberculosis through vision” style="max-width:100%;height:auto;">
 
 Figure 2. A photograph of a man with tuberculosis with drawn material added to the image to aid in the diagnosis of the disease. Found in Crofton, W. M.. \*Pulmonary Tuberculosis: Its Diagnosis, Prevention and Treatment\*. (Philadelphia: P. Blakiston's Son & Co., 1917), 16. [Link to HathiTrust version](https://hdl.handle.net/2027/chi.087018856?urlappend=%3Bseq=35%3Bownerid=13510798902025121-39).
 
 The final image is from a journal article by George E. Bushnell published in 1919 by the \*American Review of Tuberculosis\* (fig. 3). This specimen is a photograph of the upper lobe of a patient who died of tuberculosis and whose body was mined for useful material at autopsy. As viewers, we are supposed to be able to see the pathological difference between this organ and an idea \*natural\* or \*normal\* organ.
 
-<img id=“BushnellSpecimen” src="{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193.jpg" alt=“A picture of a patient showing the ways to diagnose tuberculosis through vision” style="max-width:100%;height:auto;">
+<img id="BushnellSpecimen" src="{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193.jpg" alt="A wet specimen of the human lung showing the upper lobe." style="max-width:100%;height:auto;">
 
 Figure 3. A photograph of the upper lobe of a lung, extracted through the autopsy of an individual who died of tuberculosis. Found in Bushnell, George. “Manifest Pulmonary Tuberculosis” in \*The American Review of Tuberculosis\* 2(3). (1918), 170. [Link to HathiTrust version](https://hdl.handle.net/2027/hvd.32044089508287?urlappend=%3Bseq=190%3Bownerid=27021597764544085-196).
 
@@ -226,6 +225,30 @@ This argument, however, points to a useful problem, one which a contemporary cri
 I am not asking for an entire erasure of the medical library, the medical museum, or the medical archive, but I am calling for a considered approach to divesting unethically sourced material precisely because these materials reproduce and reify the same epistemic practices that enabled the first abuse. Where, in the case of photographs, this approach may be moot, but in the cases of human remains---like the remains of those kileld in Philadelphia’s MOVE bombing, like the blood biomatter kept chilled for decades for racist research programs, like the hundreds of subjects whose remains bare no provenance of consent at the Mütter Museum---my  hope is to imagine ways of articulating these materials in ways that call into question their very utility, that undermines the ways they produce popular spectacle and scientific argument.  Rather than enshrine the very practicess and people that turned those humans into objects, my hope is for a medical archive and museum that begins with the care for and attention to humans who lived and died. 
 
 Thank You.
+
+[^fn1]: Ibid., 170.
+
+[^fn2]: Bones in the Basement. Sappoll Book. Medical Apatheid. Bone Rooms.
+
+[^fn3]: Venus Noire.
+
+[^fn4]: Richardson.
+
+[^fn5]: https://www.washingtonpost.com/history/interactive/2023/smithsonian-brains-collection-racial-history-repatriation/
+
+[^fn6]: https://www.washingtonpost.com/lifestyle/2023/07/26/mutter-museum-controversy-philadelphia/
+
+[^fn7]: https://time.com/6287536/harvard-medical-morgue-chief-charged-selling-body-parts/
+
+[^fn8]: Add in the pr
+
+[^fn9]: See also: Joanna Radin’s *Life on Ice*.
+
+[^fn10]: Glissant.
+
+[^fn11]: See: Some of those visual medicine ethics papers.
+
+[^fn12]: Chris Marker. *Sans Soleil*, 1984.
 
 <script>
 
@@ -394,27 +417,3 @@ activeButton.classList.add('active');
 }
 
 </script>
-
-[^fn1]: Ibid., 170.
-
-[^fn2]: Bones in the Basement. Sappoll Book. Medical Apatheid. Bone Rooms.
-
-[^fn3]: Venus Noire.
-
-[^fn4]: Richardson.
-
-[^fn5]: https://www.washingtonpost.com/history/interactive/2023/smithsonian-brains-collection-racial-history-repatriation/
-
-[^fn6]: https://www.washingtonpost.com/lifestyle/2023/07/26/mutter-museum-controversy-philadelphia/
-
-[^fn7]: https://time.com/6287536/harvard-medical-morgue-chief-charged-selling-body-parts/
-
-[^fn8]: Add in the pr
-
-[^fn9]: See also: Joanna Radin’s *Life on Ice*.
-
-[^fn10]: Glissant.
-
-[^fn11]: See: Some of those visual medicine ethics papers.
-
-[^fn12]: Chris Marker. *Sans Soleil*, 1984.
