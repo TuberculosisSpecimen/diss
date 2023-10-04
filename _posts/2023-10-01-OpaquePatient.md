@@ -196,144 +196,6 @@ Thank You.
 <hr>
 
 <script>
-
-const wordTooltip = document.getElementById("word-tooltip");
-
-const popup = document.createElement("div");
-
-popup.classList.add("popup");
-
-popup.innerText = "'Sanatoria','The sanatorium, sometimes called sanitarium or sanitorium, was a specialized institution where patients were able to be treated for a specific disease.";
-
-// Attach the tooltip to a specific fixed position on the page
-
-const tooltipOffsetX = 10; // Adjust the X offset (horizontal distance from the wordTooltip element)
-
-const tooltipOffsetY = -16; // Adjust the Y offset (vertical distance from the wordTooltip element)
-
-// Position the tooltip at a fixed location relative to the wordTooltip element
-
-popup.style.position = "absolute";
-
-popup.style.top = `${wordTooltip.offsetTop + tooltipOffsetY}px`;
-
-popup.style.left = `${wordTooltip.offsetLeft + tooltipOffsetX}px`;
-
-// Append the tooltip to the body element
-
-document.body.appendChild(popup);
-
-// Hide the tooltip initially
-
-popup.style.display = "none";
-
-// Add a mouseover event listener to the wordTooltip element
-
-wordTooltip.addEventListener("mouseover", () => {
-
-popup.style.display = "block";
-
-});
-
-// Add a mouseout event listener to the wordTooltip element
-
-wordTooltip.addEventListener("mouseout", () => {
-
-popup.style.display = "none";
-
-});
-
-// wordTooltip.addEventListener("mouseover", () => {
-
-//     document.body.appendChild(popup);
-
-//     const rect = wordTooltip.getBoundingClientRect();
-
-//     // popup.style.top = `${rect.top - popup.clientHeight + 580}px`; // Adjust positioning to display above the word
-
-//     // popup.style.left = `${rect.left}px`;
-
-//     // popup.style.display = "block";
-
-//     const tooltipOffsetX = 10; // Adjust the X offset (horizontal distance from the word)
-
-//     const tooltipOffsetY = -80; // Adjust the Y offset (vertical distance from the word)
-
-//     popup.style.top = `${rect.top + tooltipOffsetY}px`; // Adjust positioning relative to the word
-
-//     popup.style.left = `${rect.left + tooltipOffsetX}px`;
-
-//     popup.style.display = "block";
-
-// });
-
-// wordTooltip.addEventListener("mouseout", () => {
-
-//     popup.style.display = "none";
-
-//     popup.remove();
-
-// });
-
-function toggleOpacity(mode) {
-
-const opaqueLines = document.querySelectorAll('.opaque-lines');
-
-const ChicagoPathology = document.getElementById('ChicagoPathology');
-
-const CroftonFigure = document.getElementById('CroftonFigure');
-
-const BushnellSpecimen = document.getElementById(‘BushnellSpecimen’);
-
-// Remove the "active" class from all buttons
-
-const buttons = document.querySelectorAll('.toggle-button');
-
-buttons.forEach(button => {
-
-button.classList.remove('active');
-
-});
-
-if (mode === 'opaque') {
-
-// Toggle opaque lines
-
-opaqueLines.forEach(line => {
-
-line.style.backgroundColor = '#000000'; // Set background color to black
-
-ChicagoPathology.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520_full.jpg";
-
-CroftonFigure.src = "{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_full.jpg";
-
-});
-
-BushnellSpecimen.src = "{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193_full.jpg";
-
-});
-
-// Ensure partial lines are fully visible
-
-partialLines.forEach(line => {
-
-line.style.opacity = '1';
-
-line.style.backgroundColor = ''
-
-});
-
-}
-
-else if (mode === 'non-opaque'){
-
-ChicagoPathology.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520_partial.jpg”;
-
-CroftonFigure.src = "{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_partial.jpg";
-
-BushnellSpecimen.src = "{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193_partial.jpg";
-
-<script>
     const wordTooltip = document.getElementById("word-tooltip");
     const popup = document.createElement("div");
     popup.classList.add("popup");
@@ -425,10 +287,9 @@ BushnellSpecimen.src = "{{ site.baseurl }}/assets/items/TheAmericanReviewofTuber
             });
         }
         else if (mode === 'non-opaque'){
-           		ChicagoPathology.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520.jpg";
-                CroftonFigure.src = "{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg";
-                BushnellSpecimen.src = "{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193.jpg";
-            
+           	ChicagoPathology.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520.jpg";
+            CroftonFigure.src = "{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg";
+            BushnellSpecimen.src = "{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193.jpg";
             partialLines.forEach(line => {
                 line.style.opacity = '1';
                 line.style.backgroundColor = ''
