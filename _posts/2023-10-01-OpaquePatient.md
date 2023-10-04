@@ -165,11 +165,11 @@ The first is an image of two doctors working in the Chicago Municipal Sanatorium
 
 <img id="ChicagoPathology" src="{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520.jpg" alt="Pathology Room of the Research Laboratory" style="max-width:100%;height:auto;">
 
-<img id=“ChicagoPathology” src="{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520.jpg" alt=“Pathology Room of the Research Laboratory”>
-
 Figure 1. Picture of the pathology lab of the Municipal Tuberculosis Sanatorium. In the foreground are wet tissue specimens presumably taken at autopsy from human patients. Found in Pinner, Max. “The Epidemiology of Tuberculosis” \*City of Chicago Municipal Tuberculosis Sanatarium Bulletin\*, 6(5). (1926). 9. [Link to HathiTrust version](https://hdl.handle.net/2027/chi.41675716?urlappend=%3Bseq=519%3Bownerid=13510798900036313-595).
 
 The second image is of a patient, photographed for use in W. M. Crofton’s \*Pulmonary Tuberculosis: Its Diagnosis, Prevention and Treatment\* (fig.2). Found in a short book for the aid of doctors, this image displays visual symptoms of tuberculosis as it appears on the body of a male patient. The diagrams were most likely added after the initial exposure. 
+
+<img id="CroftonFigure" src="{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg" alt="A picture of a patient showing the ways to diagnose tuberculosis through vision." style="max-width:100%;height:auto;">
 
 <img id=“CroftonFigure” src="{{ site.baseurl }}/assets/items/Crofton\_PulmonaryTuberculosisItsD_1917_36.jpg" alt=“A picture of a patient showing the ways to diagnose tuberculosis through vision” style="max-width:100%;height:auto;">
 
