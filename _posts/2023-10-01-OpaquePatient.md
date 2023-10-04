@@ -165,7 +165,7 @@ The first is an image of two doctors working in the Chicago Municipal Sanatorium
 
 <img id="ChicagoPathology" src="{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520.jpg" alt="Pathology Room of the Research Laboratory" style="max-width:100%;height:auto;">
 
-<img id=“ChicagoPathology” src="{{ site.baseurl }}/assets/item/CityofChicagoMunicipalTub5-_1925-26_520.jpg" alt=“Pathology Room of the Research Laboratory”>
+<img id=“ChicagoPathology” src="{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520.jpg" alt=“Pathology Room of the Research Laboratory”>
 
 Figure 1. Picture of the pathology lab of the Municipal Tuberculosis Sanatorium. In the foreground are wet tissue specimens presumably taken at autopsy from human patients. Found in Pinner, Max. “The Epidemiology of Tuberculosis” \*City of Chicago Municipal Tuberculosis Sanatarium Bulletin\*, 6(5). (1926). 9. [Link to HathiTrust version](https://hdl.handle.net/2027/chi.41675716?urlappend=%3Bseq=519%3Bownerid=13510798900036313-595).
 
@@ -175,11 +175,9 @@ The second image is of a patient, photographed for use in W. M. Crofton’s \*Pu
 
 Figure 2. A photograph of a man with tuberculosis with drawn material added to the image to aid in the diagnosis of the disease. Found in Crofton, W. M.. \*Pulmonary Tuberculosis: Its Diagnosis, Prevention and Treatment\*. (Philadelphia: P. Blakiston's Son & Co., 1917), 16. [Link to HathiTrust version](https://hdl.handle.net/2027/chi.087018856?urlappend=%3Bseq=35%3Bownerid=13510798902025121-39).
 
-<img id="Modorph2" src="{{ site.baseurl }}/assets/items/Modorph2.jpg" alt="Modorph2.jpg" style="max-width:100%;height:auto;">
-
 The final image is from a journal article by George E. Bushnell published in 1919 by the \*American Review of Tuberculosis\* (fig. 3). This specimen is a photograph of the upper lobe of a patient who died of tuberculosis and whose body was mined for useful material at autopsy. As viewers, we are supposed to be able to see the pathological difference between this organ and an idea \*natural\* or \*normal\* organ.
 
-<img id=“BushnellSpecimen” src="{{ site.baseurl }}/assets/item/TheAmericanReviewofTuberc2_1918-1919_193.jpg" alt=“A picture of a patient showing the ways to diagnose tuberculosis through vision”>
+<img id=“BushnellSpecimen” src="{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193.jpg" alt=“A picture of a patient showing the ways to diagnose tuberculosis through vision” style="max-width:100%;height:auto;">
 
 Figure 3. A photograph of the upper lobe of a lung, extracted through the autopsy of an individual who died of tuberculosis. Found in Bushnell, George. “Manifest Pulmonary Tuberculosis” in \*The American Review of Tuberculosis\* 2(3). (1918), 170. [Link to HathiTrust version](https://hdl.handle.net/2027/hvd.32044089508287?urlappend=%3Bseq=190%3Bownerid=27021597764544085-196).
 
@@ -337,13 +335,13 @@ opaqueLines.forEach(line => {
 
 line.style.backgroundColor = '#000000'; // Set background color to black
 
-ChicagoPathology.src = "{{ site.baseurl }}/assets/item/CityofChicagoMunicipalTub5-\_1925-26\_520\_full.jpg";
+ChicagoPathology.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-\_1925-26\_520\_full.jpg";
 
-CroftonFigure.src = "{{ site.baseurl }}/assets/item/Crofton\_PulmonaryTuberculosisItsD\_1917\_36\_OP\_full.jpg";
+CroftonFigure.src = "{{ site.baseurl }}/assets/items/Crofton\_PulmonaryTuberculosisItsD\_1917\_36\_OP\_full.jpg";
 
 });
 
-BushnellSpecimen.src = "{{ site.baseurl }}/assets/item/TheAmericanReviewofTuberc2\_1918-1919\_193\_full.jpg";
+BushnellSpecimen.src = "{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2\_1918-1919\_193\_full.jpg";
 
 });
 
@@ -361,11 +359,11 @@ line.style.backgroundColor = ''
 
 else if (mode === 'non-opaque'){
 
-ChicagoPathology.src = "{{ site.baseurl }}/assets/item/CityofChicagoMunicipalTub5-\_1925-26\_520\_partial.jpg”;
+ChicagoPathology.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-\_1925-26\_520\_partial.jpg”;
 
-CroftonFigure.src = "{{ site.baseurl }}/assets/item/Crofton\_PulmonaryTuberculosisItsD\_1917\_36\_OP\_partial.jpg";
+CroftonFigure.src = "{{ site.baseurl }}/assets/items/Crofton\_PulmonaryTuberculosisItsD\_1917\_36\_OP\_partial.jpg";
 
-BushnellSpecimen.src = "{{ site.baseurl }}/assets/item/TheAmericanReviewofTuberc2\_1918-1919\_193\_partial.jpg";
+BushnellSpecimen.src = "{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2\_1918-1919\_193\_partial.jpg";
 
 partialLines.forEach(line => {
 
