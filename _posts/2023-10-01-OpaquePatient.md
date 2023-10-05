@@ -11,8 +11,6 @@ author: sagar-prabhu
 pullquote: "Find out more about community archiving!"
 
 ---
-
-<br>
 <style>
     .popup {
         display: none;
@@ -25,7 +23,7 @@ pullquote: "Find out more about community archiving!"
         border-style: solid; 
         border-width: 1px; /* Added border-width */
         z-index: 9999;
-        max-width: 260px; /* Set the maximum width for the popup */
+        max-width: 220px; /* Set the maximum width for the popup */
         font-size: 15px; /* Added text size */
         font-style: oblique; /* Added text style */
     }
@@ -41,15 +39,11 @@ pullquote: "Find out more about community archiving!"
     }
 
     .toggle-buttons {
-        display: inline-flex;
-        gap: 20px;
-        padding: 10px;
-        background-color: grey;
-        border-radius: 5px;
-        justify-content: center; /* Center the buttons within the container */
-        margin: 0 auto;
+        display: flex;
+        gap: 10px;
+        margin-bottom: 10px;
     }
-    /* .toggle-button {
+    .toggle-button {
         padding: 8px 12px;
         background-color: #f1f1f1;
         border: none;
@@ -58,49 +52,18 @@ pullquote: "Find out more about community archiving!"
     }
     .toggle-button.active {
         background-color: #007bff; /* Change to your preferred active button color */
-        /* color: white;
-    }  */
-
-    .toggle-button {
-
-      background-color: #4c4843;
-      border: none;
-      color: white;
-      padding: 10px 20px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 10px;
-      cursor: pointer;
-      border-radius: 4px;
-      width: 150px;
-
+        color: white;
     }
-    /* Button styles for hover state */
-
-    .toggle-button:hover {
-      background-color: #252422;
-    }
-
-    /* Button styles for active state */
-
-    .toggle-button.active {
-      background-color: #eb5e28;
-      /* color: #252422; */
-
-    }
-
 
 </style>
 
 <div class="toggle-buttons">
-<button class="toggle-button" onclick="toggleOpacity('partial')" data-mode="partial">Partial</button>
-<button class="toggle-button" onclick="toggleOpacity('opaque')" data-mode="opaque">Opaque</button>
-<button class="toggle-button" onclick="toggleOpacity('non-opaque')" data-mode="non-opaque">Non-Opaque</button>
+<button class="toggle-button active" onclick="toggleOpacity('partial')">Partial</button>
+<button class="toggle-button" onclick="toggleOpacity('opaque')">Opaque</button>
+<button class="toggle-button" onclick="toggleOpacity('non-opaque')">Non-Opaque</button>
 </div>
 
-<img id="HenryReport" src="{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158.jpg" alt="ReportoftheHenryPhippsIns3" width="1200" height="600">
+<img id="CroftonImg" src="{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg" alt="Crofton_PulmonaryTuberculosisItsD_1917_36.jpg" style="max-width:100%;height:auto;">
 
 # Making Opaque the Patient: Loss as Critical Methodology in the History of Medicine #
 
@@ -200,77 +163,35 @@ Thank You.
     const wordTooltip = document.getElementById("word-tooltip");
     const popup = document.createElement("div");
     popup.classList.add("popup");
-    popup.innerText = "'Sanatoria','The sanatorium, sometimes called sanitarium or sanitorium, was a specialized institution where patients were able to be treated for a specific disease.";
+    popup.innerText = "Corpus refers to a large collection of texts that have been collected for statistical analysis. It is used regularly in the fields of computational linguistics and the digital humanities.";
 
-    // Attach the tooltip to a specific fixed position on the page
-    const tooltipOffsetX = 10; // Adjust the X offset (horizontal distance from the wordTooltip element)
-    const tooltipOffsetY = -16; // Adjust the Y offset (vertical distance from the wordTooltip element)
-
-    // Position the tooltip at a fixed location relative to the wordTooltip element
-    popup.style.position = "absolute";
-    popup.style.top = `${wordTooltip.offsetTop + tooltipOffsetY}px`;
-    popup.style.left = `${wordTooltip.offsetLeft + tooltipOffsetX}px`;
-
-    // Append the tooltip to the body element
-    document.body.appendChild(popup);
-
-    // Hide the tooltip initially
-    popup.style.display = "none";
-
-    // Add a mouseover event listener to the wordTooltip element
     wordTooltip.addEventListener("mouseover", () => {
+        document.body.appendChild(popup);
+        const rect = wordTooltip.getBoundingClientRect();
+        popup.style.top = `${rect.top - popup.clientHeight + 580}px`; // Adjust positioning to display above the word
+        popup.style.left = `${rect.left}px`;
         popup.style.display = "block";
     });
 
-    // Add a mouseout event listener to the wordTooltip element
     wordTooltip.addEventListener("mouseout", () => {
         popup.style.display = "none";
+        popup.remove();
     });
 
-    // wordTooltip.addEventListener("mouseover", () => {
-    //     document.body.appendChild(popup);
-    //     const rect = wordTooltip.getBoundingClientRect();
-    //     // popup.style.top = `${rect.top - popup.clientHeight + 580}px`; // Adjust positioning to display above the word
-    //     // popup.style.left = `${rect.left}px`;
-    //     // popup.style.display = "block";
-    //     const tooltipOffsetX = 10; // Adjust the X offset (horizontal distance from the word)
-    //     const tooltipOffsetY = -80; // Adjust the Y offset (vertical distance from the word)
-    //     popup.style.top = `${rect.top + tooltipOffsetY}px`; // Adjust positioning relative to the word
-    //     popup.style.left = `${rect.left + tooltipOffsetX}px`;
-    //     popup.style.display = "block";
-    // });
-
-    // wordTooltip.addEventListener("mouseout", () => {
-    //     popup.style.display = "none";
-    //     popup.remove();
-    // });
-    
     function toggleOpacity(mode) {
         const partialLines = document.querySelectorAll('.partial-lines');
         const opaqueLines = document.querySelectorAll('.opaque-lines');
-        const ChicagoPathology = document.getElementById('ChicagoPathology');
-        const CroftonFigure = document.getElementById('CroftonFigure');
-        const BushnellSpecimen = document.getElementById('BushnellSpecimen');
-
-        // Remove the "active" class from all buttons
-        const buttons = document.querySelectorAll('.toggle-button');
-        buttons.forEach(button => {
-            button.classList.remove('active');
-        });
+        const CroftonImg = document.getElementById('CroftonImg');
 
         if (mode === 'partial') {
             // Toggle partial lines
             partialLines.forEach(line => {
                 line.style.backgroundColor = '#000000'; // Set background color to black
-                ChicagoPathology.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520_partial.jpg”;
-           		CroftonFigure.src = "{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_partial.jpg";
-           		BushnellSpecimen.src = "{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193_partial.jpg";
-           		HenryReport.src = "{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158_Partial.png";
+                CroftonImg.src = "{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_partial.jpg";
             });
             // Ensure opaque lines are fully visible
             opaqueLines.forEach(line => {
                 line.style.opacity = '1';
-                line.style.backgroundColor = ''
             });
 
             
@@ -278,22 +199,15 @@ Thank You.
             // Toggle opaque lines
             opaqueLines.forEach(line => {
                 line.style.backgroundColor = '#000000'; // Set background color to black
-                ChicagoPathology.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520_full.jpg";
-                CroftonFigure.src = "{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_full.jpg";
-                BushnellSpecimen.src = "{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193_full.jpg";
-                HenryReport.src = "{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158_Full.jpg";
+                CroftonImg.src = "{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_full.jpg";
             });
             // Ensure partial lines are fully visible
             partialLines.forEach(line => {
                 line.style.opacity = '1';
-                line.style.backgroundColor = ''
             });
         }
         else if (mode === 'non-opaque'){
-           	ChicagoPathology.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520.jpg";
-            CroftonFigure.src = "{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg";
-            BushnellSpecimen.src = "{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193.jpg";
-            HenryReport.src = "{{ site.baseurl }}/assets/img/ReportoftheHenryPhippsIns3_1905-1906158.jpg";
+            CroftonImg.src = "{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg";
             partialLines.forEach(line => {
                 line.style.opacity = '1';
                 line.style.backgroundColor = ''
@@ -303,11 +217,7 @@ Thank You.
                 line.style.backgroundColor = ''
             });
         }
-
-        // Add the "active" class to the clicked button
-        const activeButton = document.querySelector(`button[data-mode="${mode}"]`);
-        activeButton.classList.add('active');
-        
     }
 
 </script>
+
