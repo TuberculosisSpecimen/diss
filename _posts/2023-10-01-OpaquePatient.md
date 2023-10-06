@@ -58,7 +58,6 @@ pullquote: "A presentation for USC's First Forum Conference."
 <button class="toggle-button" onclick="toggleOpacity('non-opaque')">Non-Opaque</button>
 </div>
 
-
 # Making Opaque the Patient: Loss as Critical Methodology in the History of Medicine[^fn1] #
 
 I want to start with three images from the history of tuberculosis; these three pictures are ones I regularly return to when writing, and are ones that help me articulate the kind of useful, ethical loss which I argue for today. They come from three different publications in a [larger corpus of around 700 textbooks, journals, and government reports made between 1882 and 1926](https://babel.hathitrust.org/cgi/mb?a=listis&c=441640771https://babel.hathitrust.org/cgi/mb?a=listis&c=441640771). 
@@ -175,6 +174,7 @@ Thank You.
 [^fn20]: See: Johns, Martin K. “Informed Consent for Clinical Photography.” *Journal of Audiovisual Media in Medicine* 25, no. 2 (2002): 59--63; Berle, Ian. “The Ethical Context of Clinical Photography.” *Journal of Audiovisual Media in Medicine* 25, no. 3 (2002): 106--9.
 
 [^fn21]: Chris Marker. *Sans Soleil*, 1984.
+
 <hr>
 
 <script>
