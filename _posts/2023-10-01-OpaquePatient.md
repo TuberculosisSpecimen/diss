@@ -63,7 +63,6 @@ pullquote: "Find out more about community archiving!"
 <button class="toggle-button" onclick="toggleOpacity('non-opaque')">Non-Opaque</button>
 </div>
 
-<img id="CroftonImg" src="{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg" alt="Crofton_PulmonaryTuberculosisItsD_1917_36.jpg" style="max-width:100%;height:auto;">
 
 # Making Opaque the Patient: Loss as Critical Methodology in the History of Medicine #
 
@@ -77,7 +76,7 @@ Figure 1. Picture of the pathology lab of the Municipal Tuberculosis Sanatorium.
 
 The second image is of a patient, photographed for use in W. M. Crofton’s *Pulmonary Tuberculosis: Its Diagnosis, Prevention and Treatment* (fig.2). Found in a short book for the aid of doctors, this image displays visual symptoms of tuberculosis as it appears on the body of a male patient. The diagrams were most likely added after the initial exposure. 
 
-<img id="CroftonFigure" src="{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg" alt="A picture of a patient showing the ways to diagnose tuberculosis through vision." style="max-width:100%;height:auto;">
+<img id="CroftonFigure" src="{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg" alt="A picture of a patient showing the ways to diagnose tuberculosis through vision." style="max-width:auto;height:100%;">
 
 
 Figure 2. A photograph of a man with tuberculosis with drawn material added to the image to aid in the diagnosis of the disease. Found in Crofton, W. M.. *Pulmonary Tuberculosis: Its Diagnosis, Prevention and Treatment*. (Philadelphia: P. Blakiston's Son & Co., 1917), 16. [Link to HathiTrust version](https://hdl.handle.net/2027/chi.087018856?urlappend=%3Bseq=35%3Bownerid=13510798902025121-39).
@@ -181,13 +180,15 @@ Thank You.
     function toggleOpacity(mode) {
         const partialLines = document.querySelectorAll('.partial-lines');
         const opaqueLines = document.querySelectorAll('.opaque-lines');
-        const CroftonImg = document.getElementById('CroftonImg');
+        const ChicagoPathology = document.getElementById('ChicagoPathology');
 
         if (mode === 'partial') {
             // Toggle partial lines
             partialLines.forEach(line => {
                 line.style.backgroundColor = '#000000'; // Set background color to black
-                CroftonImg.src = "{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_partial.jpg";
+                ChicagoPathology.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520_partial.jpg";
+                CroftonFigure.src = "{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_partial.jpg";
+                BushnellSpecimen.src = "{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193_partial.jpg";
             });
             // Ensure opaque lines are fully visible
             opaqueLines.forEach(line => {
@@ -199,7 +200,9 @@ Thank You.
             // Toggle opaque lines
             opaqueLines.forEach(line => {
                 line.style.backgroundColor = '#000000'; // Set background color to black
-                CroftonImg.src = "{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_full.jpg";
+                ChicagoPathology.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520_full.jpg";
+                CroftonFigure.src = "{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36_OP_full.jpg";
+                BushnellSpecimen.src = "{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193_full.jpg";
             });
             // Ensure partial lines are fully visible
             partialLines.forEach(line => {
@@ -207,7 +210,9 @@ Thank You.
             });
         }
         else if (mode === 'non-opaque'){
-            CroftonImg.src = "{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg";
+            ChicagoPathology.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520.jpg";
+            CroftonFigure.src = "{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg";
+            BushnellSpecimen.src = "{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193.jpg";
             partialLines.forEach(line => {
                 line.style.opacity = '1';
                 line.style.backgroundColor = ''
