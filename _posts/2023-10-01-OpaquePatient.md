@@ -113,9 +113,9 @@ The dissertation platform makes opacity literal in two ways and at three levels.
 
 1. Non-opaque adds no filtering whatsoever to the images or text. It is just as I have written them.
 
-1. Partial opaque applies opacity in such a way as to protect the privacy of the patient, but keeps the scientific information gleaned from the subject in tact. This corresponds with contemporary norms regarding privacy and images.[^fn20]
+<span class="opaque-lines"><span class="partial-lines">1. Partial opaque applies opacity in such a way as to protect the privacy of the patient, but keeps the scientific information gleaned from the subject in tact. This corresponds with contemporary norms regarding privacy and images.</span>[^fn20]
 
-1. Finally, full opacity takes into consideration that the subject probably didn’t consent in the first place, and erases all index of the body (direct or indirect) from the image itself.
+1. Finally, full opacity takes into consideration that the subject probably didn’t consent in the first place, and erases all index of the body (direct or indirect) from the image itself.</span>
 
 Returning to the three photographs I started this paper with, what happens when I apply these levels of opacity to the image? What happens when I continue to flatten them, damage them, erase potentially valuable data points? (For online viewers, this functionality is on this site!)
 
