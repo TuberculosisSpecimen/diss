@@ -10,8 +10,6 @@ sectiondisplay: 1
 subsectiondisplay: 2
 ---
 
-# 4.1.2 Arts-Based Research #
-
 This dissertation and the platform upon which it is published were produced as parts of a mixture of arts-based and design-based methods. I use these terms specifically to point to trends in separate, but intertwined, discourses in arts production and the digital humanities (DH). More broadly this whole project is concieved as a practice-based research project, which refers to the use of both of these knowledge forms.[^fn1] This section outlines what I mean by arts-based research, with some discussion of how design-based research overlaps with these ideas. I will be avoiding some of the arguments made by critical DH, which can be found in the next chapter (5.x.x).
 
 As I was working on this dissertation and the art projects described in this chapter, I found myself thinking most of Holly Willis’ notion of the “scholar/practitioner”, a set of creative professionals “who. through their practice, are able to contribute new concepts, methods and models in order to participate in the production of original knoweldge.”[^fn2] Willis, whose work at USC and interest in avant-garde and experimental media, witnessed and documented a shift in cinematic practice as it happened in the Los Angeles area. Her book, *Fast Forward: The Future(s) of the Cinematic Arts* is a taster course in the varried practices which emerged in the city in the late aughts and early teens, and the scholar/practitioner---an interdisciplinary, communal producer of knowledge between new technologies and existing epistemic structures---was a canny means to describe what she witnessed.

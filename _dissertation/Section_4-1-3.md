@@ -1,6 +1,6 @@
 ---
 layout: section
-title: “Opacity"
+title: “The Tactical Arts"
 identifier: 4.1.3
 chapter: 4
 section: 001
@@ -9,8 +9,6 @@ chapterdisplay: 4
 sectiondisplay: 1
 subsectiondisplay: 3
 ---
-
-# 4.1.3 The Tactical Arts #
 
 In past drafts of this chapter, I have tried to outline my own arts-based method. These drafts were filled with nebulous theory work, which read closer to a polemic than an articulation as to what constitutes an arts-based research project. I found myself writing about two issues of arts-based work: first, it is very difficult to define a creative methodology because it is necessarily bespoke, and second, arts-based research is supposed to do *something* that other methods and frames cannot do. How should I go about defining a *specifically undefinable* research practice? How do I articulate this approach to scholarship without bloviating about the problems of knowledge production?
 
