@@ -1,6 +1,6 @@
 ---
 layout: section
-title: “Three Steps Back: The Reflective Arts”
+title: “Three Steps Back: The Reflective Arts"
 identifier: 4.1.1
 chapter: 4
 section: 001
