@@ -10,6 +10,8 @@ sectiondisplay: 1
 subsectiondisplay: 1
 ---
 
+# 4.1.1 Three Steps Back: The Reflective Arts #
+
 In 2016 I reedited “The Modern Orpheus”. a short film that I had originally produced in 2014 as a school project. This film was, ostensibly, about the history of the atomic bomb, its aftermath, and my wide eyed horror, as well as my guilt, about the images the United States produced to study the aftermaths of the Hiroshima and Nagasaki bombings (figs. 1 - 2). The film’s title, “The Modern Orpheus”, made reference to two texts: the secondary title to Mary Shelly’s *Frankenstein*, *Or the Modern Prometheus*, and to the Grecian Orpheus myth. Mary Shelly’s *Frankenstein* responded to the rise of the emirical sciences, and was written out of Shelly’s own experience watching grave-robbers while visiting her mother’s grave.[^fn1] Orpheus is an oft remixed tale of love, loss, and the failure in trust, as Orpheus’ undoing is his gaze: he looks back to see if Eurydice is following him out of the underworld. 
 
 <img id="modorph2" src="{{ site.baseurl }}/assets/items/Modorph2.jpg" alt="Pathology Room of the Research Laboratory" style="max-width:100%;height:auto;">
@@ -18,34 +20,37 @@ Figure 1. A still from *The Modern Orpheus*. This was originally footage taken b
 
 <img id="modorph1" src="{{ site.baseurl }}/assets/items/Modorph1.jpg" alt="Pathology Room of the Research Laboratory" style="max-width:100%;height:auto;">
 
-Figure 3. A still from *The Modern Orpheus*. This image shows a Japanese subject suffering from health problems related to the bomb was used multiple times in multiple ways in the film.
+Figure 2. A still from *The Modern Orpheus*. This image shows a Japanese subject suffering from health problems related to the bomb was used multiple times in multiple ways in the film.
 
 <img id="modorph3" src="{{ site.baseurl }}/assets/items/Modorph3.jpg" alt="Pathology Room of the Research Laboratory" style="max-width:100%;height:auto;">
 
-Figure 2. A still from *The Modern Orpheus*. This image is one of many images in the collected video for the project. A patient is shown with obvious wounds from the bomb, and filmed for some spurious scientific purpose, but more looks like they are reflecting on their own pain.
+Figure 3. A still from *The Modern Orpheus*. This image is one of many images in the collected video for the project. A patient is shown with obvious wounds from the bomb, and filmed for some spurious scientific purpose, but more looks like they are reflecting on their own pain.
 
 The mix of these two threads expressed a desire to see, and saw this act of seeing as a kind of remembering. Rather than portraying the Orpheus myth as a tragedy, I saw it as a kind of necessary truth telling having witnessed the ruin of history.[^fn2] One of the films two narrators, a female speaker, makes this theme legible: she asks, “Do you remember Orpheus? By staring back, he trapped his love Eurydice in the underworld. He could not conquer death, but he could speak it, and by uttering that truth, he made it real.”[^fn3]  
 
 This notion of visual truth telling came out of the production process. The film was made of primarily archival materials (and some footage of a past failed project). I had visited the National Archives in Park Slope in the Summer of 2013, hoping to copy some of the footage that the United States had collected in the aftermath of Hiroshima and Nagasaki bombings. When I started watching the hours of material, I found myself caught in a roiling current of guilt, which had been masked by layers of American imperialism and American exceptionalism. Reflecting on this, in some promotional materials prepared for the film’s short festival run, I wrote,  “While I collected images, I found myself appalled by what I had unearthed. These images of the survivors of Hiroshima and Nagasaki were so coldly collected. How could any ethical filmmaker agree to shoot images like these? How could anyone approach this work with such nonchalance?”[^fn4]
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tNUkgbA7tTo?si=cvSacw0dpkf2mhNu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+Video 1. *The Modern Orpheus*. Dir. Sean Purcell.
 
 Unlike the preceding chapters, this chapter is not about tuberculosis. This chapter instead addresses my artistic practice and how it informs my research (4.1.2). I am stepping back a few steps, self-mythologizing my previous work, to piece together a larger series of themes and problems that predate this project: health, science, individual guilt, and a history of violence hover over the images  and they are called out by the other narator, a male speaker: 
 
 >There is an argument to these images. The purest oppression is annihilation, and these documents express a biased scientific record: a sterilized, distorted vision through a victor’s lens. 
+
 >An American captured these images.
+
 >I know this language. The camera eye dissects the survivors. The individual is obliterated.[^fn5] 
 
 In “The Modern Orpheus”, I tried to reconceptualize this violent image, to make it known, to make it hurt a viewer in such a way to move an audience to reconsidering the past. I also felt successively more uncomfortable with the image itself. I sought to shift it, in the way Chris Marker evoked André Tarkovsky’s “the zone” in his 1984 film *Sans Soleil*. Playing with layering high contrast filters, I wondered if I could flatten the image, to undo the clinical vision of American doctors (figs. 4 - 5).[^fn6]
 
 <img id="modorphzone1" src="{{ site.baseurl }}/assets/items/Modorphzone1.jpg" alt="Pathology Room of the Research Laboratory" style="max-width:100%;height:auto;">
-Figure 6.
+Figure 4.
 
 <img id="modorphzone2" src="{{ site.baseurl }}/assets/items/Modorphzone2.jpg" alt="Pathology Room of the Research Laboratory" style="max-width:100%;height:auto;">
-Figure 7.
+Figure 5.
 
 <img id="modorphzone3" src="{{ site.baseurl }}/assets/items/Modorphzone3.jpg" alt="Pathology Room of the Research Laboratory" style="max-width:100%;height:auto;">
-Figure 8. 
+Figure 6. 
 
 This chapter will reflect on a series of art works I produced between 2021 and 2023.[^fn7] These works specifically deal with the health sciences as I developed methods for humanist-facing, arts-based research (4.1.3; 4.6.0). I will spend time with these objects to reflect on the successes and failures of each. The concerns about the sick patient, their subjugation under a series of overlapping gazes, and an ethical imperative to reframe and remake these images stretches over close to decade of creative work. I will focus on four projects---*Terminal Imaginaries* & *Tuberculous Imaginaries* (4.2.0), “Dermographic Opacities” (4.3.0),  and *Tuberscopia* (4.4.0). These successive projects ranging from projector-based installations, to sculptural work, to a photo essay show a series of different approaches to the medical image. 
 
