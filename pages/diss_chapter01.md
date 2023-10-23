@@ -19,7 +19,7 @@ chapterno: 1
 
 <script>
 	const DefCorpus = document.getElementById("definition-corpus");
-    const popup = document.createElement("div");
+    const popup-corpus = document.createElement("div");
     popup-corpus.classList.add("popup-corpus");
     popup-corpus.innerText = "Corpus here refers to the creation of a collection of written texts which are used for quantitative analysis. Most commonly, corpuses are constructed for computational linguistic studies, but are also used by digital humanists interested in textual analysis.";
 
