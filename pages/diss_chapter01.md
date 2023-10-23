@@ -26,7 +26,7 @@ chapterno: 1
     DefCorpus.addEventListener("mouseover", () => {
         document.body.appendChild(popup);
         const rect = DefCorpus.getBoundingClientRect();
-        popup-corpus.style.top = `${rect.top - popup.clientHeight + 580}px`; // Adjust positioning to display above the word
+        popup-corpus.style.top = `${rect.top - popup-corpus.clientHeight + 580}px`; // Adjust positioning to display above the word
         popup-corpus.style.left = `${rect.left}px`;
         popup-corpus.style.display = "block";
     });
