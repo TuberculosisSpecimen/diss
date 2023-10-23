@@ -24,7 +24,7 @@ chapterno: 1
     popup-corpus.innerText = "Corpus here refers to the creation of a collection of written texts which are used for quantitative analysis. Most commonly, corpuses are constructed for computational linguistic studies, but are also used by digital humanists interested in textual analysis.";
 
     DefCorpus.addEventListener("mouseover", () => {
-        document.body.appendChild(popup);
+        document.body.appendChild(popup-corpus);
         const rect = DefCorpus.getBoundingClientRect();
         popup-corpus.style.top = `${rect.top - popup-corpus.clientHeight + 580}px`; // Adjust positioning to display above the word
         popup-corpus.style.left = `${rect.left}px`;
