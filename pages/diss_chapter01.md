@@ -22,11 +22,21 @@ chapterno: 1
     const popup = document.createElement("div");
     popup.classList.add("popup-corpus");
     popup.innerText = "Corpus here refers to the creation of a collection of written texts which are used for quantitative analysis. Most commonly, corpuses are constructed for computational linguistic studies, but are also used by digital humanists interested in textual analysis.";
+    
+    // Attach the tooltip to a specific fixed position on the page
+    const tooltipOffsetX = 10; // Adjust the X offset (horizontal distance from the wordTooltip element)
+    const tooltipOffsetY = -16; // Adjust the Y offset (vertical distance from the wordTooltip element)
    
     // Position the tooltip at a fixed location relative to the wordTooltip element
     popup.style.position = "absolute";
     popup.style.top = `${DefCorpus.offsetTop + tooltipOffsetY}px`;
     popup.style.left = `${DefCorpus.offsetLeft + tooltipOffsetX}px`;
+    
+      // Append the tooltip to the body element
+    document.body.appendChild(popup);
+
+    // Hide the tooltip initially
+    popup.style.display = "none";
    
     // Add a mouseover event listener to the wordTooltip element
     DefCorpus.addEventListener("mouseover", () => {
@@ -113,16 +123,5 @@ chapterno: 1
     DefPower.addEventListener("mouseout", () => {
         popup.style.display = "none";
     });
-    
-
-    // Attach the tooltip to a specific fixed position on the page
-    const tooltipOffsetX = 10; // Adjust the X offset (horizontal distance from the wordTooltip element)
-    const tooltipOffsetY = -16; // Adjust the Y offset (vertical distance from the wordTooltip element)
-
-    // Append the tooltip to the body element
-    document.body.appendChild(popup);
-
-    // Hide the tooltip initially
-    popup.style.display = "none";
 	
 </script>
