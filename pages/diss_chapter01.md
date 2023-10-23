@@ -89,20 +89,6 @@ chapterno: 1
         popup.style.display = "none";
     });
     
-    const DefRomantic = document.getElementById("definition-romantic");
-    popup.classList.add("popup-romantic");
-    popup.innerText = "Romantic, as I am using it, refers to a historical period at the turn of the nineteenth century. The Romantic disposition was commonly associated with tuberculosis, as Romantic poet John Keats famously died young (in 1821) having been restlessly consumed by his tubercular ailment.";
-    
-    // Add a mouseover event listener to the wordTooltip element
-    DefRomantic.addEventListener("mouseover", () => {
-        popup.style.display = "block";
-    });
-
-    // Add a mouseout event listener to the wordTooltip element
-    DefRomantic.addEventListener("mouseout", () => {
-        popup.style.display = "none";
-    });
-    
 
     // Attach the tooltip to a specific fixed position on the page
     const tooltipOffsetX = 10; // Adjust the X offset (horizontal distance from the wordTooltip element)
