@@ -18,18 +18,34 @@ chapterno: 1
 {% endfor %}
 
 <script>
-	const DefCorpus = document.getElementById("definition-corpus");
+	const wordTooltip = document.getElementById("definition-corpus");
     const popup = document.createElement("div");
-    popup.classList.add("popup");
+    popup.classList.add("popup-corpus");
     popup.innerText = "Corpus here refers to the creation of a collection of written texts which are used for quantitative analysis. Most commonly, corpuses are constructed for computational linguistic studies, but are also used by digital humanists interested in textual analysis.";
 
-    DefCorpus.addEventListener("mouseover", () => {
-        document.body.appendChild(popup);
-        const rect = DefCorpus.getBoundingClientRect();
-        popup.style.top = `${rect.top - popup.clientHeight + 580}px`; // Adjust positioning to display above the word
-        popup.style.left = `${rect.left}px`;
+    // Attach the tooltip to a specific fixed position on the page
+    const tooltipOffsetX = 10; // Adjust the X offset (horizontal distance from the wordTooltip element)
+    const tooltipOffsetY = -16; // Adjust the Y offset (vertical distance from the wordTooltip element)
+
+    // Position the tooltip at a fixed location relative to the wordTooltip element
+    popup.style.position = "absolute";
+    popup.style.top = `${wordTooltip.offsetTop + tooltipOffsetY}px`;
+    popup.style.left = `${wordTooltip.offsetLeft + tooltipOffsetX}px`;
+
+    // Append the tooltip to the body element
+    document.body.appendChild(popup);
+
+    // Hide the tooltip initially
+    popup.style.display = "none";
+
+    // Add a mouseover event listener to the wordTooltip element
+    wordTooltip.addEventListener("mouseover", () => {
         popup.style.display = "block";
     });
-    
-    
+
+    // Add a mouseout event listener to the wordTooltip element
+    wordTooltip.addEventListener("mouseout", () => {
+        popup.style.display = "none";
+    });
+	
 </script>
