@@ -18,7 +18,7 @@ chapterno: 1
 {% endfor %}
 
 <script>
-const DefCorpus = document.getElementById("definition-corpus");
+	const DefCorpus = document.getElementById("definition-corpus");
     const popup = document.createElement("div");
     popup.classList.add("popup");
     popup.innerText = "Corpus here refers to the creation of a collection of written texts which are used for quantitative analysis. Most commonly, corpuses are constructed for computational linguistic studies, but are also used by digital humanists interested in textual analysis.";
@@ -31,7 +31,7 @@ const DefCorpus = document.getElementById("definition-corpus");
         popup.style.display = "block";
     });
     
-const DefClinicVis = document.getElementById("definition-clinicvis");
+	const DefClinicVis = document.getElementById("definition-clinicvis");
     const popup = document.createElement("div");
     popup.classList.add("popup");
     popup.innerText = "The clinical gaze refers to the ways doctors will objectify their patients by focusing on supposedly aberrant symptoms and their relationship to an idealized “normal” human body.";
