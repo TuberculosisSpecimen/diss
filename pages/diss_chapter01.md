@@ -20,14 +20,16 @@ chapterno: 1
 <script>
 	const DefCorpus = document.getElementById("definition-corpus");
     const popup = document.createElement("div");
-    popup.classList.add("popup");
-    popup.innerText = "Corpus here refers to the creation of a collection of written texts which are used for quantitative analysis. Most commonly, corpuses are constructed for computational linguistic studies, but are also used by digital humanists interested in textual analysis.";
+    popup-corpus.classList.add("popup-corpus");
+    popup-corpus.innerText = "Corpus here refers to the creation of a collection of written texts which are used for quantitative analysis. Most commonly, corpuses are constructed for computational linguistic studies, but are also used by digital humanists interested in textual analysis.";
 
     DefCorpus.addEventListener("mouseover", () => {
         document.body.appendChild(popup);
         const rect = DefCorpus.getBoundingClientRect();
-        popup.style.top = `${rect.top - popup.clientHeight + 580}px`; // Adjust positioning to display above the word
-        popup.style.left = `${rect.left}px`;
-        popup.style.display = "block";
+        popup-corpus.style.top = `${rect.top - popup.clientHeight + 580}px`; // Adjust positioning to display above the word
+        popup-corpus.style.left = `${rect.left}px`;
+        popup-corpus.style.display = "block";
     });
+    
+    
 </script>
