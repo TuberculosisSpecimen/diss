@@ -26,6 +26,11 @@ chapterno: 1
     // Attach the tooltip to a specific fixed position on the page
     const tooltipOffsetX = 10; // Adjust the X offset (horizontal distance from the wordTooltip element)
     const tooltipOffsetY = -16; // Adjust the Y offset (vertical distance from the wordTooltip element)
+   
+    // Position the tooltip at a fixed location relative to the wordTooltip element
+    popup.style.position = "absolute";
+    popup.style.top = `${tooltipOffsetY}px`;
+    popup.style.left = `${tooltipOffsetX}px`;
     
       // Append the tooltip to the body element
     document.body.appendChild(popup);
