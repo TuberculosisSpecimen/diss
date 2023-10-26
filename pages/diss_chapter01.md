@@ -41,7 +41,7 @@ chapterno: 1
     popupinterdisc.innerText = "I use interdisciplinary to describe a conversation with and adoption of different methods practiced by a range of academic fields.";
 
     DefInterdisc.addEventListener("mouseover", () => {
-        document.body.appendChild(popupingterdisc);
+        document.body.appendChild(popupinterdisc);
         const rect = DefInterdisc.getBoundingClientRect();
         popupinterdisc.style.top = `${rect.top - popupinterdisc.clientHeight + 580}px`; // Adjust positioning to display above the word
         popupinterdisc.style.left = `${rect.left}px`;
