@@ -43,7 +43,7 @@ chapterno: 1
     DefInterdisc.addEventListener("mouseover", () => {
         document.body.appendChild(popupinterdisc);
         const rect = DefInterdisc.getBoundingClientRect();
-        popupinterdisc.style.top = `${rect.top - popupinterdisc.clientHeight + 580}px`; // Adjust positioning to display above the word
+        popupinterdisc.style.top = `${rect.top}px`; // Adjust positioning to display above the word
         popupinterdisc.style.left = `${rect.left}px`;
         popupinterdisc.style.display = "block";
     });
