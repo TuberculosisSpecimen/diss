@@ -26,7 +26,7 @@ Figure 1. An example of a Christmas seal. These popular pieces of postage were s
 
 Figure 2. An exhibit showing the unhealthy living condition of the poor in New York City. The banner above the exhibit reads “Type of tenement house room as first seen by Department of Health Nurse. Man is ill with tuberculosis. Baby is ill with Scarlet Fever. Others are in danger of infection. Family is destitute.” Image courtesy of the New York Academy of Medicine.
 
-<img id="FirstHealthExposition_1921_0001" src="{{ site.baseurl }}/assets/items/FirstHealthExposition_1921_0001.jpg" alt="An exhibition showing the benefits of a healthy living environment." style="max-width:50%;height:auto;">
+<img id="FirstHealthExposition_1921_0001_cropped_" src="{{ site.baseurl }}/assets/items/FirstHealthExposition_1921_0001.jpg" alt="An exhibition showing the benefits of a healthy living environment." style="max-width:50%;height:auto;">
 
 Figure 3. An exhibit next to the one pictured above. Hygienic living has improved the lives of the family hear. The banner above the exhibit reads: “Same room after nurse has performed her duties. Man has been removed to Sanatorium. Baby has been removed to hospital. Financial aid has been obtained and landlord has been induced to paint room. Instruction has been given to mother in personal hygiene, cleaning up, order, proper diet.” Image courtesy of The New York Academy of Medicine.
 
@@ -54,7 +54,7 @@ Figure 7. An image of the chemistry room in the City of Chicago Municipal Tuberc
 
 Figure 8. A photograph of patients and caregivers on the porch of the Muskoka Free Hospital. Brandt, Lilian. *A Directory of Institutions and Societies Dealing with Tuberculosis in the United States and Canada*. (New York: , 1904).
 
-<img id="_PamphletsHomeopathic_1899-1909_222" src="{{ site.baseurl }}/assets/items/_PamphletsHomeopathic_1899-1909_222.jpg" alt="Patients gathered on a poach at the Adirondack Cottage Sanatorium." style="max-width:50%;height:auto;">
+<img id="_PamphletsHomeopathic_1899-1909_222" src="{{ site.baseurl }}/assets/items/PamphletsHomeopathic_1899-1909_222.jpg" alt="Patients gathered on a poach at the Adirondack Cottage Sanatorium." style="max-width:50%;height:auto;">
 
 Figure 9. A photograph of patients at Trudeau’s Adirondack Cottage Sanatorium taking the rest cure. *Pamphlets Homeopathic*. (1899-1909). [!!!PageNumber]
 
