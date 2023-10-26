@@ -19,9 +19,9 @@ chapterno: 1
 
 <script>
 	const DefCorpus = document.getElementById("definition-corpus");
-    const popupdiv = document.createElement("div");
-    popup.classList.add("popup-corpus");
-    popup.innerText = "Corpus here refers to the creation of a collection of written texts which are used for quantitative analysis. Most commonly, corpuses are constructed for computational linguistic studies, but are also used by digital humanists interested in textual analysis.";
+    const popupcorpus = document.createElement("div");
+    popupcorpus.classList.add("popup-corpus");
+    popupcorpus.innerText = "Corpus here refers to the creation of a collection of written texts which are used for quantitative analysis. Most commonly, corpuses are constructed for computational linguistic studies, but are also used by digital humanists interested in textual analysis.";
 
     DefCorpus.addEventListener("mouseover", () => {
         document.body.appendChild(popup);
@@ -36,10 +36,11 @@ chapterno: 1
         popup.remove();
     });
     const DefInterdisc = document.getElementById("word-interdisc");
-    popup.classList.add("popup-interdisc");
-    popup.innerText = "I use interdisciplinary to describe a conversation with and adoption of different methods practiced by a range of academic fields.";
+    const popupinterdisc = document.createElement("div");
+    popupinterdisc.classList.add("popup-interdisc");
+    popupinterdisc.innerText = "I use interdisciplinary to describe a conversation with and adoption of different methods practiced by a range of academic fields.";
 
-    popupdiv.addEventListener("mouseover", () => {
+    DefInterdisc.addEventListener("mouseover", () => {
         document.body.appendChild(popup);
         const rect = DefInterdisc.getBoundingClientRect();
         popup.style.top = `${rect.top - popup.clientHeight + 580}px`; // Adjust positioning to display above the word
