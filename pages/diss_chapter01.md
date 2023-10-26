@@ -18,40 +18,33 @@ chapterno: 1
 {% endfor %}
 
 <script>
-	const DefCorpus = document.getElementById("definition-corpus");
-    const popupcorpus = document.createElement("div");
-    popupcorpus.classList.add("popup-corpus");
-    popupcorpus.innerText = "Corpus here refers to the creation of a collection of written texts which are used for quantitative analysis. Most commonly, corpuses are constructed for computational linguistic studies, but are also used by digital humanists interested in textual analysis.";
+	 const DefCorpus = document.getElementById("definition-corpus");
+    const popup = document.createElement("div");
+    popup.classList.add("popup");
+    popup.innerText = "Corpus here refers to the creation of a collection of written texts which are used for quantitative analysis. Most commonly, corpuses are constructed for computational linguistic studies, but are also used by digital humanists interested in textual analysis";
 
-    const DefInterdisc = document.getElementById("word-interdisc");
-    const popupinterdisc = document.createElement("div");
-    popupinterdisc.classList.add("popup-interdisc");
-    popupinterdisc.innerText = "I use interdisciplinary to describe a conversation with and adoption of different methods practiced by a range of academic fields.";
+    const tooltipOffsetX = 10; // Adjust the X offset (horizontal distance from the DefCorpus element)
+    const tooltipOffsetY = -16; // Adjust the Y offset (vertical distance from the DefCorpus element)
 
- 	DefCorpus.addEventListener("mouseover", () => {
-        document.body.appendChild(popupcorpus);
-        const rect = DefCorpus.getBoundingClientRect();
-        popupcorpus.style.top = `${rect.top - popupcorpus.clientHeight + 580}px`; // Adjust positioning to display above the word
-        popupcorpus.style.left = `${rect.left}px`;
-        popupcorpus.style.display = "block";
+
+    popup.style.position = "absolute";
+    popup.style.top = `${DefCorpus.offsetTop + tooltipOffsetY}px`;
+    popup.style.left = `${DefCorpus.offsetLeft + tooltipOffsetX}px`;
+
+    // Append the tooltip to the body element
+    document.body.appendChild(popup);
+
+    // Hide the tooltip initially
+    popup.style.display = "none";
+
+    // Add a mouseover event listener to the DefCorpus element
+    DefCorpus.addEventListener("mouseover", () => {
+        popup.style.display = "block";
     });
-    
-    DefInterdisc.addEventListener("mouseover", () => {
-        document.body.appendChild(popupinterdisc);
-        const rect = DefInterdisc.getBoundingClientRect();
-        popupinterdisc.style.top = `${rect.top}px`; // Adjust positioning to display above the word
-        popupinterdisc.style.left = `${rect.left}px`;
-        popupinterdisc.style.display = "block";
-    });
-    
-	DefCorpus.addEventListener("mouseout", () => {
-        popupcorpus.style.display = "none";
-        popupcorpus.remove();
-    });
-    
-    DefInterdisc.addEventListener("mouseout", () => {
-        popupinterdisc.style.display = "none";
-        popupinterdisc.remove();
+
+    // Add a mouseout event listener to the DefCorpus element
+    DefCorpus.addEventListener("mouseout", () => {
+        popup.style.display = "none";
     });
     
 </script>
