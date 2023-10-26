@@ -35,4 +35,21 @@ chapterno: 1
         popup.style.display = "none";
         popup.remove();
     });
+    const DefInterdisc = document.getElementById("word-tooltip");
+    const popup = document.createElement("div");
+    popup.classList.add("popup");
+    popup.innerText = "I use interdisciplinary to describe a conversation with and adoption of different methods practiced by a range of academic fields.";
+
+    DefInterdisc.addEventListener("mouseover", () => {
+        document.body.appendChild(popup);
+        const rect = DefInterdisc.getBoundingClientRect();
+        popup.style.top = `${rect.top - popup.clientHeight + 580}px`; // Adjust positioning to display above the word
+        popup.style.left = `${rect.left}px`;
+        popup.style.display = "block";
+    });
+
+    DefInterdisc.addEventListener("mouseout", () => {
+        popup.style.display = "none";
+        popup.remove();
+    });
 </script>
