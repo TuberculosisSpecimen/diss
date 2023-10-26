@@ -26,14 +26,14 @@ chapterno: 1
     DefCorpus.addEventListener("mouseover", () => {
         document.body.appendChild(popupcorpus);
         const rect = DefCorpus.getBoundingClientRect();
-        popup.style.top = `${rect.top - popup.clientHeight + 580}px`; // Adjust positioning to display above the word
-        popup.style.left = `${rect.left}px`;
-        popup.style.display = "block";
+        popupcorpus.style.top = `${rect.top - popupcorpus.clientHeight + 580}px`; // Adjust positioning to display above the word
+        popupcorpus.style.left = `${rect.left}px`;
+        popupcorpus.style.display = "block";
     });
 
     DefCorpus.addEventListener("mouseout", () => {
-        popup.style.display = "none";
-        popup.remove();
+        popupcorpus.style.display = "none";
+        popupcorpus.remove();
     });
     const DefInterdisc = document.getElementById("word-interdisc");
     const popupinterdisc = document.createElement("div");
@@ -43,14 +43,14 @@ chapterno: 1
     DefInterdisc.addEventListener("mouseover", () => {
         document.body.appendChild(popupingterdisc);
         const rect = DefInterdisc.getBoundingClientRect();
-        popup.style.top = `${rect.top - popup.clientHeight + 580}px`; // Adjust positioning to display above the word
-        popup.style.left = `${rect.left}px`;
-        popup.style.display = "block";
+        popupinterdisc.style.top = `${rect.top - popupinterdisc.clientHeight + 580}px`; // Adjust positioning to display above the word
+        popupinterdisc.style.left = `${rect.left}px`;
+        popupinterdisc.style.display = "block";
     });
 
     DefInterdisc.addEventListener("mouseout", () => {
-        popup.style.display = "none";
-        popup.remove();
+        popupinterdisc.style.display = "none";
+        popupinterdisc.remove();
     });
     
 </script>
