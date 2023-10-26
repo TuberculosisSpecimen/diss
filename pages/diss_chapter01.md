@@ -23,23 +23,19 @@ chapterno: 1
     popupcorpus.classList.add("popup-corpus");
     popupcorpus.innerText = "Corpus here refers to the creation of a collection of written texts which are used for quantitative analysis. Most commonly, corpuses are constructed for computational linguistic studies, but are also used by digital humanists interested in textual analysis.";
 
-    DefCorpus.addEventListener("mouseover", () => {
+    const DefInterdisc = document.getElementById("word-interdisc");
+    const popupinterdisc = document.createElement("div");
+    popupinterdisc.classList.add("popup-interdisc");
+    popupinterdisc.innerText = "I use interdisciplinary to describe a conversation with and adoption of different methods practiced by a range of academic fields.";
+
+ 	DefCorpus.addEventListener("mouseover", () => {
         document.body.appendChild(popupcorpus);
         const rect = DefCorpus.getBoundingClientRect();
         popupcorpus.style.top = `${rect.top - popupcorpus.clientHeight + 580}px`; // Adjust positioning to display above the word
         popupcorpus.style.left = `${rect.left}px`;
         popupcorpus.style.display = "block";
     });
-
-    DefCorpus.addEventListener("mouseout", () => {
-        popupcorpus.style.display = "none";
-        popupcorpus.remove();
-    });
-    const DefInterdisc = document.getElementById("word-interdisc");
-    const popupinterdisc = document.createElement("div");
-    popupinterdisc.classList.add("popup-interdisc");
-    popupinterdisc.innerText = "I use interdisciplinary to describe a conversation with and adoption of different methods practiced by a range of academic fields.";
-
+    
     DefInterdisc.addEventListener("mouseover", () => {
         document.body.appendChild(popupinterdisc);
         const rect = DefInterdisc.getBoundingClientRect();
@@ -47,7 +43,12 @@ chapterno: 1
         popupinterdisc.style.left = `${rect.left}px`;
         popupinterdisc.style.display = "block";
     });
-
+    
+	DefCorpus.addEventListener("mouseout", () => {
+        popupcorpus.style.display = "none";
+        popupcorpus.remove();
+    });
+    
     DefInterdisc.addEventListener("mouseout", () => {
         popupinterdisc.style.display = "none";
         popupinterdisc.remove();
