@@ -20,7 +20,7 @@ chapterno: 1
 <script>
 	const DefCorpus = document.getElementById("definition-corpus");
     const popup = document.createElement("div");
-    popup.classList.add("popup");
+    popup.classList.add("popup-corpus");
     popup.innerText = "Corpus here refers to the creation of a collection of written texts which are used for quantitative analysis. Most commonly, corpuses are constructed for computational linguistic studies, but are also used by digital humanists interested in textual analysis.";
 
     DefCorpus.addEventListener("mouseover", () => {
@@ -35,9 +35,9 @@ chapterno: 1
         popup.style.display = "none";
         popup.remove();
     });
-    const DefInterdisc = document.getElementById("word-tooltip");
+    const DefInterdisc = document.getElementById("word-interdisc");
     const popup = document.createElement("div");
-    popup.classList.add("popup");
+    popup.classList.add("popup-interdisc");
     popup.innerText = "I use interdisciplinary to describe a conversation with and adoption of different methods practiced by a range of academic fields.";
 
     DefInterdisc.addEventListener("mouseover", () => {
