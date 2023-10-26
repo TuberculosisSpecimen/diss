@@ -24,7 +24,7 @@ chapterno: 1
     popupcorpus.innerText = "Corpus here refers to the creation of a collection of written texts which are used for quantitative analysis. Most commonly, corpuses are constructed for computational linguistic studies, but are also used by digital humanists interested in textual analysis.";
 
     DefCorpus.addEventListener("mouseover", () => {
-        document.body.appendChild(popup);
+        document.body.appendChild(popupcorpus);
         const rect = DefCorpus.getBoundingClientRect();
         popup.style.top = `${rect.top - popup.clientHeight + 580}px`; // Adjust positioning to display above the word
         popup.style.left = `${rect.left}px`;
@@ -41,7 +41,7 @@ chapterno: 1
     popupinterdisc.innerText = "I use interdisciplinary to describe a conversation with and adoption of different methods practiced by a range of academic fields.";
 
     DefInterdisc.addEventListener("mouseover", () => {
-        document.body.appendChild(popup);
+        document.body.appendChild(popupingterdisc);
         const rect = DefInterdisc.getBoundingClientRect();
         popup.style.top = `${rect.top - popup.clientHeight + 580}px`; // Adjust positioning to display above the word
         popup.style.left = `${rect.left}px`;
