@@ -30,13 +30,13 @@ In addition to regular spotlights of local sanataria, the *British Journal of Tu
 
 8. The high content in the air of radio-active substance and of electric potential.
 
-TheBritishJournalofTuberc1_1907_78
+<img id="TheBritishJournalofTuberc1_1907_78" src="{{ site.baseurl }}/assets/items/TheBritishJournalofTuberc1_1907_78.jpg" alt="A photograph showing the town of Davos, Switzerland." style="max-width:60%;height:auto;">
 
-Figure 1. *The British Journal of Tuberculosis*. (London: Ballière, Tindall & Cox, 1907), 65.
+Figure 1. A photograph showing the town of Davos, Switzerland. *The British Journal of Tuberculosis*. (London: Ballière, Tindall & Cox, 1907), 65.
 
-TheBritishJournalofTuberc1_1907_76
+<img id="TheBritishJournalofTuberc1_1907_76" src="{{ site.baseurl }}/assets/items/TheBritishJournalofTuberc1_1907_76.jpg" alt="An exterior view of the Frimley Sanatorium." style="max-width:60%;height:auto;">
 
-Figure 3. *The British Journal of Tuberculosis*. (London: Ballière, Tindall & Cox, 1907), 66.
+Figure 3. An exterior view of the Frimley Sanatorium. *The British Journal of Tuberculosis*. (London: Ballière, Tindall & Cox, 1907), 66.
 
 The way Davos is described in this lengthy passage points to some of the scientific discourses surrounding the treatment of tuberculosis. At the turn of the twentieth century, scientific arguments concerning the benefits of moving to a climate that was inhospitable to the disease,were giving way to a more general notion of getting patients out of poorly ventilated spaces, out of dirty cities, and out of crowds. James Alex Lindsay’s 1887 monograph describes this as much:
 
@@ -52,27 +52,28 @@ Twenty years later, in a summary of climatic approaches to care prepared by F. C
 
 The description of Davos in *The British Journal of Tuberculosis* articulates a dream climate: one which plays for the lay public on popular imaginations of cure and the quantifiable qualities that prove it a better environment than the industrialized city. At the same time, it evokes the popular, but poorly documented, phototherapy (figs. 4 & 5) and electrotherapy (fig. 6), as well as the use of radium as a curative agent.[^fn4]
 
-TheAmericanReviewofTuberc5_1921-1922_140a
 
-Figure 4. Mayer, Edgar. “Sunlight and Artificial Light Therapy in Tuberculosis: A Critical Review.” Edited by Edward R. Baldwin, Lawrason Brown, M. J. Rosenau, H. R. M. Landis, Paul A. Lewis, and Borden S. Veeder. *The American Review of Tuberculosis* 5 (1922-1921), 111
+<img id="TheAmericanReviewofTuberc5_1921-1922_140a" src="{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc5_1921-1922_140a.jpg" alt="An example of phototherapy. Semi-nude patients in goggles stare directly at the camera." style="max-width:60%;height:auto;">
 
-AmericanIntlCongressonTB_1904_524
+Figure 4. An example of phototherapy. Mayer, Edgar. “Sunlight and Artificial Light Therapy in Tuberculosis: A Critical Review.” Edited by Edward R. Baldwin, Lawrason Brown, M. J. Rosenau, H. R. M. Landis, Paul A. Lewis, and Borden S. Veeder. *The American Review of Tuberculosis* 5 (1922-1921), 111
 
-Figure 5. Bleyer, J. Mount. “Light---Its Therapeutic Importance in Tuberculosis as Founded upon Scientific Researches.” *The Journal of Tuberculosis*, October 1902, 77.
+<img id="AmericanIntlCongressonTB_1904_524" src="{{ site.baseurl }}/assets/items/AmericanIntlCongressonTB_1904_524.jpg" alt="An example of phototherapy. A shrouded patient stands in front of a powerful light while a doctor looks on." style="max-width:60%;height:auto;">
 
-Monell_ElectricityinHealthanddis_1907_10
+Figure 5. An example of phototherapy. A shrouded patient stands in front of a powerful light while a doctor looks on. Bleyer, J. Mount. “Light---Its Therapeutic Importance in Tuberculosis as Founded upon Scientific Researches.” *The Journal of Tuberculosis*, October 1902, 77.
 
-Figure 6
+<img id="Monell_ElectricityinHealthanddis_1907_10" src="{{ site.baseurl }}/assets/items/Monell_ElectricityinHealthanddis_1907_10.jpg" alt="An example of electrotherapy. A woman sits with her arms crossed and her hair standing up from the electric current." style="max-width:60%;height:auto;">
+
+Figure 6. An example of electrotherapy. A woman sits with her arms crossed and her hair standing up from the electric current. [!!!AddCitation]
 
 So there is a contradictory practice: a reaching by both the health resort and the published discoures around it to prove a specific place as unique, special, exemplary. Climate remained this key selling point. This could be implicit, as with the evocation of the Sierra Madres by Francis Marion Pottenger’s sanatorium (fig. 7), It could also be explicit, as the Cragmor was advertised, where the image of any facilities are eschewed for a landscape with Pikes Peak in the distance (fig. 8.
 
-TheJournaloftheOutdoorLif6_1909_274b
+<img id="TheJournaloftheOutdoorLif6_1909_274b" src="{{ site.baseurl }}/assets/items/TheJournaloftheOutdoorLif6_1909_274b.jpg" alt="An add for Francis Pottenger's Monrovia sanatorium." style="max-width:60%;height:auto;">
 
-Figure 7.
+Figure 7. An add for Francis Pottenger's Monrovia sanatorium. [!!!Add Citation]
 
-TheJournaloftheOutdoorLif10_1913_77
+<img id="TheJournaloftheOutdoorLif6_1909_77" src="{{ site.baseurl }}/assets/items/TheJournaloftheOutdoorLif6_1909_77.jpg" alt="An add the Cragmor Sanatorium." style="max-width:60%;height:auto;">
 
-Figure 8.
+Figure 8. An add the Cragmor Sanatorium. [!!!Add citation].
 
 These last ads provide a glimpse into some other aspects of the broader tuberculous culture of the period. They maintain a kind of extravagance, reserved for the upper class with “all the conveniences and comforts of a first class hotel” (1.2.5). They provide exceptional care *because* of a laboratory on site (2.2.0). They provide privacy, and also community (1.2.4). They imagine a kind of relationship between the subject and their social and material environment that is antithetical to the world that the climate cure describes as the root of the disease.
 
