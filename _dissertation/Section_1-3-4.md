@@ -1,13 +1,13 @@
 ---
 layout: section
-title: "Oooh, Look It's the Next Section!"
-identifier: 1.0.1
+title: "Problem Patients"
+identifier: 1.3.4
 chapter: 1
-section: 0
-subsection: 1
+section: 3
+subsection: 4
 chapterdisplay: 1
-sectiondisplay: 0
-subsectiondisplay: 1
+sectiondisplay: 3
+subsectiondisplay: 4
 ---
 
-Text goes here for section 1-0-1
+This section has not been started. Will address patients as they are viewed by patients: specifically thinking about the ways unruly patients are made to leave sanatoria and how the sanatorium is a space of policing new hygienic values.
