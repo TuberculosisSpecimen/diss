@@ -69,8 +69,8 @@ chapterno: 1
 		const partialLines = document.querySelectorAll('.partial-lines');
         const opaqueLines = document.querySelectorAll('.opaque-lines');
 		const Knopf_1922_0003_Cropped = document.getElementByID('Knopf_1922_0003_Cropped');
-		const CityofChicagoMunicipalTub1_4_1917_1924_358 = document.getElementByID('CityofChicagoMunicipalTub1-4_1917-1924_358');
-		const CityofChicagoMunicipalTub1_4_1917_1924_440 = document.getElementByID('CityofChicagoMunicipalTub1-4_1917-1924_440');
+		const CityofChicagoMunicipalTub1_4_1917_1924_358 = document.getElementByID('CityofChicagoMunicipalTub1_4_1917_1924_358');
+		const CityofChicagoMunicipalTub1_4_1917_1924_440 = document.getElementByID('CityofChicagoMunicipalTub1_4_1917_1924_440');
 
         if (mode === 'partial') {
         	// Toggle partial lines
