@@ -54,7 +54,7 @@ Figure 7.
 
 <img id="Brandt_ADirectoryofInstitutionsa_1904_161b" src="{{ site.baseurl }}/assets/items/Brandt_ADirectoryofInstitutionsa_1904_107a.jpg" alt="A group of patients as well as a pair of health care workers pose for a picture on the porch of the Muskoka Free Hospital." style="max-width:60%;height:auto;">
 
-Figure 8. A group of patients as well as a pair of health care workers pose for a picture on the porch of the Muskoka Free Hospital.
+Figure 8. <span class="opaque-lines>A group of patients as well as a pair of health care workers pose for a picture on the porch of the Muskoka Free Hospital</span>.
 
 <img id="Brandt_ADirectoryofInstitutionsa_1904_55" src="{{ site.baseurl }}/assets/items/Brandt_ADirectoryofInstitutionsa_1904_55.jpg" alt="A view of a rest porch at Dr. Brooke's Sanatorium. In the distance a group of figures can be seen." style="max-width:60%;height:auto;">
 
