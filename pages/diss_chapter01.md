@@ -4,7 +4,50 @@ layout: chapter
 permalink: "/dissertation/1/"
 chapterno: 1
 ---
+<style>
+.popup {
+        display: none;
+        position: absolute;
+        background-color: white;
+        color: black;
+        padding: 5px;
+        border-radius: 5px;
+        border-color: black;
+        border-style: solid; 
+        border-width: 1px; /* Added border-width */
+        z-index: 9999;
+        max-width: 220px; /* Set the maximum width for the popup */
+        font-size: 15px; /* Added text size */
+        font-style: oblique; /* Added text style */
+    }
 
+    /* Style for the word "influential" when hovered */
+    #word-tooltip:hover {
+        text-decoration: underline;
+        color: blue; /* Change the color to your preferred hover color */
+    }
+
+    .opaque-lines {
+        opacity: 1; /* Set initial opacity for partial view */
+    }
+
+    .toggle-buttons {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .toggle-button {
+        padding: 8px 12px;
+        background-color: #f1f1f1;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .toggle-button.active {
+        background-color: #007bff; /* Change to your preferred active button color */
+        color: white;
+    }
+</style>
 <div class="toggle-buttons">
 <button class="toggle-button active" onclick="toggleOpacity('partial')">Partial</button>
 <button class="toggle-button" onclick="toggleOpacity('opaque')">Opaque</button>
@@ -16,6 +59,8 @@ chapterno: 1
 <h3><a name="{{ page.chapterno }}.{{ chapterinfo.section }}.{{ chapterinfo.subsection }}"></a>{{ chapterinfo.chapterdisplay }}.{{ chapterinfo.sectiondisplay }}.{{ chapterinfo.subsectiondisplay }}: {{ chapterinfo.title }}</h3>
 <p>{{ chapterinfo.content }}
 {% endfor %}
+
+<hr>
 
 <script>
 
