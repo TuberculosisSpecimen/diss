@@ -69,16 +69,16 @@ chapterno: 1
 		const partialLines = document.querySelectorAll('.partial-lines');
         const opaqueLines = document.querySelectorAll('.opaque-lines');
 		const Knopf_1922_0003_Cropped = document.getElementByID('Knopf_1922_0003_Cropped');
-		const CityofChicagoMunicipalTub1-4_1917-1924_358 = document.getElementByID('CityofChicagoMunicipalTub1-4_1917-1924_358');
-		const CityofChicagoMunicipalTub1-4_1917-1924_440 = document.getElementByID('CityofChicagoMunicipalTub1-4_1917-1924_440');
+		const CityofChicagoMunicipalTub1_4_1917_1924_358 = document.getElementByID('CityofChicagoMunicipalTub1-4_1917-1924_358');
+		const CityofChicagoMunicipalTub1_4_1917_1924_440 = document.getElementByID('CityofChicagoMunicipalTub1-4_1917-1924_440');
 
         if (mode === 'partial') {
         	// Toggle partial lines
             partialLines.forEach(line => {
                 line.style.backgroundColor = '#000000'; // Set background color to black
             	Knopf_1922_0003_Cropped.src = "{{ site.baseurl }}/assets/items/Knopf_1922_0003_Cropped_partial.jpg";
-				CityofChicagoMunicipalTub1-4_1917-1924_358.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub1-4_1917-1924_358_partial.jpg";
-				CityofChicagoMunicipalTub1-4_1917-1924_440.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub1-4_1917-1924_440_partial.jpg";
+				CityofChicagoMunicipalTub1_4_1917_1924_358.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub1-4_1917-1924_358_partial.jpg";
+				CityofChicagoMunicipalTub1_4_1917_1924_440.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub1-4_1917-1924_440_partial.jpg";
             });
             // Ensure opaque lines are fully visible
             opaqueLines.forEach(line => {
@@ -91,8 +91,8 @@ chapterno: 1
             opaqueLines.forEach(line => {
                 line.style.backgroundColor = '#000000'; // Set background color to black
            		Knopf_1922_0003_Cropped.src = "{{ site.baseurl }}/assets/items/Knopf_1922_0003_Cropped_full.jpg";
-				CityofChicagoMunicipalTub1-4_1917-1924_358.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub1-4_1917-1924_358_full.jpg";
-				CityofChicagoMunicipalTub1-4_1917-1924_440.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub1-4_1917-1924_440_full.jpg";
+				CityofChicagoMunicipalTub1_4_1917_1924_358.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub1-4_1917-1924_358_full.jpg";
+				CityofChicagoMunicipalTub1_4_1917_1924_440.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub1-4_1917-1924_440_full.jpg";
             });
             // Ensure partial lines are fully visible
             partialLines.forEach(line => {
@@ -101,8 +101,8 @@ chapterno: 1
         }
         else if (mode === 'non-opaque'){
             Knopf_1922_0003_Cropped.src = "{{ site.baseurl }}/assets/items/Knopf_1922_0003_Cropped.jpg";
-			CityofChicagoMunicipalTub1-4_1917-1924_358.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub1-4_1917-1924_358.jpg";
-			CityofChicagoMunicipalTub1-4_1917-1924_440.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub1-4_1917-1924_440.jpg";
+			CityofChicagoMunicipalTub1_4_1917_1924_358.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub1-4_1917-1924_358.jpg";
+			CityofChicagoMunicipalTub1_4_1917_1924_440.src = "{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub1-4_1917-1924_440.jpg";
             partialLines.forEach(line => {
                 line.style.opacity = '1';
                 line.style.backgroundColor = ''
