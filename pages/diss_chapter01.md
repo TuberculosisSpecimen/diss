@@ -70,7 +70,20 @@ chapterno: 1
     popup.classList.add("popup");
     popup.innerText = "Corpus refers to a large collection of texts that have been collected for statistical analysis. It is used regularly in the fields of computational linguistics and the digital humanities.";
 
-	function toggleOpacity(mode) {
+    wordTooltip.addEventListener("mouseover", () => {
+        document.body.appendChild(popup);
+        const rect = wordTooltip.getBoundingClientRect();
+        popup.style.top = `${rect.top - popup.clientHeight + 580}px`; // Adjust positioning to display above the word
+        popup.style.left = `${rect.left}px`;
+        popup.style.display = "block";
+    });
+
+    wordTooltip.addEventListener("mouseout", () => {
+        popup.style.display = "none";
+        popup.remove();
+    });
+
+    function toggleOpacity(mode) {
 		const partialLines = document.querySelectorAll('.partial-lines');
         const opaqueLines = document.querySelectorAll('.opaque-lines');
 		const Knopf_1922_0003_Cropped = document.getElementByID('Knopf_1922_0003_Cropped');
