@@ -35,11 +35,14 @@ Table 1.  This table shows the total images that are tagged as being from “Sci
 | :----- | :----- |
 | Public & Group | 88 |
 | Public & Group | 18% |
+
 | Public & Child | 93 |
 | Public & Child | 19% |
+
 | Public & Child & Sensitive | 11 |
 | Public & Child & Sensitive [TOTAL] | 2% |
 | Public & Child & Sensitive [Out of the two tags] | 12% |
+
 | Public & Child & Group | 70 |
 | Public & Child & Group [TOTAL] | 15% |
 | Public & Child & Group (Out of the Two Tags) | 75% |
@@ -48,57 +51,52 @@ Table 2. An interesting note here is the outsized presence of children in groups
 
 What is left out of the broader sanatoria discussion is an interest in the preventative programs employed by institutions---specifically the open air school (figs. 1 - 2), the day camp for adults as well as children (fig. 3), and the social character of tuberculosis treatment.
 
-CityofChicagoMunicipalTub1-4\_1917-1924\_358
+<img id="CityofChicagoMunicipalTub1-4_1917-1924_358" src="{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub1-4_1917-1924_358.jpg" alt="Students pose in an open air classroom wearing coats provided to help with the cold." style="max-width:60%;height:auto;">
 
-Figure 1
+Figure 1. Students pose in an open air classroom wearing coats provided to help with the cold.
 
-CityofChicagoMunicipalTub1-4\_1917-1924\_440
+<img id="CityofChicagoMunicipalTub1-4_1917-1924_440" src="{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub1-4_1917-1924_440.jpg" alt="Three students in their heavy coats posing for a picture." style="max-width:60%;height:auto;">
 
-Figure 4
+Figure 2.
 
-Wooten\_1926\_0001
+Wooten_1926_0001_Cropped
+<img id="Wooten_1926_0001_Cropped" src="{{ site.baseurl }}/assets/items/Wooten_1926_0001_Cropped.jpg" alt="A group of teenaged students playing in an outdoor lesson." style="max-width:60%;height:auto;">
 
-Figure 5. Courtesy of the New York Academy of Medicine.
-
- 
-
-TuberculosisSan\_NewYorkCitysInstitutionsf\_1926\_95\_rough
-
-Figure 3. [!!!Addwhenscanned] Courtesy of the New York Academy of Medicine.
+Figure 3. A group of teenaged students playing in an outdoor lesson. Courtesy of the New York Academy of Medicine.
 
 While less common than the architectural image of the sanatorium, there are images which give glimpses (whether intended or otherwise) into a communal life. These images, like those shown in an earlier section (1.2.2) (figs. 6 & 7), represent what life might be like for potential residents. Visions of community, of playing games (fig. 8), of being in a group while taking in air or sunlight (fig. 9), of working together (fig. ), of celebrating together (fig. [!!!FINDAPARTYPIC]), articulate a very different kind of institution from the modern medical no-place (1.2.1). Especially in light of contemporary standards of care, with doctors bustling between patients with little to no time to see them, with egregiously expensive hospital stays, and facilities that have been bled to the fewest staff possible, the transitory space of the current hospital looks unlike the vision imagined for the health-resort-like sanatorium.[^fn1] Of course, to make a generalization here, would be an oversight. For example, the Queen Alexandra Sanatorium in Davos sold itself with its private verandas (1.2.3). Moreover (and more perniciously) this construction is at least partly imagined: *this is how the institutions who published about themselves imagined themselves*.
 
-Brandt\_ADirectoryofInstitutionsa\_1904\_161b
+<img id="Brandt_ADirectoryofInstitutionsa_1904_161b" src="{{ site.baseurl }}/assets/items/Brandt_ADirectoryofInstitutionsa_1904_107a.jpg" alt="A group of patients as well as a pair of health care workers pose for a picture on the porch of the Muskoka Free Hospital." style="max-width:60%;height:auto;">
 
-Figure 6
+Figure 6. A group of patients as well as a pair of health care workers pose for a picture on the porch of the Muskoka Free Hospital.
 
-Brandt\_ADirectoryofInstitutionsa\_1904\_53b
+<img id="Brandt_ADirectoryofInstitutionsa_1904_55" src="{{ site.baseurl }}/assets/items/Brandt_ADirectoryofInstitutionsa_1904_107a.jpg" alt="The veranda at Dr. Brooks's Sanatorium." style="max-width:60%;height:auto;">
 
 Figure 7. On first glance, the veranda at the sanatorium imaged looks empty. On closer inspection, there are a few patients in the background and what looks to be a doctor looking on them from afar.
 
-CharityOrganiza\_HomeTreatmentofTuberculos\_1908\_10
+<img id="CharityOrganiza_HomeTreatmentofTuberculos_1908_10" src="{{ site.baseurl }}/assets/items/CharityOrganiza_HomeTreatmentofTuberculos_1908_10.jpg" alt="A group of adults play board and card games." style="max-width:60%;height:auto;">
 
-Figure 8.
+Figure 8. A group of adults pose for a picture showing them playing board and card games. [!!!AddCitation]
 
-\_TuberculosisATreatisebyAm\_1909\_175
+<img id="_TuberculosisATreatisebyAm_1909_175" src="{{ site.baseurl }}/assets/items/_TuberculosisATreatisebyAm_1909_175.jpg" alt="A group of women sit with heavy sleeping bag like blankets around them." style="max-width:60%;height:auto;">
 
-10
+Figure 9. A group of women sit with heavy sleeping bag like blankets around them. This is an example of some of the precautions taken when patients would be given the open air treatment.
 
-\_TheControlandEradicationo\_1911\_224
+<img id="_TheControlandEradicationo_1911_224" src="{{ site.baseurl }}/assets/items/_TheControlandEradicationo_1911_224.jpg" alt="A group of young men work on a farm, selecting seed potatoes." style="max-width:60%;height:auto;">
 
-11
+Figure 10. A group of young men work on a farm, selecting seed potatoes. This kind of working cure was more popular in the United Kingdom. [!!!AddCitation]
 
-Figure [!!!PLACEHOLDERforPARTY]
+Figure 11. [!!!A picture from a party] [!!!PLACEHOLDERforPARTY]
 
 When looking at some of these images, I wonder how much of each might be staged, or what may be candid. At the turn of the twentieth century, while photography was being adopted in more uniform ways at some health institutions, it was far from a universally common practice.[^fn2] When I read these images, I wonder if in some ways the subjects photographs have been coerced or cajoled or just herded into a proper frame. Even if it is not an entirely constructed thing, as a documentarian (4.1.1), I am hesitant to call anything caught by a camera as true and unconstructed.[^fn3] The image of the men working (fig. 11) has a different tenor as one of women sitting in a sunroom (fig. 10), which both have a different kind of relationship to the imaged subject as those who may be caught in the frame or were unwilling to move when a photographer barged into the room (figs. 12 & 13). These latter images show the life at a sanatarium as potentially quite dull and isolating, where the resting verandas, sunrooms, porches and other spaces did not afford the community promised.
 
-Bonney\_PulmonaryTuberculosisandi\_1910\_849a
+<img id="Bonney_PulmonaryTuberculosisandi_1910_849a" src="{{ site.baseurl }}/assets/items/Bonney_PulmonaryTuberculosisandi_1910_849a.jpg" alt="A view of an open air resting porch." style="max-width:60%;height:auto;">
 
-Figure 12.
+Figure 12. A view of an open air resting porch. [!!!AddCitation
 
-Bonney\_PulmonaryTuberculosisandi\_1910\_849b
+<img id="Bonney_PulmonaryTuberculosisandi_1910_849b" src="{{ site.baseurl }}/assets/items/Bonney_PulmonaryTuberculosisandi_1910_849a.jpg" alt="A view of an open air resting porch." style="max-width:60%;height:auto;">
 
-Figure 13.
+Figure 13. A view of an open air resting porch.
 
 Here again, though, I want to move back out, stressing the *imagined* sanatorium as constructed through the various publications of the corpus. The sanatarium, which serves to solve the health ills of the industrial city (1.2.3), which sold health at a juxtaposition of modern medicine and upper class splendor[^fn4] (1.2.2), constructs itself in a kind of anti-*flâneur* or anti-*flâneuse* institution. The static subject, whose community is fabricated, but seemingly legitimate, who does not gaze wantingly at the glittering objects they view at the arcade, so much as at the same space.
 

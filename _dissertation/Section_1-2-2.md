@@ -53,7 +53,6 @@ Figure 6. An exterior view of the Adirondack Cottage Sanatorium.
 Figure 7.
 
 <img id="Brandt_ADirectoryofInstitutionsa_1904_161b" src="{{ site.baseurl }}/assets/items/Brandt_ADirectoryofInstitutionsa_1904_107a.jpg" alt="A group of patients as well as a pair of health care workers pose for a picture on the porch of the Muskoka Free Hospital." style="max-width:60%;height:auto;">
-Brandt_ADirectoryofInstitutionsa_1904_161b
 
 Figure 8. A group of patients as well as a pair of health care workers pose for a picture on the porch of the Muskoka Free Hospital.
 
