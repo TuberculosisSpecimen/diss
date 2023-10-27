@@ -12,9 +12,12 @@ subsectiondisplay: 1
 
 I have taken it on myself to make note whenever a certain photograph appears in the tuberculosis corpus. I noticed it first when flipping through one of many pamphlets and books published by Sigard Adolfus Knopf---a prominent doctor and eugenicist, who published many books on tuberculosis and other ailments at the beginning of the twentieth century. Knopf’s work over this period involves a lot of reuse of the same materials---the same equipment to prevent the spread of tuberculosis (fig 1), and the same illustrations showing exercises to help against the disease (fig. 2). This image extends beyond Knopf’s ouvre and is instead something that appears scattered among a number of sources: it is a photograph of one of the lodges at the Adirondack Cottage Sanatorium (fig. 3 & <$n:figure2:!!!FINDONE)). 
 
-Knopf_1922_0001
+Figure 1. [!!!Add this]
 
-3 From Knopf_1922_0001.
+Figure 2. [!!!Add this]
+
+<img id="Knopf_1922_0001_Cropped" src="{{ site.baseurl }}/assets/items/Knopf_1922_0001_Cropped.jpg" alt="The Little Red Cottage at the Adirondack Cottage Sanatorium." style="max-width:60%;height:auto;">
+Figure 3 From Knopf_1922_0001.“The Little Red Cottage” which is reproduced in S. A. Knopf’s book might be the most commonly reproduced image in the tuberculosis <b><span data-tooltip aria-haspopup="true" class="tooltip-mouseover" data-disable-hover="false" tabindex="1" title="Corpus here refers to the creation of a collection of written texts which are used for quantitative analysis. Most commonly, corpuses are constructed for computational linguistic studies, but are also used by digital humanists interested in textual analysis.">corpus</span></b>. Image courtesy of the New York Academy of Medicine. 
 
 Find some more.
 
@@ -28,11 +31,11 @@ In the American west, many of these institutions were part of an explicit or imp
 
 The sanatorium was a prominent, but not singular, actor in health interventions against tuberculosis. The hospital and dispensary also played pivotal roles at this period, in both treating, but also educating tuberculous patients (1.3.2). It did however symbolize the broader anti-tuberculosis movement, driven in part by the influence of Thomas Mann’s *The Magic Mountain*, which depicted sanatarium treatment at Davos, Switzerland (fig. 4 & 5).[^fn4]
 
-TheBritishJournalofTuberc5_1911_61
+<img id="TheBritishJournalofTuberc5_1911_61" src="{{ site.baseurl }}/assets/items/TheBritishJournalofTuberc5_1911_61.jpg" alt="An exterior photograph of the Queen Alexandra Sanatorium in Davos, Switzerland." style="max-width:60%;height:auto;">
 
 Figure 4. The Queen Alexandra Sanatorium in Davos, Switzerland was a prominent institution in the European approaches to tuberculosis. Thomas Mann’s *The Magic Mountain* is modelled on this kind of idyllic health resort. From, *The British Journal of Tuberculosis*. (London: Ballière, Tindall & Cox, 1911), 46.
 
-TheBritishJournalofTuberc5_1911_63
+<img id="TheBritishJournalofTuberc5_1911_63" src="{{ site.baseurl }}/assets/items/TheBritishJournalofTuberc5_1911_61.jpg" alt="The interior of a room at the Queen Alexandra Sanatorium in Davos, Switzerland." style="max-width:60%;height:auto;">
 
 Figure 5. A glimpse into the private room of a patient at the Queen Alexandra Sanatorium in Davos, Switzerland. From: *The British Journal of Tuberculosis*. (London: Ballière, Tindall & Cox, 1911), 48.
 

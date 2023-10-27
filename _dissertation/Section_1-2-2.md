@@ -12,21 +12,21 @@ subsectiondisplay: 2
 
 *The British Journal of Tuberculosis* had a pair of long running series which promoted health institutions in the United Kingdom and Europe. “Institutions for the Tuberculous” spotlighted various health resorts and facilities, providing information about more local hospitals. The first issue of the first volume described the facilities of the King Edward VII Sanatorium in Midhurst (figs. 1 & 2), the Brompton Hospital Sanatorium and Convalescent Home in Frimley (fig. 3), and the East Anglian Sanatorium in Suffolk (fig. <4).
 
-TheBritishJournalofTuberc1_1907_73
+<img id="TheBritishJournalofTuberc1_1907_73" src="{{ site.baseurl }}/assets/items/TheBritishJournalofTuberc1_1907_73.jpg" alt="The exterior of the King Edward VII Sanatorium." style="max-width:60%;height:auto;">
 
-Figure 1. *The British Journal of Tuberculosis*. (London: Ballière, Tindall & Cox, 1907), 60.
+Figure 1. The exterior of the King Edward VII Sanatorium *The British Journal of Tuberculosis*. (London: Ballière, Tindall & Cox, 1907), 60.
 
-TheBritishJournalofTuberc1_1907_74
+<img id="TheBritishJournalofTuberc1_1907_74" src="{{ site.baseurl }}/assets/items/TheBritishJournalofTuberc1_1907_74.jpg" alt="The chapel of the King Edward VII Sanatorium." style="max-width:60%;height:auto;">
 
-Figure 2. *The British Journal of Tuberculosis*. (London: Ballière, Tindall & Cox, 1907) 61.
+Figure 2. The chapel of the King Edward VII Sanatorium. *The British Journal of Tuberculosis*. (London: Ballière, Tindall & Cox, 1907) 61.
 
-TheBritishJournalofTuberc1_1907_76
+<img id="TheBritishJournalofTuberc1_1907_76" src="{{ site.baseurl }}/assets/items/TheBritishJournalofTuberc1_1907_76.jpg" alt="An exterior view of the Frimley Sanatorium." style="max-width:60%;height:auto;">TheBritishJournalofTuberc1_1907_76
 
-Figure 3. *The British Journal of Tuberculosis*. (London: Ballière, Tindall & Cox, 1907), 63.
+Figure 3. An exterior view of the Frimley Sanatorium. *The British Journal of Tuberculosis*. (London: Ballière, Tindall & Cox, 1907), 63.
 
-TheBritishJournalofTuberc1_1907_77
+<img id="TheBritishJournalofTuberc1_1907_77" src="{{ site.baseurl }}/assets/items/TheBritishJournalofTuberc1_1907_77.jpg" alt="An exterior view of the East Anglian Sanatorium." style="max-width:60%;height:auto;">
 
-Figure 4. *The British Journal of Tuberculosis*. (London: Ballière, Tindall & Cox, 1907), 64.
+Figure 4. An exterior view of the East Anglian Sanatorium. *The British Journal of Tuberculosis*. (London: Ballière, Tindall & Cox, 1907), 64.
 
 For the facilities described “Institutions for the Tuberculous”, time is spent describing the amenities. The King Edward VII Sanatorium is described as having 
 
@@ -38,29 +38,30 @@ The King Edward VII Sanatorium presented itself in such a way because it was unl
 
 It was also likely that patients who were sick with the disease, or families of those who were sick, would look to the quasi-advertisements of sanatoria published in medical journals, or in collected books of sanatoria like the *Hand Book of Help for Persons Suffering from Pulmonary Tuberculosis (Consumption) Directory of Tuberculosis Hospitals Sanatoria and Clinics* published in 1915 by New York City’s Department of Health or Lilian Brandt’s 1904 book *A Directory of Institutions and Societies Dealing with Tuberculosis in the United States and Canada*.  Brandt, writing in the introduction to the latter monograph, says that the book was “designed, first, to serve as a guide to the physicians and friends of consumptives, whether poor or well-to-do, by furnishing accurate information in regard to existing institutions”.[^fn8] Many of the images in the corpus [!!!taggedphotographarchitectural] come from these kinds of publications, which are *not scientific* but speak to an audience to whom practiticing doctors were a main constituent.
 
-Brandt’s directory, like *The British Journal of Tuberculosis*, uses photographs to make an argument. There are images of buildings, nestled comfortably in the landscape (figs. 5 & 6), empty and sterile rooms for rest and socialization (figs. 7 & 8, and relatively few images that actually show patients (fig. 9). Curiously, sometimes it looks like patients who are in the frame are left as an afterthought in relation to displaying the luxurious space of the sanatorium (figs. 10 & 11).
+Brandt’s directory, like *The British Journal of Tuberculosis*, uses photographs to make an argument. There are images of buildings, nestled comfortably in the landscape (figs. 5 & 6), empty and sterile rooms for rest and socialization (figs. 7 & 9), and relatively few images that actually show patients (fig. 8). Curiously, sometimes it looks like patients who are in the frame are left as an afterthought in relation to displaying the luxurious space of the sanatorium (figs. 10 & 11).
 
-Brandt_ADirectoryofInstitutionsa_1904_107a
+<img id="Brandt_ADirectoryofInstitutionsa_1904_107a" src="{{ site.baseurl }}/assets/items/Brandt_ADirectoryofInstitutionsa_1904_107a.jpg" alt="An exterior view of a sanatorium, Stony Wood." style="max-width:60%;height:auto;">
 
-Figure 5.
+Figure 5. An exterior view of a sanatorium, Stony Wood.
 
-Brandt_ADirectoryofInstitutionsa_1904_121
+<img id="Brandt_ADirectoryofInstitutionsa_1904_121" src="{{ site.baseurl }}/assets/items/Brandt_ADirectoryofInstitutionsa_1904_121.jpg" alt="An exterior view of the Adirondack Cottage Sanatorium." style="max-width:60%;height:auto;">
 
-Figure 6.
+Figure 6. An exterior view of the Adirondack Cottage Sanatorium.
 
-Brandt_ADirectoryofInstitutionsa_1904_107b
+<img id="Brandt_ADirectoryofInstitutionsa_1904_107b" src="{{ site.baseurl }}/assets/items/Brandt_ADirectoryofInstitutionsa_1904_107b.jpg" alt="An example of a sun parlor." style="max-width:60%;height:auto;">
 
-Figure 7
+Figure 7.
 
+<img id="Brandt_ADirectoryofInstitutionsa_1904_161b" src="{{ site.baseurl }}/assets/items/Brandt_ADirectoryofInstitutionsa_1904_107a.jpg" alt="A group of patients as well as a pair of health care workers pose for a picture on the porch of the Muskoka Free Hospital." style="max-width:60%;height:auto;">
 Brandt_ADirectoryofInstitutionsa_1904_161b
 
-Figure 9
+Figure 8. A group of patients as well as a pair of health care workers pose for a picture on the porch of the Muskoka Free Hospital.
 
-Brandt_ADirectoryofInstitutionsa_1904_53b
+<img id="Brandt_ADirectoryofInstitutionsa_1904_55" src="{{ site.baseurl }}/assets/items/Brandt_ADirectoryofInstitutionsa_1904_55.jpg" alt="A view of a rest porch at Dr. Brooke's Sanatorium. In the distance a group of figures can be seen." style="max-width:60%;height:auto;">
 
-Figure 8. On first glance, the veranda at the sanatorium imaged looks empty. On closer inspection, there are a few patients in the background and what looks to be a doctor looking on them from afar.
+Figure 9. On first glance, the veranda at the sanatorium imaged looks empty. On closer inspection, there are a few patients in the background and what looks to be a doctor looking on them from afar.
 
-Brandt_ADirectoryofInstitutionsa_1904_110b
+<img id="Brandt_ADirectoryofInstitutionsa_1904_110b" src="{{ site.baseurl }}/assets/items/Brandt_ADirectoryofInstitutionsa_1904_110b.jpg" alt="An empty room save for the presence of a patient’s legs in the foreground." style="max-width:60%;height:auto;">
 
 Figure 11. An empty room save for the presence of a patient’s legs in the foreground.
 
