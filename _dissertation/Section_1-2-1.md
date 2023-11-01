@@ -17,6 +17,7 @@ Figure 1. [!!!Add this]
 Figure 2. [!!!Add this]
 
 <img id="Knopf_1922_0001_Cropped" src="{{ site.baseurl }}/assets/items/Knopf_1922_0001_Cropped.jpg" alt="The Little Red Cottage at the Adirondack Cottage Sanatorium." style="max-width:60%;height:auto;">
+
 Figure 3 From Knopf_1922_0001.“The Little Red Cottage” which is reproduced in S. A. Knopf’s book might be the most commonly reproduced image in the tuberculosis <b><span data-tooltip aria-haspopup="true" class="tooltip-mouseover" data-disable-hover="false" tabindex="1" title="Corpus here refers to the creation of a collection of written texts which are used for quantitative analysis. Most commonly, corpuses are constructed for computational linguistic studies, but are also used by digital humanists interested in textual analysis.">corpus</span></b>. Image courtesy of the New York Academy of Medicine. 
 
 Find some more.
@@ -35,7 +36,7 @@ The sanatorium was a prominent, but not singular, actor in health interventions 
 
 Figure 4. The Queen Alexandra Sanatorium in Davos, Switzerland was a prominent institution in the European approaches to tuberculosis. Thomas Mann’s *The Magic Mountain* is modelled on this kind of idyllic health resort. From, *The British Journal of Tuberculosis*. (London: Ballière, Tindall & Cox, 1911), 46.
 
-<img id="TheBritishJournalofTuberc5_1911_63" src="{{ site.baseurl }}/assets/items/TheBritishJournalofTuberc5_1911_61.jpg" alt="The interior of a room at the Queen Alexandra Sanatorium in Davos, Switzerland." style="max-width:60%;height:auto;">
+<img id="TheBritishJournalofTuberc5_1911_63" src="{{ site.baseurl }}/assets/items/TheBritishJournalofTuberc5_1911_63.jpg" alt="The interior of a room at the Queen Alexandra Sanatorium in Davos, Switzerland." style="max-width:60%;height:auto;">
 
 Figure 5. A glimpse into the private room of a patient at the Queen Alexandra Sanatorium in Davos, Switzerland. From: *The British Journal of Tuberculosis*. (London: Ballière, Tindall & Cox, 1911), 48.
 

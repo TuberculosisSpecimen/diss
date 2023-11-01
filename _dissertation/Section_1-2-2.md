@@ -20,7 +20,7 @@ Figure 1. The exterior of the King Edward VII Sanatorium *The British Journal of
 
 Figure 2. The chapel of the King Edward VII Sanatorium. *The British Journal of Tuberculosis*. (London: Ballière, Tindall & Cox, 1907) 61.
 
-<img id="TheBritishJournalofTuberc1_1907_76" src="{{ site.baseurl }}/assets/items/TheBritishJournalofTuberc1_1907_76.jpg" alt="An exterior view of the Frimley Sanatorium." style="max-width:60%;height:auto;">TheBritishJournalofTuberc1_1907_76
+<img id="TheBritishJournalofTuberc1_1907_76" src="{{ site.baseurl }}/assets/items/TheBritishJournalofTuberc1_1907_76.jpg" alt="An exterior view of the Frimley Sanatorium." style="max-width:60%;height:auto;">
 
 Figure 3. An exterior view of the Frimley Sanatorium. *The British Journal of Tuberculosis*. (London: Ballière, Tindall & Cox, 1907), 63.
 

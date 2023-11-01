@@ -59,7 +59,6 @@ Figure 1. Students pose in an open air classroom wearing coats provided to help 
 
 Figure 2.
 
-Wooten_1926_0001_Cropped
 <img id="Wooten_1926_0001_Cropped" src="{{ site.baseurl }}/assets/items/Wooten_1926_0001_Cropped.jpg" alt="A group of teenaged students playing in an outdoor lesson." style="max-width:60%;height:auto;">
 
 Figure 3. A group of teenaged students playing in an outdoor lesson. Courtesy of the New York Academy of Medicine.
@@ -94,7 +93,7 @@ When looking at some of these images, I wonder how much of each might be staged,
 
 Figure 12. A view of an open air resting porch. [!!!AddCitation
 
-<img id="Bonney_PulmonaryTuberculosisandi_1910_849b" src="{{ site.baseurl }}/assets/items/Bonney_PulmonaryTuberculosisandi_1910_849a.jpg" alt="A view of an open air resting porch." style="max-width:60%;height:auto;">
+<img id="Bonney_PulmonaryTuberculosisandi_1910_849b" src="{{ site.baseurl }}/assets/items/Bonney_PulmonaryTuberculosisandi_1910_849b.jpg" alt="A view of an open air resting porch." style="max-width:60%;height:auto;">
 
 Figure 13. A view of an open air resting porch.
 

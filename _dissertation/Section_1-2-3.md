@@ -61,7 +61,7 @@ Figure 4. An example of phototherapy. Mayer, Edgar. “Sunlight and Artificial L
 
 Figure 5. An example of phototherapy. A shrouded patient stands in front of a powerful light while a doctor looks on. Bleyer, J. Mount. “Light---Its Therapeutic Importance in Tuberculosis as Founded upon Scientific Researches.” *The Journal of Tuberculosis*, October 1902, 77.
 
-<img id="Monell_ElectricityinHealthanddis_1907_10" src="{{ site.baseurl }}/assets/items/Monell_ElectricityinHealthanddis_1907_10.jpg" alt="An example of electrotherapy. A woman sits with her arms crossed and her hair standing up from the electric current." style="max-width:60%;height:auto;">
+<img id="Monell_ElectricityinHealthanddis_1907_100" src="{{ site.baseurl }}/assets/items/Monell_ElectricityinHealthanddis_1907_100.jpg" alt="An example of electrotherapy. A woman sits with her arms crossed and her hair standing up from the electric current." style="max-width:60%;height:auto;">
 
 Figure 6. An example of electrotherapy. A woman sits with her arms crossed and her hair standing up from the electric current. [!!!AddCitation]
 
@@ -71,7 +71,7 @@ So there is a contradictory practice: a reaching by both the health resort and t
 
 Figure 7. An add for Francis Pottenger's Monrovia sanatorium. [!!!Add Citation]
 
-<img id="TheJournaloftheOutdoorLif6_1909_77" src="{{ site.baseurl }}/assets/items/TheJournaloftheOutdoorLif6_1909_77.jpg" alt="An add the Cragmor Sanatorium." style="max-width:60%;height:auto;">
+<img id="TheJournaloftheOutdoorLif10_1913_77" src="{{ site.baseurl }}/assets/items/TheJournaloftheOutdoorLif10_1913_77.jpg" alt="An add the Cragmor Sanatorium." style="max-width:60%;height:auto;">
 
 Figure 8. An add the Cragmor Sanatorium. [!!!Add citation].
 
