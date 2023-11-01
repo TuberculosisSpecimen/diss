@@ -27,7 +27,7 @@ The anxieties about urban spaces were redoubled: the crowded, dusty, squalor of 
 
 Figure 3. An example of how urban patients would achieve the open air treatment.
 
-<img id="Carrington_OpenAir_BerthaJohnsonColl_Folder28_0001b_Cropped" src="{{ site.baseurl }}/assets/items/Carrington_OpenAir_BerthaJohnsonColl_Folder28_0001b_Cropped.jpg" alt="A solution to find open air in crowded New York." style="max-width:50%;height:auto;">
+<img id="Carrington_OpenAir_BerthaJohnsonColl_Folder28_0001b_cropped" src="{{ site.baseurl }}/assets/items/Carrington_OpenAir_BerthaJohnsonColl_Folder28_0001b_cropped.jpg" alt="A solution to find open air in crowded New York." style="max-width:50%;height:auto;">
 
 Figure 4. A solution to find open air in crowded New York.
 
