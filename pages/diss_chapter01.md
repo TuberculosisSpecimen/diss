@@ -86,7 +86,6 @@ const wordTooltip = document.getElementById("word-tooltip");
         const partialLines = document.querySelectorAll('.partial-lines');
         const opaqueLines = document.querySelectorAll('.opaque-lines');
         const CityofChicagoMunicipalTub1-4_1917-1924_358 = document.getElementById('CityofChicagoMunicipalTub1-4_1917-1924_358');
-        const 
 
         if (mode === 'partial') {
             // Toggle partial lines
