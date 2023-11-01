@@ -14,21 +14,22 @@ The sanatorium in this period was stratified along class and race. In all of the
 
 Beyond the racial gap in this research project, there is also a class difference: lower class patients would be treated but always under the judgemental framework of hygiene, which saw patients as being at fault for their unhealthy housing (fig. 1) and disrespectable living habits, and which saw tuberculosis as a preventable disease and, thus, that those who got sick may be partially at fault for their condition. As Linda Bryder reminds us, those researching the disease “showed themselves to be very much a product of the middle-class society from which they came, with its fixed assumptions about the poor.”[^fn5]
 
-CharityOrganizata_AHandbookonthePreventiono_1903_352
+<img id="CharityOrganizata_AHandbookonthePreventiono_1903_352" src="{{ site.baseurl }}/assets/items/CharityOrganizata_AHandbookonthePreventiono_1903_352.jpg" alt="An example of the squalor that hygiene activists fought against." style="max-width:50%;height:auto;">
 
-Figure 2.
+Figure 2. An example of the squalor hygiene activists fought against.
 
 This section will go into some detail as to the separate, but intertwined practices that constituted the hygienic interventions into the disease. Interwoven in the same discourses in the previous section (1.2.0), this section will discuss the various ways the climatic, outdoor life was engaged by urban patients who were too sick to travel or could not afford sanatoria treatment (figs. 3 & 4).
 
 The anxieties about urban spaces were redoubled: the crowded, dusty, squalor of urban living was vilianized, and blamed on those who could afford no better. Institutions like the public sanatorium and the dispensary provided patients with care, while also lecturing the same patients on hygienic principles (such as collecting their sputum and sterilizing it). Some of these institutions, like the Henry Phipps Institute discussed in chapter 3 (3.0.0), were using their position as a public health institution to collect biometric data from living patients and autopsy dead ones (3.0.x). Interlaced with hygiene, the classed and raced qualities of the scientific discourses around tuberculosis gain extra definition.
 
-Carrington_OpenAir_BerthaJohnsonColl_Folder28_0001a_Cropped
+<img id="Carrington_OpenAir_BerthaJohnsonColl_Folder28_0001a_Cropped" src="{{ site.baseurl }}/assets/items/Carrington_OpenAir_BerthaJohnsonColl_Folder28_0001a_Cropped.jpg" alt="An example of how urban patients would achieve the open air treatment." style="max-width:50%;height:auto;">
 
-Figure 3.
 
-Carrington_OpenAir_BerthaJohnsonColl_Folder28_0001b_Cropped
+Figure 3. An example of how urban patients would achieve the open air treatment.
 
-Figure 4.
+<img id="Carrington_OpenAir_BerthaJohnsonColl_Folder28_0001b_Cropped" src="{{ site.baseurl }}/assets/items/Carrington_OpenAir_BerthaJohnsonColl_Folder28_0001b_Cropped.jpg" alt="A solution to find open air in crowded New York." style="max-width:50%;height:auto;">
+
+Figure 4. A solution to find open air in crowded New York.
 
 [^fn1]: I write this as if the United States in 2023 an 2024 is *not* a deeply segregated, eugenicist country. It is, however, different in forms and structures.
 

@@ -65,11 +65,11 @@ Figure 3. A group of teenaged students playing in an outdoor lesson. Courtesy of
 
 While less common than the architectural image of the sanatorium, there are images which give glimpses (whether intended or otherwise) into a communal life. These images, like those shown in an earlier section (1.2.2) (figs. 6 & 7), represent what life might be like for potential residents. Visions of community, of playing games (fig. 8), of being in a group while taking in air or sunlight (fig. 9), of working together (fig. ), of celebrating together (fig. [!!!FINDAPARTYPIC]), articulate a very different kind of institution from the modern medical no-place (1.2.1). Especially in light of contemporary standards of care, with doctors bustling between patients with little to no time to see them, with egregiously expensive hospital stays, and facilities that have been bled to the fewest staff possible, the transitory space of the current hospital looks unlike the vision imagined for the health-resort-like sanatorium.[^fn1] Of course, to make a generalization here, would be an oversight. For example, the Queen Alexandra Sanatorium in Davos sold itself with its private verandas (1.2.3). Moreover (and more perniciously) this construction is at least partly imagined: *this is how the institutions who published about themselves imagined themselves*.
 
-<img id="Brandt_ADirectoryofInstitutionsa_1904_161b" src="{{ site.baseurl }}/assets/items/Brandt_ADirectoryofInstitutionsa_1904_107a.jpg" alt="A group of patients as well as a pair of health care workers pose for a picture on the porch of the Muskoka Free Hospital." style="max-width:60%;height:auto;">
+<img id="Brandt_ADirectoryofInstitutionsa_1904_161b" src="{{ site.baseurl }}/assets/items/Brandt_ADirectoryofInstitutionsa_1904_161b.jpg" alt="A group of patients as well as a pair of health care workers pose for a picture on the porch of the Muskoka Free Hospital." style="max-width:60%;height:auto;">
 
 Figure 6. A group of patients as well as a pair of health care workers pose for a picture on the porch of the Muskoka Free Hospital.
 
-<img id="Brandt_ADirectoryofInstitutionsa_1904_55" src="{{ site.baseurl }}/assets/items/Brandt_ADirectoryofInstitutionsa_1904_107a.jpg" alt="The veranda at Dr. Brooks's Sanatorium." style="max-width:60%;height:auto;">
+<img id="Brandt_ADirectoryofInstitutionsa_1904_55" src="{{ site.baseurl }}/assets/items/Brandt_ADirectoryofInstitutionsa_1904_55.jpg" alt="The veranda at Dr. Brooks's Sanatorium." style="max-width:60%;height:auto;">
 
 Figure 7. On first glance, the veranda at the sanatorium imaged looks empty. On closer inspection, there are a few patients in the background and what looks to be a doctor looking on them from afar.
 
@@ -77,11 +77,11 @@ Figure 7. On first glance, the veranda at the sanatorium imaged looks empty. On 
 
 Figure 8. A group of adults pose for a picture showing them playing board and card games. [!!!AddCitation]
 
-<img id="_TuberculosisATreatisebyAm_1909_175" src="{{ site.baseurl }}/assets/items/_TuberculosisATreatisebyAm_1909_175.jpg" alt="A group of women sit with heavy sleeping bag like blankets around them." style="max-width:60%;height:auto;">
+<img id="TuberculosisATreatisebyAm_1909_175" src="{{ site.baseurl }}/assets/items/TuberculosisATreatisebyAm_1909_175.jpg" alt="A group of women sit with heavy sleeping bag like blankets around them." style="max-width:60%;height:auto;">
 
 Figure 9. A group of women sit with heavy sleeping bag like blankets around them. This is an example of some of the precautions taken when patients would be given the open air treatment.
 
-<img id="_TheControlandEradicationo_1911_224" src="{{ site.baseurl }}/assets/items/_TheControlandEradicationo_1911_224.jpg" alt="A group of young men work on a farm, selecting seed potatoes." style="max-width:60%;height:auto;">
+<img id="TheControlandEradicationo_1911_224" src="{{ site.baseurl }}/assets/items/TheControlandEradicationo_1911_224.jpg" alt="A group of young men work on a farm, selecting seed potatoes." style="max-width:60%;height:auto;">
 
 Figure 10. A group of young men work on a farm, selecting seed potatoes. This kind of working cure was more popular in the United Kingdom. [!!!AddCitation]
 
