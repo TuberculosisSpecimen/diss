@@ -1,9 +1,9 @@
 ---
 
 layout: post
-title: There Are No Futures, or Why I Hate Film Studies
-excerpt: 
-pullquote:
+title: There Are No Futures, or My Complicated Relationship with Film Studies
+excerpt: "The issue, apart from me being a contrarian blowhard, is that so much of my scholarly position comes from a desire to *not do film studies* to *not do media studies*, and this desire is at odds because I am in a media studies PhD program. As I reflected on this comment, I found something that permeates my very relationship to academic learning: I found myself reacting to a set of open wounds which I have been unable to speak about."
+pullquote: "I am uncomfortable about my relationship with my discipline, and I am trying to make sense of it."
 
 ---
 
