@@ -72,4 +72,4 @@ The last note I want to end on is that much of these concerns are structural one
 
 [^fn1]: This was said to the Media School's graduate students directly when, after it was made clear that graduate lines were being cut (jeopardizing PhD students whose work takes longer than four years to complete) and the school was still accepting new PhD students. 
 
-[^fn2]: Cite those readings.
+[^fn2]: Andrew Delbanco. *College: What it was, is, and should be*. (Princeton: Princeton University Press, 2011), 25-35; William Deresiewicz. "What is College For?" in *Excellent Sheep: The Miseducation of the American Elite and the Way to a Meaningful Life*. (New York: Free Press, 2014) 77-87.
