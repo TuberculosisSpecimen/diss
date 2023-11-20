@@ -12,21 +12,21 @@ subsectiondisplay: 1
 
 In 2016 I reedited “The Modern Orpheus”. I had originally made a longer version of the film in 2014 as part of a project during my MFA. This film was, ostensibly, about the history of the atomic bomb and its aftermath, but during production it became more about my horror and guilt after seeing the images the United States produced to study the aftermaths of the Hiroshima and Nagasaki bombings (figs. 1 - 2). The film’s title, “The Modern Orpheus”, made reference to two texts: the secondary title to Mary Shelly’s *Frankenstein*, *Or the Modern Prometheus*, and to the Grecian Orpheus myth. Mary Shelly’s *Frankenstein* responded to the rise of the emirical sciences, and was written out of Shelly’s own experience watching grave-robbers while visiting her mother’s grave.[^fn1] Orpheus is an oft remixed tale of love, loss, and the failure in trust. Orpheus’ undoing is his gaze: he looks back to see if Eurydice is following him out of the underworld. 
 
-<img id="Modorph2" class="full" src="{{ site.baseurl }}/assets/items/Modorph2_opaque.jpg" style="max-width:60%;height:auto;">
+<img id="Modorph2" class="opaque" src="{{ site.baseurl }}/assets/items/Modorph2_opaque.jpg" style="max-width:60%;height:auto;">
 <img id="Modorph2" class="transparent" src="{{ site.baseurl }}/assets/items/Modorph2.jpg" style="max-width:60%;height:auto;">
-<img id="Modorph2" class="partially-full" src="{{ site.baseurl }}/assets/items/Modorph2_partial.jpg" style="max-width:60%;height:auto;">
+<img id="Modorph2" class="partially-opaque" src="{{ site.baseurl }}/assets/items/Modorph2_partial.jpg" style="max-width:60%;height:auto;">
 
 Figure 1. A still from *The Modern Orpheus*. This was originally footage taken by Americans looking at the wreckage in the aftermath of the Hiroshima and Nagasaki bombings.
 
-<img id="Modorph1" class="full" src="{{ site.baseurl }}/assets/items/Modorph1_opaque.jpg" style="max-width:60%;height:auto;">
+<img id="Modorph1" class="opaque" src="{{ site.baseurl }}/assets/items/Modorph1_opaque.jpg" style="max-width:60%;height:auto;">
 <img id="Modorph1" class="transparent" src="{{ site.baseurl }}/assets/items/Modorph1.jpg" style="max-width:60%;height:auto;">
-<img id="Modorph1" class="partially-full" src="{{ site.baseurl }}/assets/items/Modorph1_partial.jpg" style="max-width:60%;height:auto;">
+<img id="Modorph1" class="partially-opaque" src="{{ site.baseurl }}/assets/items/Modorph1_partial.jpg" style="max-width:60%;height:auto;">
 
 Figure 3. A still from *The Modern Orpheus*. This image shows a Japanese subject suffering from health problems related to the bomb was used multiple times in multiple ways in the film.
 
-<img id="Modorph3" class="full" src="{{ site.baseurl }}/assets/items/Modorph3_opaque.jpg" style="max-width:60%;height:auto;">
+<img id="Modorph3" class="opaque" src="{{ site.baseurl }}/assets/items/Modorph3_opaque.jpg" style="max-width:60%;height:auto;">
 <img id="Modorph3" class="transparent" src="{{ site.baseurl }}/assets/items/Modorph3.jpg" style="max-width:60%;height:auto;">
-<img id="Modorph3" class="partially-full" src="{{ site.baseurl }}/assets/items/Modorph3_partial.jpg" style="max-width:60%;height:auto;">
+<img id="Modorph3" class="partially-opaque" src="{{ site.baseurl }}/assets/items/Modorph3_partial.jpg" style="max-width:60%;height:auto;">
 
 Figure 2. A still from *The Modern Orpheus*. This image is one of many images in the collected video for the project. A patient is shown with obvious wounds from the bomb, and filmed for some spurious scientific purpose, but more looks like they are reflecting on their own pain.
 
@@ -46,21 +46,21 @@ I know this language. The camera eye dissects the survivors. The individual is o
 
 In “The Modern Orpheus”, I tried to reconceptualize this violent image, to make it known, to make it hurt a viewer in such a way to move an audience to reconsidering the past. I also felt successively more uncomfortable with the image itself. I sought to shift it, in the way Chris Marker evoked André Tarkovsky’s “the zone” in his 1984 film *Sans Soleil*. Playing with layering high contrast filters, I wondered if I could flatten the image, to undo the clinical vision of American doctors (figs. 4 - 5).[^fn6]
 
-<img id="Modorphzone1" class="full" src="{{ site.baseurl }}/assets/items/Modorphzone1_opaque.jpg" style="max-width:60%;height:auto;">
+<img id="Modorphzone1" class="opaque" src="{{ site.baseurl }}/assets/items/Modorphzone1_opaque.jpg" style="max-width:60%;height:auto;">
 <img id="Modorphzone1" class="transparent" src="{{ site.baseurl }}/assets/items/Modorphzone1.jpg" style="max-width:60%;height:auto;">
-<img id="Modorphzone1" class="partially-full" src="{{ site.baseurl }}/assets/items/Modorphzone1_partial.jpg" style="max-width:60%;height:auto;">
+<img id="Modorphzone1" class="partially-opaque" src="{{ site.baseurl }}/assets/items/Modorphzone1_partial.jpg" style="max-width:60%;height:auto;">
 
 Figure 6.
 
-<img id="Modorphzone2" class="full" src="{{ site.baseurl }}/assets/items/Modorphzone2_opaque.jpg" style="max-width:60%;height:auto;">
+<img id="Modorphzone2" class="opaque" src="{{ site.baseurl }}/assets/items/Modorphzone2_opaque.jpg" style="max-width:60%;height:auto;">
 <img id="Modorphzone2" class="transparent" src="{{ site.baseurl }}/assets/items/Modorphzone2.jpg" style="max-width:60%;height:auto;">
-<img id="Modorphzone2" class="partially-full" src="{{ site.baseurl }}/assets/items/Modorphzone2_partial.jpg" style="max-width:60%;height:auto;">
+<img id="Modorphzone2" class="partially-opaque" src="{{ site.baseurl }}/assets/items/Modorphzone2_partial.jpg" style="max-width:60%;height:auto;">
 
 Figure 7.
 
-<img id="Modorphzone3" class="full" src="{{ site.baseurl }}/assets/items/Modorphzone3_opaque.jpg" style="max-width:60%;height:auto;">
+<img id="Modorphzone3" class="opaque" src="{{ site.baseurl }}/assets/items/Modorphzone3_opaque.jpg" style="max-width:60%;height:auto;">
 <img id="Modorphzone3" class="transparent" src="{{ site.baseurl }}/assets/items/Modorphzone3.jpg" style="max-width:60%;height:auto;">
-<img id="Modorphzone3" class="partially-full" src="{{ site.baseurl }}/assets/items/Modorphzone3_partial.jpg" style="max-width:60%;height:auto;">
+<img id="Modorphzone3" class="partially-opaque" src="{{ site.baseurl }}/assets/items/Modorphzone3_partial.jpg" style="max-width:60%;height:auto;">
 
 Figure 5. 
 
