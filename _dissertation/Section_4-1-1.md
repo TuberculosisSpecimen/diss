@@ -12,11 +12,11 @@ subsectiondisplay: 1
 
 In 2016 I reedited “The Modern Orpheus”. I had originally made a longer version of the film in 2014 as part of a project during my MFA. This film was, ostensibly, about the history of the atomic bomb and its aftermath, but during production it became more about my horror and guilt after seeing the images the United States produced to study the aftermaths of the Hiroshima and Nagasaki bombings (figs. 1 - 2). The film’s title, “The Modern Orpheus”, made reference to two texts: the secondary title to Mary Shelly’s *Frankenstein*, *Or the Modern Prometheus*, and to the Grecian Orpheus myth. Mary Shelly’s *Frankenstein* responded to the rise of the emirical sciences, and was written out of Shelly’s own experience watching grave-robbers while visiting her mother’s grave.[^fn1] Orpheus is an oft remixed tale of love, loss, and the failure in trust. Orpheus’ undoing is his gaze: he looks back to see if Eurydice is following him out of the underworld. 
 
-<img id="Modorph2" class="transparent" src="{{ site.baseurl }}/assets/items/Modorph2.jpg" style="max-width:60%;height:auto;">
+<img id="Modorph2" class="transparent opaque partially-opaque"" src="{{ site.baseurl }}/assets/items/Modorph2.jpg" style="max-width:60%;height:auto;">
 
 Figure 1. A still from *The Modern Orpheus*. This was originally footage taken by Americans looking at the wreckage in the aftermath of the Hiroshima and Nagasaki bombings.
 
-<img id="Modorph1" class="transparent" src="{{ site.baseurl }}/assets/items/Modorph1.jpg" style="max-width:60%;height:auto;">
+<img id="Modorph1" class="transparent opaque partially-opaque"" src="{{ site.baseurl }}/assets/items/Modorph1.jpg" style="max-width:60%;height:auto;">
 
 Figure 3. A still from *The Modern Orpheus*. This image shows a Japanese subject suffering from health problems related to the bomb was used multiple times in multiple ways in the film.
 
