@@ -12,15 +12,21 @@ subsectiondisplay: 1
 
 In 2016 I reedited “The Modern Orpheus”. I had originally made a longer version of the film in 2014 as part of a project during my MFA. This film was, ostensibly, about the history of the atomic bomb and its aftermath, but during production it became more about my horror and guilt after seeing the images the United States produced to study the aftermaths of the Hiroshima and Nagasaki bombings (figs. 1 - 2). The film’s title, “The Modern Orpheus”, made reference to two texts: the secondary title to Mary Shelly’s *Frankenstein*, *Or the Modern Prometheus*, and to the Grecian Orpheus myth. Mary Shelly’s *Frankenstein* responded to the rise of the emirical sciences, and was written out of Shelly’s own experience watching grave-robbers while visiting her mother’s grave.[^fn1] Orpheus is an oft remixed tale of love, loss, and the failure in trust. Orpheus’ undoing is his gaze: he looks back to see if Eurydice is following him out of the underworld. 
 
-modorph2
+<img id="Modorph2" class="opaque" src="/assets/img/Modorph2_opaque.jpg">
+<img id="Modorph2" class="transparent" src="/assets/img/Modorph2.jpg">
+<img id="Modorph2" class="partially-opaque" src="/assets/img/Modorph2_semi-opaque.jpg">
 
 Figure 1. A still from *The Modern Orpheus*. This was originally footage taken by Americans looking at the wreckage in the aftermath of the Hiroshima and Nagasaki bombings.
 
-modorph1
+<img id="Modorph1" class="opaque" src="/assets/img/Modorph1_opaque.jpg">
+<img id="Modorph1" class="transparent" src="/assets/img/Modorph1.jpg">
+<img id="Modorph1" class="partially-opaque" src="/assets/img/Modorph1_semi-opaque.jpg">
 
 Figure 3. A still from *The Modern Orpheus*. This image shows a Japanese subject suffering from health problems related to the bomb was used multiple times in multiple ways in the film.
 
-modorph3
+<img id="Modorph3" class="opaque" src="/assets/img/Modorph3_opaque.jpg">
+<img id="Modorph3" class="transparent" src="/assets/img/Modorph3.jpg">
+<img id="Modorph3" class="partially-opaque" src="/assets/img/Modorph3_semi-opaque.jpg">
 
 Figure 2. A still from *The Modern Orpheus*. This image is one of many images in the collected video for the project. A patient is shown with obvious wounds from the bomb, and filmed for some spurious scientific purpose, but more looks like they are reflecting on their own pain.
 
@@ -40,15 +46,21 @@ I know this language. The camera eye dissects the survivors. The individual is o
 
 In “The Modern Orpheus”, I tried to reconceptualize this violent image, to make it known, to make it hurt a viewer in such a way to move an audience to reconsidering the past. I also felt successively more uncomfortable with the image itself. I sought to shift it, in the way Chris Marker evoked André Tarkovsky’s “the zone” in his 1984 film *Sans Soleil*. Playing with layering high contrast filters, I wondered if I could flatten the image, to undo the clinical vision of American doctors (figs. 4 - 5).[^fn6]
 
-Modorphzone1
+<img id="Modorphzone1" class="opaque" src="/assets/img/Modorphzone1_opaque.jpg">
+<img id="Modorphzone1" class="transparent" src="/assets/img/Modorphzone1.jpg">
+<img id="Modorphzone1" class="partially-opaque" src="/assets/img/Modorphzone1_semi-opaque.jpg">
 
 Figure 6.
 
-Modorphzone2
+<img id="Modorphzone2" class="opaque" src="/assets/img/Modorphzone2_opaque.jpg">
+<img id="Modorphzone2" class="transparent" src="/assets/img/Modorphzone2.jpg">
+<img id="Modorphzone2" class="partially-opaque" src="/assets/img/Modorphzone2_semi-opaque.jpg">
 
 Figure 7.
 
-Modorphzone3
+<img id="Modorphzone3" class="opaque" src="/assets/img/Modorphzone3_opaque.jpg">
+<img id="Modorphzone3" class="transparent" src="/assets/img/Modorphzone3.jpg">
+<img id="Modorphzone3" class="partially-opaque" src="/assets/img/Modorphzone3_semi-opaque.jpg">
 
 Figure 5. 
 
