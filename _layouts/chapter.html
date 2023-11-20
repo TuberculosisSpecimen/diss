@@ -3,6 +3,33 @@ layout: page
 format: chapter
 ---
 
+<style>
+     .toggle-buttons {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .toggle-button {
+        padding: 8px 12px;
+        background-color: #f1f1f1;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .toggle-button.selected, .toggle-button.active {
+        background-color: #007bff; /* Change to your preferred active button color */
+        color: white;
+    }
+
+</style>
+
+<div class="toggle-buttons">
+<button id="opaqueBtn" class="toggle-button">Opaque</button>
+<button id="transparentBtn" class="toggle-button">Transparent</button>
+<button id="partiallyOpaqueBtn" class="toggle-button">Partially Opaque</button>
+</div>
+
+
 <div class="large-12 cell">
 		<!--collection start-->
 
