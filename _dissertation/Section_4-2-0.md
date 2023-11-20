@@ -1,6 +1,6 @@
 ---
 layout: section
-title: “Introduction”
+title: “Terminal Imaginaries & Tuberculous Imaginaries”
 identifier: 4.2.0
 chapter: 4
 section: 002

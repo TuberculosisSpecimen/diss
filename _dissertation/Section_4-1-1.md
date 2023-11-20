@@ -1,6 +1,6 @@
 ---
 layout: section
-title: “Reflections on Theme"
+title: “Three Steps Back: The Reflective Arts"
 identifier: 4.1.1
 chapter: 4
 section: 001
@@ -12,11 +12,15 @@ subsectiondisplay: 1
 
 In 2016 I reedited “The Modern Orpheus”. I had originally made a longer version of the film in 2014 as part of a project during my MFA. This film was, ostensibly, about the history of the atomic bomb and its aftermath, but during production it became more about my horror and guilt after seeing the images the United States produced to study the aftermaths of the Hiroshima and Nagasaki bombings (figs. 1 - 2). The film’s title, “The Modern Orpheus”, made reference to two texts: the secondary title to Mary Shelly’s *Frankenstein*, *Or the Modern Prometheus*, and to the Grecian Orpheus myth. Mary Shelly’s *Frankenstein* responded to the rise of the emirical sciences, and was written out of Shelly’s own experience watching grave-robbers while visiting her mother’s grave.[^fn1] Orpheus is an oft remixed tale of love, loss, and the failure in trust. Orpheus’ undoing is his gaze: he looks back to see if Eurydice is following him out of the underworld. 
 
-<img id="Modorph2" class="opaque transparent partially-opaque" src="{{ site.baseurl }}/assets/items/Modorph2.jpg" style="max-width:60%;height:auto;">
+<img id="Modorph2" class="opaque" src="{{ site.baseurl }}/assets/items/Modorph2.jpg" style="max-width:60%;height:auto;">
+<img id="Modorph2" class="transparent" src="{{ site.baseurl }}/assets/items/Modorph2.jpg" style="max-width:60%;height:auto;">
+<img id="Modorph2" class="partially-opaque" src="{{ site.baseurl }}/assets/items/Modorph2.jpg" style="max-width:60%;height:auto;">
 
 Figure 1. A still from *The Modern Orpheus*. This was originally footage taken by Americans looking at the wreckage in the aftermath of the Hiroshima and Nagasaki bombings.
 
-<img id="Modorph1" class="opaque transparent partially-opaque" src="{{ site.baseurl }}/assets/items/Modorph1.jpg" style="max-width:60%;height:auto;">
+<img id="Modorph1" class="opaque" src="{{ site.baseurl }}/assets/items/Modorph1.jpg" style="max-width:60%;height:auto;">
+<img id="Modorph1" class="transparent" src="{{ site.baseurl }}/assets/items/Modorph1.jpg" style="max-width:60%;height:auto;">
+<img id="Modorph1" class="partially-opaque" src="{{ site.baseurl }}/assets/items/Modorph1.jpg" style="max-width:60%;height:auto;">
 
 Figure 3. A still from *The Modern Orpheus*. This image shows a Japanese subject suffering from health problems related to the bomb was used multiple times in multiple ways in the film.
 
@@ -30,15 +34,15 @@ The mix of these two threads expressed a desire to see, and the complicated, vit
 
 This notion of visual truth telling came out of the production process. The film was made of primarily archival materials (and some footage of a past failed project from 2013). I had visited the National Archives in Park Slope in the Summer of 2013, hoping to copy some of the footage that the United States had collected in the aftermath of Hiroshima and Nagasaki bombings. When I started watching the hours of material, I found myself caught in a roiling current of guilt, which had been masked by layers of American imperialism and American exceptionalism. Reflecting on this, in some promotional materials prepared for the film’s short festival run, I wrote,  “While I collected images, I found myself appalled by what I had unearthed. These images of the survivors of Hiroshima and Nagasaki were so coldly collected. How could any ethical filmmaker agree to shoot images like these? How could anyone approach this work with such nonchalance?”[^fn4]
 
-Video link
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tNUkgbA7tTo?si=gmdZ87qzYqqWlGq_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Unlike the preceding chapters, this chapter is not about tuberculosis. This chapter instead addresses my artistic practice and how it informs my research (4.1.2). I am stepping back a few steps to self-mythologizing my previous work, as a way piece together a larger series of themes and problems that predate this project: health, science, individual guilt, and a history of violence that imprints onto images. The last point is most central to *The Modern Orpheus*, as the other narrator, a male speaker, says: 
 
-There is an argument to these images. The purest oppression is annihilation, and these documents express a biased scientific record: a sterilized, distorted vision through a victor’s lens. 
+>There is an argument to these images. The purest oppression is annihilation, and these documents express a biased scientific record: a sterilized, distorted vision through a victor’s lens. 
 
-An American captured these images.
+>An American captured these images.
 
-I know this language. The camera eye dissects the survivors. The individual is obliterated.[^fn5] 
+>I know this language. The camera eye dissects the survivors. The individual is obliterated.[^fn5] 
 
 In “The Modern Orpheus”, I tried to reconceptualize this violent image, to make it known, to make it hurt a viewer in such a way to move an audience to reconsidering the past. I also felt successively more uncomfortable with the image itself. I sought to shift it, in the way Chris Marker evoked André Tarkovsky’s “the zone” in his 1984 film *Sans Soleil*. Playing with layering high contrast filters, I wondered if I could flatten the image, to undo the clinical vision of American doctors (figs. 4 - 5).[^fn6]
 
