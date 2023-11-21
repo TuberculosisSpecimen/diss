@@ -18,9 +18,9 @@ In 2016 I reedited “The Modern Orpheus”. I had originally made a longer vers
 
 Figure 1. A still from *The Modern Orpheus*. This was originally footage taken by Americans looking at the wreckage in the aftermath of the Hiroshima and Nagasaki bombings.
 
-<img id="Modorph1" class="opaque" src="{{ site.baseurl }}/assets/items/Modorph1.jpg" style="max-width:60%;height:auto;">
+<img id="Modorph1" class="opaque" src="{{ site.baseurl }}/assets/items/Modorph1_opaque_.jpg" style="max-width:60%;height:auto;">
 <img id="Modorph1" class="transparent" src="{{ site.baseurl }}/assets/items/Modorph1.jpg" style="max-width:60%;height:auto;">
-<img id="Modorph1" class="partially-opaque" src="{{ site.baseurl }}/assets/items/Modorph1.jpg" style="max-width:60%;height:auto;">
+<img id="Modorph1" class="partially-opaque" src="{{ site.baseurl }}/assets/items/Modorph1_partial_.jpg" style="max-width:60%;height:auto;">
 
 Figure 3. A still from *The Modern Orpheus*. This image shows a Japanese subject suffering from health problems related to the bomb was used multiple times in multiple ways in the film.
 

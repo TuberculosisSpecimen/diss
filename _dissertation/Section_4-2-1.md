@@ -26,15 +26,15 @@ The work was made from three projectors and three corresponding mini-computers, 
 Figure 2. A diagram of the projector setup for the Terminal Imaginaries installation.
 
 
-<img id=“terminalimaginarieslivetest“ class=“opaque” src=“{ site.baseurl }}/assets/items/terminalimaginarieslivetest_opaque.jpg">
-<img id=“terminalimaginarieslivetest“ class=“transparent” src=“{ site.baseurl }}/assets/items/terminalimaginarieslivetes.jpg">
-<img id=“terminalimaginarieslivetest“ class=“partially-opaque” src=“{ site.baseurl }}/assets/items/terminalimaginarieslivetest_partial.jpg">
+<img id=“terminalimaginarieslivetest“ class=“opaque” src=“{{ site.baseurl }}/assets/items/terminalimaginarieslivetest_opaque.jpg">
+<img id=“terminalimaginarieslivetest“ class=“transparent” src=“{{ site.baseurl }}/assets/items/terminalimaginarieslivetes.jpg">
+<img id=“terminalimaginarieslivetest“ class=“partially-opaque” src=“{{ site.baseurl }}/assets/items/terminalimaginarieslivetest_partial.jpg">
 
 Figure 1. The setup for the install as it was presented in spring 2021.
 
-<img id=“terminalimaginariesallinone“ class=“opaque” src=“{ site.baseurl }}/assets/items/terminalimaginariesallinone_opaque.jpg">
-<img id=“terminalimaginariesallinone“ class=“transparent” src=“{ site.baseurl }}/assets/items/terminalimaginariesallinone.jpg">
-<img id=“terminalimaginariesallinone“ class=“partially-opaque” src=“{ site.baseurl }}/assets/items/terminalimaginariesallinone_partial.jpg">
+<img id=“terminalimaginariesallinone“ class=“opaque” src=“{{ site.baseurl }}/assets/items/terminalimaginariesallinone_opaque.jpg">
+<img id=“terminalimaginariesallinone“ class=“transparent” src=“{{ site.baseurl }}/assets/items/terminalimaginariesallinone.jpg">
+<img id=“terminalimaginariesallinone“ class=“partially-opaque” src=“{{ site.baseurl }}/assets/items/terminalimaginariesallinone_partial.jpg">
 
 Figure 3. A mockup of the terminal imaginaries installation with each image showing (although they are not meant to be shown on a single wall).
 
