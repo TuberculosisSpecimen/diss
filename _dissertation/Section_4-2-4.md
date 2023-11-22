@@ -1,6 +1,6 @@
 ---
 layout: section
-title: “Tuberculous Imaginaries"
+title: “Practicing Critique"
 identifier: 4.2.4
 chapter: 4
 section: 002

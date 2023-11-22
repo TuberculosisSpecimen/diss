@@ -1,6 +1,6 @@
 ---
 layout: section
-title: “Scrolling Text"
+title: “Practicing Critique"
 identifier: 4.2.5
 chapter: 4
 section: 002

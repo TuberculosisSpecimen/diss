@@ -1,6 +1,6 @@
 ---
 layout: section
-title: “Ethical Concerns"
+title: “Practicing Critique"
 identifier: 4.2.6
 chapter: 4
 section: 002

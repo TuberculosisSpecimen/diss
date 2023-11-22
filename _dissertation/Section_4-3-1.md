@@ -1,6 +1,6 @@
 ---
 layout: section
-title: “Dermographic Opacities”
+title: “Practicing Critique"
 identifier: 4.3.1
 chapter: 4
 section: 003

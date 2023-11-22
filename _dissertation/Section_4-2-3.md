@@ -1,6 +1,6 @@
 ---
 layout: section
-title: “Tactical Modalities"
+title: “Practicing Critique"
 identifier: 4.2.3
 chapter: 4
 section: 002
