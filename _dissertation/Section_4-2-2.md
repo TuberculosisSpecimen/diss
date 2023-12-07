@@ -1,6 +1,6 @@
 ---
 layout: section
-title: “Practicing Critique"
+title: "Practicing Critique"
 identifier: 4.2.2
 chapter: 4
 section: 002
@@ -16,33 +16,33 @@ I wanted to learn video art, in a desire to move away from my more traditional t
 
 These scoping problems are common, especially for large-scale projects in and adjacent to the digital humanities.[^fn2] *Terminal Imaginaries*, while overtly broad, helped me narrow the project from addressing the entire field of medicine circa 1900 to a few specific interests. These were articulated in dissonance and harmony to one other through the installations overlapping projectors (fig. 1): one looked at anatomy, another looked at dermatology, and the other looked at doctor’s portraits. Each projector spoke to an interest (either explicitly stated on the project’s website, or found through reflection).  Projector B, for example, reflected on the visual repercussions of the extractive epistemics so common to the biomedical sciences.[^fn3]
 
-<img id=“terminalimaginarieslivetest“ class=“opaque” src=“{{ site.baseurl }}/assets/items/terminalimaginarieslivetest_opaque.jpg">
-<img id=“terminalimaginarieslivetest“ class=“transparent” src=“{{ site.baseurl }}/assets/items/terminalimaginarieslivetes_opaque.jpg">
-<img id=“terminalimaginarieslivetest“ class=“semi-opaque” src=“{{ site.baseurl }}/assets/items/terminalimaginarieslivetest_partial.jpg">
+<img id="terminalimaginarieslivetest" class="opaque" src="{{ site.baseurl }}/assets/items/terminalimaginarieslivetest_opaque.jpg">
+<img id="terminalimaginarieslivetest" class="transparent" src="{{ site.baseurl }}/assets/items/terminalimaginarieslivetes_opaque.jpg">
+<img id="terminalimaginarieslivetest" class="semi-opaque" src="{{ site.baseurl }}/assets/items/terminalimaginarieslivetest_partial.jpg">
 
 Figure 2. The setup for the install as it was presented in spring 2021.
 
 The overlap between projectors A and B (fig. 1) created an opportunity to think about the juxtaposition of the two image types. The kinds of dermatological images shown through projector A has a series of nested relationships with the anatomical, illustrative image of projector B. I had wanted to include some physical barriers between the projector and the screen, wanting a kind of physicality of the screen that seems so much a immaterial thing.[^fn4] What I realized, save for the mirror which cuts and recasts projector C, is that the physical implement did less to cut the light so much as order the space. Adding the black bar across the eyes of dermatological portraits (fig. 3 & 4) in the editing platform produced the desired effect without the finicky, too light, and poorly constructed (by me) flags.
 
-<img id=“terminalimaginaries1“ class=“opaque” src=“{{ site.baseurl }}/assets/items/terminalimaginaries1_opaque.jpg">
-<img id=“terminalimaginaries1“ class=“transparent” src=“{{ site.baseurl }}/assets/items/terminalimaginaries1.jpg">
-<img id=“terminalimaginaries1“ class=“semi-opaque” src=“{{ site.baseurl }}/assets/items/terminalimaginaries1.jpg">
+<img id="terminalimaginaries1" class="opaque" src="{{ site.baseurl }}/assets/items/terminalimaginaries1_opaque.jpg">
+<img id="terminalimaginaries1" class="transparent" src="{{ site.baseurl }}/assets/items/terminalimaginaries1.jpg">
+<img id="terminalimaginaries1" class="semi-opaque" src="{{ site.baseurl }}/assets/items/terminalimaginaries1.jpg">
 
 Figure 3. A still from the video feed of Projector A. The images are arranged, cropped, and cut in particular ways to mimic a kind of false anonymity.
 
-I had begun to think about this cut at the eye in the way the unnamed narrator in Chris Marker’s *Sans Soleil* talked about censorship. In the English translation of the quasi-documentary-travelogue, the narrator argues, over images of Japanese television that edit out nudity, that, “[c]ensorship is not the mutilation of the show, it is the show. The code is the message. It points to the absolute by hiding it.”[^fn5] In the context of the film, the narrator, speaking through and about a semi-fictional filmmaker modelled after Marker, is thinking about the televisual image, and the ways it has its own kind of language. For my own work, I think this censorship as a critical *praxis*, a means to subvert the image and use my own intervention to draw to the very thing that made me so uncomfortable: as a twenty-first century viewer, the doctors never seemed to care as to the personhood of their subjects. When they did offer some anonymity, as with the woman with *lupus vulgaris* who haunts the pages of this project (figs. 5), it some how made my ethical concerns more concrete. Why give one subject the privilege of anonymity, when another seems so obviously disempowered by the clinician (figs. 6 & 7)?
+I had begun to think about this cut at the eye in the way the unnamed narrator in Chris Marker’s *Sans Soleil* talked about censorship. In the English translation of the quasi-documentary-travelogue, the narrator argues, over images of Japanese television that edit out nudity, that, "[c]ensorship is not the mutilation of the show, it is the show. The code is the message. It points to the absolute by hiding it."[^fn5] In the context of the film, the narrator, speaking through and about a semi-fictional filmmaker modelled after Marker, is thinking about the televisual image, and the ways it has its own kind of language. For my own work, I think this censorship as a critical *praxis*, a means to subvert the image and use my own intervention to draw to the very thing that made me so uncomfortable: as a twenty-first century viewer, the doctors never seemed to care as to the personhood of their subjects. When they did offer some anonymity, as with the woman with *lupus vulgaris* who haunts the pages of this project (figs. 5), it some how made my ethical concerns more concrete. Why give one subject the privilege of anonymity, when another seems so obviously disempowered by the clinician (figs. 6 & 7)?
 
-<img id=“Morris_DiseasesoftheSkin_1909_446“ class=“opaque” src=“{{ site.baseurl }}/assets/items/Morris_DiseasesoftheSkin_1909_446_opaque.jpg">
-<img id=“Morris_DiseasesoftheSkin_1909_446“ class=“transparent” src=“{{ site.baseurl }}/assets/items/Morris_DiseasesoftheSkin_1909_446.jpg">
-<img id=“Morris_DiseasesoftheSkin_1909_446“ class=“semi-opaque” src=“{{ site.baseurl }}/assets/items/Morris_DiseasesoftheSkin_1909_446.jpg">
+<img id="Morris_DiseasesoftheSkin_1909_446" class="opaque" src="{{ site.baseurl }}/assets/items/Morris_DiseasesoftheSkin_1909_446_opaque.jpg">
+<img id="Morris_DiseasesoftheSkin_1909_446" class="transparent" src="{{ site.baseurl }}/assets/items/Morris_DiseasesoftheSkin_1909_446.jpg">
+<img id="Morris_DiseasesoftheSkin_1909_446" class="semi-opaque" src="{{ site.baseurl }}/assets/items/Morris_DiseasesoftheSkin_1909_446.jpg">
 
 Figure 5. A dermatological photograph of *lupus vulgaris*. The patient that this pathological condition is manifested on has been given a kind of anonymity through the removal of her face from the frame. [!!!ADDCITATION]
 
 Figure 6. [!!!Addtext].
 
-<img id=“Gottheil_SkinDiseases_1906_176“ class=“opaque” src=“{{ site.baseurl }}/assets/items/Gottheil_SkinDiseases_1906_176_opaque.jpg">
-<img id=“Gottheil_SkinDiseases_1906_176“ class=“transparent” src=“{{ site.baseurl }}/assets/items/Gottheil_SkinDiseases_1906_176.jpg">
-<img id=“Gottheil_SkinDiseases_1906_176“ class=“semi-opaque” src=“{{ site.baseurl }}/assets/items/Gottheil_SkinDiseases_1906_176_partial.jpg">
+<img id="Gottheil_SkinDiseases_1906_176" class="opaque" src="{{ site.baseurl }}/assets/items/Gottheil_SkinDiseases_1906_176_opaque.jpg">
+<img id="Gottheil_SkinDiseases_1906_176" class="transparent" src="{{ site.baseurl }}/assets/items/Gottheil_SkinDiseases_1906_176.jpg">
+<img id="Gottheil_SkinDiseases_1906_176" class="semi-opaque" src="{{ site.baseurl }}/assets/items/Gottheil_SkinDiseases_1906_176_partial.jpg">
 
 Figure 7. An example from Gottheil’s [!!!ADDCITATION] where the subject is not afforded anonymity. [!!!ADDCITATION]
 
@@ -64,4 +64,4 @@ In the three years since I completed *Terminal Imaginaries*, I have read work th
 
 [^fn6]: Rawling piece.
 
-[^fn7]: Christen, Kimberly. “Does Information Really Want to Be Free?: Indigenous Knowledge Systems and the Question of Openness.” *International Journal of Communication* 6 (2012): 2870--93; Christen, Kimberly. “Gone Digital: Aboriginal Remix and the Cultural Commons.” *International Journal of Cultural Property* 12 (2005): 315--45.
+[^fn7]: Christen, Kimberly. "Does Information Really Want to Be Free?: Indigenous Knowledge Systems and the Question of Openness." *International Journal of Communication* 6 (2012): 2870--93; Christen, Kimberly. "Gone Digital: Aboriginal Remix and the Cultural Commons." *International Journal of Cultural Property* 12 (2005): 315--45.
