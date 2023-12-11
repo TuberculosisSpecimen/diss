@@ -7,13 +7,5 @@
 @import 'syntax';
 @import 'app';
 @import 'opacityctrl';
-
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap");@media print, screen and (min-width: 40em) {
-    .reveal,.reveal.tiny,.reveal.small,.reveal.large {
-        right:auto;
-        left: auto;
-        margin: 0 auto
-    }
-};
-@import url("{{ base.url }}/assets/css/FromKalani.css")
+@import url "{{ site.baseurl }}/assets/css/FromKalani.css"
 
