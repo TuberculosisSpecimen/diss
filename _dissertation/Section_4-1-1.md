@@ -9,7 +9,7 @@ chapterdisplay: 4
 sectiondisplay: 1
 subsectiondisplay: 1
 ---
-
+<section id="reflectivearts">
 In 2016 I reedited “The Modern Orpheus”. I had originally made a longer version of the film in 2014 as part of a project during my MFA. This film was, ostensibly, about the history of the atomic bomb and its aftermath, but during production it became more about my horror and guilt after seeing the images the United States produced to study the aftermaths of the Hiroshima and Nagasaki bombings (figs. 1 - 2). The film’s title, “The Modern Orpheus”, made reference to two texts: the secondary title to Mary Shelly’s *Frankenstein*, *Or the Modern Prometheus*, and to the Grecian Orpheus myth. Mary Shelly’s *Frankenstein* responded to the rise of the emirical sciences, and was written out of Shelly’s own experience watching grave-robbers while visiting her mother’s grave.[^fn1] Orpheus is an oft remixed tale of love, loss, and the failure in trust. Orpheus’ undoing is his gaze: he looks back to see if Eurydice is following him out of the underworld. 
 
 <img id="Modorph2" class="opaque" src="{{ site.baseurl }}/assets/items/Modorph2.jpg" style="max-width:60%;height:auto;">
@@ -84,4 +84,4 @@ To frame the specific projects described later, I first will describe in better 
 
 [^fn6]: I would do this again for another short film *The Vivisected Earth.* I am choosing to not directly reference this work, because of its similarity to *Modern Orpheus*, and because its subject matter of the former film is much more personal.
 
-[^fn7]: The gap between the 2016 film and these more contemporary projects is the result of a personal and creative rut experienced after finishing my MFA in 2016. That degree left me hollow and unable to produce creative work for a number of years.
+[^fn7]: The gap between the 2016 film and these more contemporary projects is the result of a personal and creative rut experienced after finishing my MFA in 2016. That degree left me hollow and unable to produce creative work for a number of years.</section>
