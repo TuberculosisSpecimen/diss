@@ -10,19 +10,11 @@ sectiondisplay: 1
 subsectiondisplay: 1
 ---
 
-<meta class="foundation-mq" name="foundation-mq" content=""></head>
-<body id="the_body">
-
-<div class="fluid header sticky">
 <div class="grid-container">
   <div class="grid-x grid-margin-x">
-    <div class="cell small-12 text-center">
-		<h1 class="font-wide">A Diachronic Conversation with 19th Century War Correspondents and 21st century Historians</h1>
-		<h2 class="font-wide">digital history, archival deep-dives, and US imperialism in Cuba’s Third War of Independence</h2>
-	</div>
-  </div>
-</div>
-</div>
+    <div class="cell small-12 medium-7 small-order-2" id="article" data-mutate="kjbtkt-sticky">
+		<!--* Placeholder for Table of Content
+{:toc}-->
 
 
 <section id="reflectivearts">
@@ -87,6 +79,9 @@ I do arts-based research because it is a different mode of understanding, that f
 The projects which I describe in detail in the following sections all explore the opaque as a critical methodology for the history of medicine. Opacity, as defined by Eduard Glissant, operates as a personal refusal to be ingested into western epistemic systems (4.x.x). The artistic and scholarly work specifically wrestles with the productive possibility of noise, thinking about how adding or subtracting noise in ways that display can subversively address implicit functions in the supplied visual artifacts. Iterative, this work has been successful to different degrees. What I hope to convey, however, is not the epistemic superiority of arts-based research, so much as the affordances of this loose, aesthetically driven kind of *praxis.* 
 
 To frame the specific projects described later, I first will describe in better detail as to what I mean by arts-based research (4.1.2), and reflect on the arts traditions upon which I build (4.1.3).	
+</div>
+</div>
+</div>
 
 [^fn1]: Richardson.
 
