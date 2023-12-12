@@ -2,7 +2,7 @@
 title: "Appendix"
 layout: chapter
 permalink: "/dissertation/appendix/"
-chapterno: X
+chapterno: 7
 ---
 
 {% assign listofsections = site.dissertation | where: 'chapter', page.chapterno | sort: "section" %}

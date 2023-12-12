@@ -2,7 +2,7 @@
 layout: section
 title: "*Pneumoconiosis Three Cases*"
 identifier: X.3.5
-chapter: X
+chapter: 7
 section: 003
 subsection: 005
 chapterdisplay: X

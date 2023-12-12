@@ -5,7 +5,7 @@ identifier: X.3.2
 chapter: X
 section: 003
 subsection: 002
-chapterdisplay: X
+chapterdisplay: 7
 sectiondisplay: 3
 subsectiondisplay: 2
 ---

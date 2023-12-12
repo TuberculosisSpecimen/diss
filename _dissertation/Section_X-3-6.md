@@ -2,7 +2,7 @@
 layout: section
 title: "*Bacteriology*"
 identifier: X.3.6
-chapter: X
+chapter: 7
 section: 003
 subsection: 006
 chapterdisplay: X

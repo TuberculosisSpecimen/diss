@@ -2,7 +2,7 @@
 layout: section
 title: "*Illustrative Cases*"
 identifier: X.3.3
-chapter: X
+chapter: 7
 section: 003
 subsection: 003
 chapterdisplay: X

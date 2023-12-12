@@ -2,7 +2,7 @@
 layout: section
 title: "Installation Protocol for *Tuberculous Imaginaries*"
 identifier: X.3.1
-chapter: X
+chapter: 7
 section: 003
 subsection: 001
 chapterdisplay: X
