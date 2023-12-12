@@ -2,7 +2,7 @@
 layout: section
 title: "From the *Report of the Henry Phipps Institute Vol. 2*"
 identifier: X.3.2
-chapter: X
+chapter: 7
 section: 003
 subsection: 002
 chapterdisplay: 7
