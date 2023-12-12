@@ -78,21 +78,14 @@ I do arts-based research because it is a different mode of understanding, that f
 
 The projects which I describe in detail in the following sections all explore the opaque as a critical methodology for the history of medicine. Opacity, as defined by Eduard Glissant, operates as a personal refusal to be ingested into western epistemic systems (4.x.x). The artistic and scholarly work specifically wrestles with the productive possibility of noise, thinking about how adding or subtracting noise in ways that display can subversively address implicit functions in the supplied visual artifacts. Iterative, this work has been successful to different degrees. What I hope to convey, however, is not the epistemic superiority of arts-based research, so much as the affordances of this loose, aesthetically driven kind of *praxis.* 
 
-To frame the specific projects described later, I first will describe in better detail as to what I mean by arts-based research (4.1.2), and reflect on the arts traditions upon which I build (4.1.3).	
+To frame the specific projects described later, I first will describe in better detail as to what I mean by arts-based research (4.1.2), and reflect on the arts traditions upon which I build (4.1.3).	</section>
+
+<div class="cell small-12 medium-3 small-order-1">
+        <div data-sticky-container="" class="sticky-container" style="height: 424.266px;"><div class="sticky nav is-anchored is-at-top" data-sticky="2myxzh-sticky" data-anchor="article" data-resize="kjbtkt-sticky" data-mutate="kjbtkt-sticky" style="max-width: 444.25px; margin-top: 0px; bottom: auto; top: 0px;" data-events="mutate">
+		    <nav class="section-nav">
+
+		<ul>
+  <li class="active"><a href="#reflectivearts" id="reflectivearts">The Reflective Arts</a></li>
 </div>
 </div>
 </div>
-
-[^fn1]: Richardson.
-
-[^fn2]: See: Benjamin’s essay on history.
-
-[^fn3]: Sean Purcell. “The Modern Orpheus.” Digital Video. 6 minutes.
-
-[^fn4]: Sean Purcell. “American Guilt: *The Modern Orpheus*.” Blog Post. Seanpurcell.net. ~2016.
-
-[^fn5]: Sean Purcell. “The Modern Orpheus.”
-
-[^fn6]: I would do this again for another short film *The Vivisected Earth.* I am choosing to not directly reference this work, because of its similarity to *Modern Orpheus*, and because its subject matter of the former film is much more personal.
-
-[^fn7]: The gap between the 2016 film and these more contemporary projects is the result of a personal and creative rut experienced after finishing my MFA in 2016. That degree left me hollow and unable to produce creative work for a number of years.</section>
