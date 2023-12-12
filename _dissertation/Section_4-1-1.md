@@ -9,6 +9,22 @@ chapterdisplay: 4
 sectiondisplay: 1
 subsectiondisplay: 1
 ---
+
+<meta class="foundation-mq" name="foundation-mq" content=""></head>
+<body id="the_body">
+
+<div class="fluid header sticky">
+<div class="grid-container">
+  <div class="grid-x grid-margin-x">
+    <div class="cell small-12 text-center">
+		<h1 class="font-wide">A Diachronic Conversation with 19th Century War Correspondents and 21st century Historians</h1>
+		<h2 class="font-wide">digital history, archival deep-dives, and US imperialism in Cuba’s Third War of Independence</h2>
+	</div>
+  </div>
+</div>
+</div>
+
+
 <section id="reflectivearts">
 In 2016 I reedited “The Modern Orpheus”. I had originally made a longer version of the film in 2014 as part of a project during my MFA. This film was, ostensibly, about the history of the atomic bomb and its aftermath, but during production it became more about my horror and guilt after seeing the images the United States produced to study the aftermaths of the Hiroshima and Nagasaki bombings (figs. 1 - 2). The film’s title, “The Modern Orpheus”, made reference to two texts: the secondary title to Mary Shelly’s *Frankenstein*, *Or the Modern Prometheus*, and to the Grecian Orpheus myth. Mary Shelly’s *Frankenstein* responded to the rise of the emirical sciences, and was written out of Shelly’s own experience watching grave-robbers while visiting her mother’s grave.[^fn1] Orpheus is an oft remixed tale of love, loss, and the failure in trust. Orpheus’ undoing is his gaze: he looks back to see if Eurydice is following him out of the underworld. 
 
