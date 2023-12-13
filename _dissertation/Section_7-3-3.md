@@ -10,11 +10,7 @@ sectiondisplay: 3
 subsectiondisplay: 3
 ---
 
-*The Municipal Tuberculosis Sanitarium Research Laboratory*
-
-By H. C. Sweany, M. D. 
-
-Medical Director of Research. 
+From Sweany, H. C. "The Municipal Tuberculosis Sanitarium Research Laboratory" *City of Chicago Municipal Tuberculosis Sanatarium Monthly Bulletin.* 1923, 3 (10). City of Chicago Municipal Tuberculosis Sanitarium. 89-96.
 
 The original plans of the Municipal Tuberculosis Sanitarium included a laboratory, but it was almost a misnomer. It consisted of two small rooms in the corner of the main administration building with two rooms in the basement for animals and storage. In addition a few small rooms in different units over the grounds were used for laboratory purposes. 
 

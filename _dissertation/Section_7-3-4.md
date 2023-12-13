@@ -10,7 +10,7 @@ sectiondisplay: 3
 subsectiondisplay: 4
 ---
 
-*Illustrative Cases*
+Hawes, John B. 1913. *Early Pulmonary Tuberculosis: Diagnosis, Prognosis and Treatment*. New York: William Wood and Company. 69-72.
 
 1. Incipient case, favorable course ending in apparent cure. 
 

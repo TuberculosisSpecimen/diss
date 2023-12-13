@@ -10,6 +10,8 @@ sectiondisplay: 3
 subsectiondisplay: 6
 ---
 
+Crofton, W. M.. *Pulmonary Tuberculosis: Its Diagnosis, Prevention and Treatment*. (Philadelphia: P. Blakiston's Son & Co., 1917). 1-7.
+
 CHAPTER I. 
 
 BACTERIOLOGY. 

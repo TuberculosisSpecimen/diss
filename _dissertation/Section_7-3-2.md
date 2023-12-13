@@ -5,12 +5,12 @@ identifier: X.3.2
 chapter: 7
 section: 003
 subsection: 002
-chapterdisplay: 7
+chapterdisplay: X
 sectiondisplay: 3
 subsectiondisplay: 2
 ---
 
-From Report of the Henry Phipps Institute 2
+From *Report of the Henry Phipps Institute for the Study, Treatment, and Prevention of Tuberculosis*. (Philadelphia: Henry Phipps Institute, 1906). 94-99.
 
 No cases of tuberculosis of the bones of the “skull with secondary involvement of the meninges” have come under our observation during this year. 
 

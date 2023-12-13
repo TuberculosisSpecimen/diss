@@ -10,7 +10,7 @@ sectiondisplay: 3
 subsectiondisplay: 5
 ---
 
-*Pneumoconiosis Three Cases*
+Hamilton, James A. 1925. "Pneumoconiosis—Three Cases Two of Silicosis, and One of Anthracosis with Tuberculosis Superinduced. Complete Histories with Temperature Charts, X-Ray Pictures and Colored Plates of Lungs," *State of New York Department of Labor Bulletin*. (The Division of Industrial Hygiene, 1925) 10-14.
 CASE No. 70581 
 
 PLATE NO. 30872 April 12, 1922 
