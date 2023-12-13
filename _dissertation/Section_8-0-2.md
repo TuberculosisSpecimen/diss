@@ -1,6 +1,6 @@
 ---
 layout: section
-title: “References: Primary Sources"
+title: "References: Primary Sources"
 identifier: Y.1.2
 chapter: 8
 section: 001
