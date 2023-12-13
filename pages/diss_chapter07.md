@@ -1,7 +1,7 @@
 ---
 title: "Appendix"
 layout: chapter
-permalink: "/dissertation/appendix/"
+permalink: "/dissertation/7/"
 chapterno: 7
 ---
 

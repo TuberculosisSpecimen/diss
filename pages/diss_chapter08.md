@@ -1,7 +1,7 @@
 ---
 title: "References"
 layout: chapter
-permalink: "/dissertation/references/"
+permalink: "/dissertation/8/"
 chapterno: 8
 ---
 
