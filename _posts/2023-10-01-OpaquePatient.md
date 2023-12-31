@@ -57,6 +57,13 @@ pullquote: "A presentation for USC's First Forum Conference."
 <button class="toggle-button" onclick="toggleOpacity('opaque')">Opaque</button>
 <button class="toggle-button" onclick="toggleOpacity('non-opaque')">Non-Opaque</button>
 </div>
+^Sagar's Buttons
+
+<div class="toggle-buttons">
+<button id="opaqueBtn" class="toggle-button">Opaque</button>
+<button id="transparentBtn" class="toggle-button">Transparent</button>
+<button id="partiallyOpaqueBtn" class="toggle-button">Partially Opaque</button></div>
+^Kalani's Buttons
 
 # Making the Patient Opaque: Loss as Critical Methodology in the History of Medicine[^fn1] #
 
@@ -64,20 +71,25 @@ I want to start with three images from the history of tuberculosis; these three 
 
 The first is an image of two doctors working in the Chicago Municipal Sanatorium’s pathology lab (fig. 1). Reproduced in the mid-1920’s in a public facing, monthly periodical, this picture displays the pathology lab, its contents, and the potentially candid action of two doctors at work. 
 
-<img id="ChicagoPathology" src="{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520.jpg" alt="Pathology Room of the Research Laboratory" style="max-width:100%;height:auto;">
+<img id="CityofChicagoMunicipalTub5-_1925-26_520" class="opaque" src="{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520_opaque.jpg" style="max-width:60%;height:auto;">
+<img id="CityofChicagoMunicipalTub5-_1925-26_520" class="transparent" src="{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520.jpg" style="max-width:60%;height:auto;">
+<img id="CityofChicagoMunicipalTub5-_1925-26_520" class="partially-opaque" src="{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub5-_1925-26_520_partial.jpg" style="max-width:60%;height:auto;">
 
 Figure 1. Picture of the pathology lab of the Municipal Tuberculosis Sanatorium. In the foreground are wet tissue specimens presumably taken at autopsy from human patients. Found in Pinner, Max. “The Epidemiology of Tuberculosis” *City of Chicago Municipal Tuberculosis Sanatarium Bulletin*, 6(5). (1926). 9. [Link to HathiTrust version](https://hdl.handle.net/2027/chi.41675716?urlappend=%3Bseq=519%3Bownerid=13510798900036313-595). 
 
 The second image is of a patient, photographed for use in W. M. Crofton’s *Pulmonary Tuberculosis: Its Diagnosis, Prevention and Treatment* (fig.2). Found in this short book for the aid of doctors, this image displays externally viewable symptoms of tuberculosis as it appears on the body of a male patient. The diagrams were added after the initial exposure.
 
-<img id="CroftonFigure" src="{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg" alt="A picture of a patient showing the ways to diagnose tuberculosis through vision." style="max-width:auto;height:100%;">
-
+<img id="Crofton_PulmonaryTuberculosisItsD_1917_36" class="opaque" src="{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36_opaque.jpg" style="max-width:60%;height:auto;">
+<img id="Crofton_PulmonaryTuberculosisItsD_1917_36" class="transparent" src="{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36.jpg" style="max-width:60%;height:auto;">
+<img id="Crofton_PulmonaryTuberculosisItsD_1917_36" class="partially-opaque" src="{{ site.baseurl }}/assets/items/Crofton_PulmonaryTuberculosisItsD_1917_36_partial.jpg" style="max-width:60%;height:auto;">
 
 Figure 2. A photograph of a man with tuberculosis with drawn material added to the image to aid in the diagnosis of the disease. Found in Crofton, W. M.. *Pulmonary Tuberculosis: Its Diagnosis, Prevention and Treatment*. (Philadelphia: P. Blakiston's Son & Co., 1917), 16. [Link to HathiTrust version](https://hdl.handle.net/2027/chi.087018856?urlappend=%3Bseq=35%3Bownerid=13510798902025121-39). 
 
 The final image is from a journal article by George E. Bushnell published in 1919 by the *American Review of Tuberculosis* (fig. 3). This photograph shows a wet specimen: the upper lobe of a patient who died of tuberculosis, and whose body was mined for useful material at autopsy. The intended audience, doctors trained in clinical vision, were supposed to be able to see the pathological difference between this organ and an idea *natural* or *normal* organ.[^fn2]
 
-<img id="BushnellSpecimen" src="{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193.jpg" alt="A wet specimen of the human lung showing the upper lobe." style="max-width:100%;height:auto;">
+<img id="TheAmericanReviewofTuberc2_1918-1919_193" class="opaque" src="{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193_opaque.jpg" style="max-width:60%;height:auto;">
+<img id="TheAmericanReviewofTuberc2_1918-1919_193" class="transparent" src="{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193.jpg" style="max-width:60%;height:auto;">
+<img id="TheAmericanReviewofTuberc2_1918-1919_193" class="partially-opaque" src="{{ site.baseurl }}/assets/items/TheAmericanReviewofTuberc2_1918-1919_193_partial.jpg" style="max-width:60%;height:auto;">
 
 Figure 3. A photograph of the upper lobe of a lung, extracted through the autopsy of an individual who died of tuberculosis. Found in Bushnell, George. “Manifest Pulmonary Tuberculosis” in *The American Review of Tuberculosis* 2(3). (1918), 170. [Link to HathiTrust version](https://hdl.handle.net/2027/hvd.32044089508287?urlappend=%3Bseq=190%3Bownerid=27021597764544085-196).
 

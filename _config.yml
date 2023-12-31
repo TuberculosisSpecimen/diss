@@ -92,10 +92,10 @@ fontchoice: source # A modern serif font with clean sans-serif accents
 #colorchoice: dusk # Dusky purple and olive green
 #colorchoice: lavenderred # Purple-grey with orange-red
 #colorchoice: leafgreen # Leafy green and medium brown
-#colorchoice: marigold # Near-black with marigold yellow
+colorchoice: marigold # Near-black with marigold yellow
 #colorchoice: navy # Navy with bright teal and grey
 #colorchoice: red # Black, crimson and grey
-colorchoice: tan # Tan and deep brown with flame-bright orange
+#colorchoice: tan # Tan and deep brown with flame-bright orange
 #colorchoice: teal # Bright teal with bright orange-yellow accents
 
 ##############################################
