@@ -1,10 +1,8 @@
 ---
-
 layout: post
 title: "Testing for mouseover, for Kalani"
 excerpt: "We are working on getting the mouseover CSS to work for the site."
 pullquote: ""We are working on getting the mouseover CSS to work for the site."
-
 ---
 
 <style>
