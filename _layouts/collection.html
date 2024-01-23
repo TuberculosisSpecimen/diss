@@ -15,7 +15,7 @@ format: collection
 	<div class="grid-x grid-padding-x grid-margin-x">
 
 	{% if page.url contains "blog" %}{% include _postlist.html %}
-	{% elseif page.url contains "section" %}{% include _sectionlist.html %}
+	{% elsif page.url contains "section" %}{% include _sectionlist.html %}
 	{% else %}{% include _itemlist.html %}
 	{% endif %}
 
