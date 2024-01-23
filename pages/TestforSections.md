@@ -10,3 +10,4 @@ chaptersec: 1
 <h3><a name="{{ page.chapterno }}.{{ chapterinfo.section }}.{{ chapterinfo.subsection }}"></a>{{ chapterinfo.chapterdisplay }}.{{ chapterinfo.sectiondisplay }}.{{ chapterinfo.subsectiondisplay }}: {{ chapterinfo.title }}</h3>
 <p>{{ chapterinfo.content }}
 {% endfor %}
+
