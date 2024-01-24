@@ -11,8 +11,8 @@
       <div class="post-item">
        
         <div class="post-text">
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            <h3 class="post-title card-title accentbg">{{ section.title }}</h3>
+          <a href="{{ site.baseurl }}{{ section.url }}">
+            <h3 class="post-title card-title accentbg">{{ section.chapter }}.{{ section.section }}.{{ section.subsection }} {{ section.title }}</h3>
           </a>
           <div class="post-meta">
 			 {% if post.author %}
@@ -22,7 +22,7 @@
           </div>
           <div class="post-summary">
             <p>{{ post.excerpt | strip_html | truncatewords:30 }} 
-              <a href="{{ site.baseurl }}{{ post.url }}" class="post-read-more">Read more<span class="fa fa-chevron-circle-right" aria-hidden="true"></span></a>
+              <a href="{{ site.baseurl }}{{ section.url }}" class="post-read-more">Read more<span class="fa fa-chevron-circle-right" aria-hidden="true"></span></a>
             </p>
           </div>
         </div>
