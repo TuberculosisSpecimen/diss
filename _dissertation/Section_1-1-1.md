@@ -18,11 +18,11 @@ In developing the corpus and image dataset for this dissertation (0.x.x; x.1.x),
 
 <img id="Knopf_1922_0003_Cropped" class="transparent" src="{{ site.baseurl }}/assets/items/Knopf_1922_0003_Cropped.jpg">
 
-<img id="-Knopf_1922_0003_Cropped=-3Knopf_1922_0003_Cropped_partial.jpg">
+<img id="-Knopf_1922_0003_Cropped" class="partially-opaque" src="{{ site.baseurl }}/assets/items/Knopf_1922_0003_Cropped_partial.jpg">
 
 Figure 1. A photo of a girl selling Christmas seals. These stamps were used to fundraise for the National Association for the Study and Prevention of Tuberculosis, and are still sold as part of the American Lung Association's yearly fundraising efforts. Knopf, S. Adolphus. *Some Additional Notes on the Prevention of Relapses in Cases of Arrested Tuberculosis*. 1921. Image courtesy of the New York Academy of Medicine.
 
-<img id="Brandt_ADirectoryofInstitutionsa_1904_106-=-4Brandt_ADirectoryofInstitutionsa_1904_106.jpg">
+<img id="Brandt_ADirectoryofInstitutionsa_1904_106" src"{{ site.baseurl }}/assets/itemsBrandt_ADirectoryofInstitutionsa_1904_106.jpg">
 
 Figure  2. An example of an architectural drawing as they appear in the tuberculosis corpus (X.1.0). Brandt, Lilian. *A Directory of Institutions and Societies Dealing with Tuberculosis in the United States and Canada*. New York, 1904.
 
@@ -50,15 +50,15 @@ Figure . 4. City of Chicago Municipal Tuberculosis Sanatorium Monthly Bulletin. 
 
 Figure. 5. "The Little Red Cottage", the first building that Edward Livingston Trudeau treated patients within at the Adirondack Cottage Sanitorium. Knopf, S. Adolphus. *Some Additional Notes on the Prevention of Relapses in Cases of Arrested Tuberculosis*. 1921. Image courtesy of the New York Academy of Medicine.
 
-<img id="TheBritishJournalofTuberc5_1911_61-=-4TheBritishJournalofTuberc5_1911_61.jpg">
+<img id="TheBritishJournalofTuberc5_1911_61" src"{{ site.baseurl }}/assets/itemsTheBritishJournalofTuberc5_1911_61.jpg">
 
 Figure 6.
 
-<img id="AmericanIntlCongressonTB_1904 376-=-4AmericanIntlCongressonTB_1904 376.jpg">
+<img id="AmericanIntlCongressonTB_1904 376" src"{{ site.baseurl }}/assets/itemsAmericanIntlCongressonTB_1904 376.jpg">
 
 Figure <$n:figure1:AmericanIntlCongressonTB_1904 376>.
 
-<img id="Knopf_AlarmingIncrease_1927_p15-=-4Knopf_AlarmingIncrease_1927_p15.jpg">
+<img id="Knopf_AlarmingIncrease_1927_p15" src"{{ site.baseurl }}/assets/itemsKnopf_AlarmingIncrease_1927_p15.jpg">
 
 Figure 7. Image courtesy of the New York Academy of Medicine.
 
