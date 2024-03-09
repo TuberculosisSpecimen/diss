@@ -50,7 +50,6 @@ Figure . 4. City of Chicago Municipal Tuberculosis Sanatorium Monthly Bulletin. 
 
 Figure. 5. "The Little Red Cottage", the first building that Edward Livingston Trudeau treated patients within at the Adirondack Cottage Sanitorium. Knopf, S. Adolphus. *Some Additional Notes on the Prevention of Relapses in Cases of Arrested Tuberculosis*. 1921. Image courtesy of the New York Academy of Medicine.
 
-<<<<<<< HEAD
 <img id="TheBritishJournalofTuberc5_1911_61" src="{{ site.baseurl }}/assets/items/TheBritishJournalofTuberc5_1911_61.jpg">
 
 Figure 6.
@@ -62,19 +61,6 @@ Figure 7.
 <img id="Knopf_AlarmingIncrease_1927_p15" src="{{ site.baseurl }}/assets/items/Knopf_AlarmingIncrease_1927_p15.jpg">
 
 Figure 8. Image courtesy of the New York Academy of Medicine.
-=======
-<img id="TheBritishJournalofTuberc5_1911_61" src="{{ site.baseurl }}/assets/itemsTheBritishJournalofTuberc5_1911_61.jpg">
-
-Figure 6.
-
-<img id="AmericanIntlCongressonTB_1904 376" src="{{ site.baseurl }}/assets/itemsAmericanIntlCongressonTB_1904 376.jpg">
-
-Figure <$n:figure1:AmericanIntlCongressonTB_1904 376>.
-
-<img id="Knopf_AlarmingIncrease_1927_p15" src="{{ site.baseurl }}/assets/itemsKnopf_AlarmingIncrease_1927_p15.jpg">
-
-Figure 7. Image courtesy of the New York Academy of Medicine.
->>>>>>> e5e1c723fa5a58ac68ad2fc34752d2c057369123
 
 Early on in my research, I had assumed that scientific medicine was defined by the clinical gaze---a singular way of seeing the sick patient in a way that emphasizes contrasts between a healthy 'normal' anatomy and unhealthy 'abnormal' pathology, resulting in an objectification of the sick subject (2.x;x). Visual culture scholars like Katherine Waldby, Jose van Djick, Erin O'Connor, and Lisa Cartwright have convincingly articulated the ways clinical visuality has been embraced in practice and in the technologies of medical research and diagnosis, and my assumption was that most of the images in the corpus would correspond with the alienating, dehumanizing clinical gaze and its technological mediation in the clinical photograph.<label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"><span class="sidenote">Waldby, Catherine. *The Visible Human Project: Informatic Bodies and Posthuman Medicine*. London & New York: Routledge, 2000; Dijck, José van. *The Transparent Body: A Cultural Analysis of Medical Imaging*. Seattle & London: University of Washington Press, 2005; O'Connor, Erin. "Camera Medica." *History of Photography* 23, no. 3 (1999): 232--44; Cartwright, Lisa. *Screening the Body: Tracing Medicine's Visual Culture*. Minneapolis: University of Minnesota Press, 1995.</span> These images, being non-specimen images,<label for="sn-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-2" class="margin-toggle"><span class="sidenote">Specifically images not tagged with the specifically epistemic tags like "Anatomical" "Pathological" or references to extraction like "Organ".</span> were outside the remit of my initial research, but muscled their way in as a prominent practice which deserved attention.
 
