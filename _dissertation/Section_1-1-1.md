@@ -26,11 +26,7 @@ Figure 1. A photo of a girl selling Christmas seals. These stamps were used to f
 
 Figure  2. An example of an architectural drawing as they appear in the tuberculosis corpus (X.1.0). Brandt, Lilian. *A Directory of Institutions and Societies Dealing with Tuberculosis in the United States and Canada*. New York, 1904.
 
-<img id="CharityOrganiza_AHandbookonthePreventiono_1903_350" class="opaque" src="{{ site.baseurl }}/assets/items/CharityOrganiza_AHandbookonthePreventiono_1903_350_opaque.jpg">
-
-<img id="CharityOrganiza_AHandbookonthePreventiono_1903_350" class="transparent" src="{{ site.baseurl }}/assets/items/CharityOrganiza_AHandbookonthePreventiono_1903_350.jpg">
-
-<img id="CharityOrganiza_AHandbookonthePreventiono_1903_350" class="partially-opaque" src="{{ site.baseurl }}/assets/items/CharityOrganiza_AHandbookonthePreventiono_1903_350_partial.jpg">
+<img id="CharityOrganiza_AHandbookonthePreventiono_1903_350" class="" src="{{ site.baseurl }}/assets/items/CharityOrganiza_AHandbookonthePreventiono_1903_350.jpg">
 
 Figure 3. An example of the way dirty spaces are shown in hygienic discourses around tuberculosis. The Charity Organization Society of the City of New York. *A Handbook on the Prevention of Tuberculosis*. New York: The Charity Organization Society of New York City, 1903.
 
