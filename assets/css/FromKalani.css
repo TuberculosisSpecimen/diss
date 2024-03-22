@@ -9232,3 +9232,12 @@ h4,.h4 {
 .zoom:hover {
     transform: scale(1.5)
 }
+
+span.partial-lines {
+    text-decoration: line-through;
+}
+/* Redacted style for opaque lines */
+span.opaque-lines {
+    background-color: black;
+    color: black;
+}
