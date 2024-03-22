@@ -9237,6 +9237,7 @@ span.partial-lines {
     background-color: black;
     color: black;
 }
+
 /* Redacted style for opaque lines */
 span.opaque-lines {
     background-color: black;
