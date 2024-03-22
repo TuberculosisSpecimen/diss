@@ -133,7 +133,7 @@ Second, by engaging with the broader cultures around tuberculosis, I hope to onb
     applyTextStyling(false, true, false);
   });
  
-  document.getElementById('partialBtn').addEventListener('click', function() {
+  document.getElementById('partiallyOpaqueBtn').addEventListener('click', function() {
     showElements('partially-opaque');
     hideElements(['opaque', 'transparent']);
     applyTextStyling(false, false, true);
