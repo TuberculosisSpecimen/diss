@@ -87,3 +87,55 @@ I ask these questions first because of the implicit connections between tubercul
 My interest for this chapter is to try to wrangle the sometimes disparate threads which knot around tuberculosis in this period. This chapter makes two arguments: first, in response to the excellent scholarship by my peers who analyze medicine and its cultures, I stress a need to look at medical visual culture in the plural. Medicine has not, and never has had, a singular <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" title="Visual culture is an interdisciplinary field of research that examines the ways culture produces and enforces certain viewing practices. This field looks to understand how vision is itself dependent on different historical, ideological, and cultural assumptions."><b>visual culture</b></span> defined by the <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" title="The clinical gaze is an ocular practice formulated in post-revolutionary France, and describes the way doctors are trained to see their patients. As described by Michel Foucault, doctors were trained to see symptoms of disease as aberrant phenomena, which could be noticed when imagined in relation to an idealized human anatomy."><b>clinical gaze</b></span>. By opening this <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" title="I use discourse to refer to the academic conversations happening between scientists and the ways this informs other subject's knowledge of certain phenomena. Discourse here is indebted to Michel Foucault's conception of power, as being built from the disciplinary conversations and the desire to make natural phenomena fit within the assumed metrics by which that phenomena was measured."><b>discourse</b></span> to competing, overlapping, contested visual practices, I encourage future scholars to explore the idiosyncratic practices by medical doctors, patients, and others working in health. Moreover, where I am talking about tuberculosis---with its Romantic metaphors,<label for="sn-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-3" class="margin-toggle"><span class="sidenote">Sontag, Susan. *Illness as Metaphor and AIDS and Its Metaphors*. New York: Farrar, Straus and Giroux, 1990.</span>  its use to forward xenophobic policies of exclusion (1.3.5),<label for="sn-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-4" class="margin-toggle"><span class="sidenote">Abel, Emily K. *Tuberculosis & the Politics of Exclusion: A History of Public Health & Migration to Los Angeles*. New Brunswick: Rutgers University Press, 2007.</span> and its embrace of idyllic health resorts (1.2.0)---the cultural landscape around other diseases like the AIDS epidemic, cancer research, the 1918 influenza epidemic, or Covid-19 is quite different than the one I describe in this chapter. Future scholarship will help nuance, rebuke, and clarify the claims I make this chapter.<label for="sn-5" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-5" class="margin-toggle"><span class="sidenote">A good example of the broad discourses around health can be seen in the double issue of *Camera Obscura* on medicine and film edited by Paula A. Treichler and Lisa Cartwright. See: *Camera Obscura* 10(1-2). 1992.</span> 
 
 Second, by engaging with the broader cultures around tuberculosis, I hope to onboard readers to some main themes which will become more prominent in the next two chapters. I am going to follow three three mini-case studies---on hygiene, the sanatorium, and the medical practitioner at work---to define some ideological through-lines which will reappear in the next two chapters (2.0.0; 3.0.0). In doing this, my hope is to articulate in clear detail the eugenicist and capitalistic ideas which were reified in the process of fighting the disease. Concepts of class, ability, cleanliness, and health appear in relation to the cultural conception of tuberculosis, as well as the popular and scientific understandings regarding treatment. As Linda Bryder has argued, tuberculosis doctors in the early twentieth century "showed themselves to be very much a product of the middle-class society from which they came, with its fixed assumptions about the poor",<label for="sn-6" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-6" class="margin-toggle"><span class="sidenote">Bryder, Linda. *Below the Magic Mountain: A Social History of Tuberculosis in Twentieth-Century Britain*. Oxford: Clarendon Press, 1988.</span> and this chapter extends this claim to think about how discourses around the disease (made possible by medical professionals, patients, and the lay public) reinforced these structures.
+
+<script>
+  // Function to show elements based on class
+  function showElements(className) {
+    const elements = document.querySelectorAll('.' + className);
+    elements.forEach(element => {
+      element.style.display = 'block';
+    });
+  }
+ 
+  // Function to hide elements based on class
+  function hideElements(className) {
+    const elements = document.querySelectorAll('.' + className);
+    elements.forEach(element => {
+      element.style.display = 'none';
+    });
+  }
+ 
+  // Function to apply text styling
+  function applyTextStyling(opaque, transparent, partiallyOpaque) {
+    const opaqueSpans = document.querySelectorAll('.opaque-lines');
+    const partialSpans = document.querySelectorAll('.partial-lines');
+ 
+    opaqueSpans.forEach(span => {
+      span.style.backgroundColor = opaque ? 'black' : 'transparent';
+      span.style.color = opaque ? 'black' : 'inherit';
+    });
+ 
+    partialSpans.forEach(span => {
+      span.style.textDecoration = partiallyOpaque ? 'line-through' : 'none';
+    });
+  }
+ 
+  // Event listeners for image buttons
+  document.getElementById('opaqueBtn').addEventListener('click', function() {
+    showElements('opaque');
+    hideElements(['transparent', 'partially-opaque']);
+    applyTextStyling(true, false, false);
+  });
+ 
+  document.getElementById('transparentBtn').addEventListener('click', function() {
+    showElements('transparent');
+    hideElements(['opaque', 'partially-opaque']);
+    applyTextStyling(false, true, false);
+  });
+ 
+  document.getElementById('partialBtn').addEventListener('click', function() {
+    showElements('partially-opaque');
+    hideElements(['opaque', 'transparent']);
+    applyTextStyling(false, false, true);
+  });
+</script>
