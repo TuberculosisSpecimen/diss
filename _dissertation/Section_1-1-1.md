@@ -46,11 +46,11 @@ Figure 3. An example of the way dirty spaces are shown in hygienic discourses ar
 
 Figure 4. City of Chicago Municipal Tuberculosis Sanatorium Monthly Bulletin. 1917-1924.
 
-<img id="Knopf_1922_0001_Cropped" class="opaque" src="{{ site.baseurl }}/assets/items/Knopf_1922_0001_Cropped_opaque.jpg">
+<img id="Knopf_1922_0001_Cropped" class="opaque" src="{{ site.baseurl }}/assets/items/Knopf_1922_0001_Cropped.jpg">
 
 <img id="Knopf_1922_0001_Cropped" class="transparent" src="{{ site.baseurl }}/assets/items/Knopf_1922_0001_Cropped.jpg">
 
-<img id="Knopf_1922_0001_Cropped" class="partially-opaque" src="{{ site.baseurl }}/assets/items/Knopf_1922_0001_Cropped_partial.jpg">
+<img id="Knopf_1922_0001_Cropped" class="partially-opaque" src="{{ site.baseurl }}/assets/items/Knopf_1922_0001_Cropped.jpg">
 
 Figure. 5. "The Little Red Cottage", the first building that Edward Livingston Trudeau treated patients within at the Adirondack Cottage Sanitorium. Knopf, S. Adolphus. *Some Additional Notes on the Prevention of Relapses in Cases of Arrested Tuberculosis*. 1921. Image courtesy of the New York Academy of Medicine.
 
