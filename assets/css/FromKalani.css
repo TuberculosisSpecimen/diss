@@ -9234,10 +9234,8 @@ h4,.h4 {
 }
 
 span.partial-lines {
-    background-color: black;
-    color: black;
+    text-decoration: line-through;
 }
-
 /* Redacted style for opaque lines */
 span.opaque-lines {
     background-color: black;
