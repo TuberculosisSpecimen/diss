@@ -15,11 +15,7 @@ subsectiondisplay: 1
 
 In developing the corpus and image dataset for this dissertation (0.x.x; x.1.x), I ran across a bulk of images that surprised me. <span class="opaque-lines">Out of the thousands of images which my coders and I processed a huge percentage of them [around 50% at present count] had little to do with the kinds of examination which rely on an extractivist construction of the specimen</span> (0.x.x). What does a <span class="opaque-lines">child selling postage seals </span>(fig. 1), an architectural floor-plan for a sanatorium (fig. 2), an image of a filthy room (fig. 3), <span class="opaque-lines"><span class="partial-lines">images of children studying in heavy coats</span></span> (fig. 4), and a photograph of a cottage (fig. 5) have to do with the scientific understandings of the disease? What about a photograph of idyllic mountain resort (fig. 6), a portrait of a doctor taken for a conference (fig. 7), or a graphic of a flapper dancing with death (fig. 8) have to do with the ways doctors saw and treated their patients? 
 
-<img id="Knopf_1922_0003_Cropped" class="opaque" src="{{ site.baseurl }}/assets/items/Knopf_1922_0003_Cropped_opaque.jpg">
-
-<img id="Knopf_1922_0003_Cropped" class="transparent" src="{{ site.baseurl }}/assets/items/Knopf_1922_0003_Cropped.jpg">
-
-<img id="-Knopf_1922_0003_Cropped" class="partially-opaque" src="{{ site.baseurl }}/assets/items/Knopf_1922_0003_Cropped_partial.jpg">
+<img id="-Knopf_1922_0003_Cropped" src="{{ site.baseurl }}/assets/items/Knopf_1922_0003_Cropped_partial.jpg">
 
 Figure 1. A photo of a girl selling Christmas seals. These stamps were used to fundraise for the National Association for the Study and Prevention of Tuberculosis, and are still sold as part of the American Lung Association's yearly fundraising efforts. Knopf, S. Adolphus. *Some Additional Notes on the Prevention of Relapses in Cases of Arrested Tuberculosis*. 1921. Image courtesy of the New York Academy of Medicine.
 
