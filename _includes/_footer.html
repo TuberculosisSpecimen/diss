@@ -28,52 +28,53 @@
 </div>
 
 <script>
-  // Function to show images based on button click
-  function showImages(opacityClass) {
-    const images = document.getElementsByTagName('img');
-
-    for (let i = 0; i < images.length; i++) {
-      const image = images[i];
-      if (image.classList.contains(opacityClass)) {
-        image.style.display = 'block'; // Show the image with selected opacity
-      } else {
-        image.style.display = 'none'; // Hide other images
-      }
-    }
+  // Function to show elements based on class
+  function showElements(className) {
+    const elements = document.querySelectorAll('.' + className);
+    elements.forEach(element => {
+      element.style.display = 'block';
+    });
   }
-
-  // Show only opaque images at page load
-  window.addEventListener('load', function() {
-    showImages('opaque');
-  });
-
-  // Event listeners for each button
+ 
+  // Function to hide elements based on class
+  function hideElements(className) {
+    const elements = document.querySelectorAll('.' + className);
+    elements.forEach(element => {
+      element.style.display = 'none';
+    });
+  }
+ 
+  // Function to apply text styling
+  function applyTextStyling(opaque, transparent, partiallyOpaque) {
+    const opaqueSpans = document.querySelectorAll('.opaque-lines');
+    const partialSpans = document.querySelectorAll('.partial-lines');
+ 
+    opaqueSpans.forEach(span => {
+      span.style.backgroundColor = opaque ? 'black' : 'transparent';
+      span.style.color = opaque ? 'black' : 'inherit';
+    });
+ 
+    partialSpans.forEach(span => {
+      span.style.textDecoration = partiallyOpaque ? 'line-through' : 'none';
+    });
+  }
+ 
+  // Event listeners for image buttons
   document.getElementById('opaqueBtn').addEventListener('click', function() {
-    showImages('opaque');
-    hideImages(['transparent', 'partially-opaque']);
+    showElements('opaque');
+    hideElements(['transparent', 'partially-opaque']);
+    applyTextStyling(true, false, false);
   });
-
+ 
   document.getElementById('transparentBtn').addEventListener('click', function() {
-    showImages('transparent');
-    hideImages(['opaque', 'partially-opaque']);
+    showElements('transparent');
+    hideElements(['opaque', 'partially-opaque']);
+    applyTextStyling(false, true, false);
   });
-
+ 
   document.getElementById('partiallyOpaqueBtn').addEventListener('click', function() {
-    showImages('partially-opaque');
-    hideImages(['opaque', 'transparent']);
+    showElements('partially-opaque');
+    hideElements(['opaque', 'transparent']);
+    applyTextStyling(false, false, true);
   });
-
-  // Function to hide images based on classes
-  function hideImages(classesToHide) {
-    const images = document.getElementsByTagName('img');
-    for (let i = 0; i < images.length; i++) {
-      const image = images[i];
-      for (let j = 0; j < classesToHide.length; j++) {
-        if (image.classList.contains(classesToHide[j])) {
-          image.style.display = 'none';
-          break;
-        }
-      }
-    }
-  }
-</script> 
+</script>

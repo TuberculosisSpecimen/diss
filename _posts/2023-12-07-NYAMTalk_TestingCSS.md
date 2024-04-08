@@ -8,11 +8,6 @@ pullquote: "My goals for this talk are relatively simple: I want to use tubercul
 ---
 
 
-<div class="toggle-buttons">
-<button id="opaqueBtn" class="toggle-button">Opaque</button>
-<button id="transparentBtn" class="toggle-button">Transparent</button>
-<button id="partiallyOpaqueBtn" class="toggle-button">Partially Opaque</button></div>
-
 <img id="Barlow_1922_0001_cropped" class="opaque" src="{{ site.baseurl }}/assets/items/Barlow_1922_0001_cropped_opaque.jpg" style="max-width:60%;height:auto;">
 <img id="Barlow_1922_0001_cropped" class="transparent" src="{{ site.baseurl }}/assets/items/Barlow_1922_0001_cropped.jpg" style="max-width:60%;height:auto;">
 <img id="Barlow_1922_0001_cropped" class="partially-opaque" src="{{ site.baseurl }}/assets/items/Barlow_1922_0001_cropped_partial.jpg" style="max-width:60%;height:auto;">
