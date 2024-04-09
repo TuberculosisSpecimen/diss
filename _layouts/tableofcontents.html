@@ -3,29 +3,34 @@ layout: page
 format: tableofcontents
 ---
 
+<!-- For each section MD file in the dissertation folder -->
 {% for section in site.dissertation %}
 
+<!-- Check to see what the current section number is, and make sure it's not the first loop. If not, end the unnumbered list and the indent that sets a left-margin indent for section/subsection bullet point lists -->
 {% if currentsection != section.section and forloop.index != 1 %}
 	</ul>
 </div>
 {% endif %}
 
 
+<!-- If the current chapter is a new chapter number, print a header with that chapter number and title -->
 {% if currentchapter != section.chapter %}
 <h3 class="accentbg" id="{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}">Chapter {{ section.chapter }}: {{ section.title }}</h3>
-
 {% endif %}
 
+<!-- If the current section is a new section number, print a header with that section number and title -->
 {% if currentsection != section.section %}
 <div style="margin-left: 30px;">
 <h4 id="{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}"><a href="{{ site.baseurl }}{{ section.url }}">{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}: {{ section.title }}</a></h4>
 <ul style="margin-left:30px; display:block;">
 {% endif %}
 
+<!-- Otherwise, print the section/subsection information and a link -->
 {% if currentsection == section.section and currentchapter == section.chapter %}
 		<li><a id="{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}" href="{{ site.baseurl }}{{ section.url }}">{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}: {{ section.title }}</a>
 {% endif %}
 
+<!-- Set currentchapter and currentsection to the current loop so that the next loop has a comparison point -->
 {% assign currentsection = section.section %}
 {% assign currentchapter = section.chapter %}
 {% endfor %}
