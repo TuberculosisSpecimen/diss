@@ -7,14 +7,14 @@
 
 - title: Dissertation
   url: /dissertation
-  excerpt:
-  image:
-  
-- title: Table of Contents
-  url: /tableofcontents
   excerpt: 
   image: 
 
+- title: Testing Area
+  url: /disstesting
+  excerpt:
+  image:
+  
 - title: Blog
   url: /blog
   excerpt:

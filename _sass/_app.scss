@@ -213,20 +213,6 @@ Nav and Menu Elements
 	  }
 	}
 
-	[data-sticky] {
-	  width: 100%;
-	}
-
-	.sticky-container {
-	  z-index: 5;
-	}
-
-	@media print {
-		.sticky-container {
-		  display: none;
-		}
-	}
-
 /** == Nav hover lines **/
 
 	.menu-hover-lines {
