@@ -11,6 +11,8 @@ format: tableofcontents
 		</div>
 		<div class="large-6 cell">
 
+<h2 id="table-of-contents">Table of Contents</h2>
+
 <!-- TABLE OF CONTENTS -->
 <!-- For each section MD file in the dissertation folder -->
 {% for section in site.dissertation %}
@@ -38,14 +40,12 @@ format: tableofcontents
 
 {% if currentsection != section.section %}
 <!-- If the current section is a new section number, print a header with that section number and title -->
-<h4 id="{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}"><a href="{{ site.baseurl }}{{ section.url }}">{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}: {{ section.title }}</a></h4>
+<h4 id="{{ section.chapter }}.{{ section.section }}">Section {{ section.chapter }}.{{ section.section }}</h4>
 <ul style="margin-left:30px; display:block;">
 {% endif %}
 
-{% if currentsection == section.section and currentchapter == section.chapter %}
 <!-- Otherwise, print the section/subsection information and a link -->
 <li><a id="{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}" href="{{ site.baseurl }}{{ section.url }}">{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}: {{ section.title }}</a></li>
-{% endif %}
 
 <!-- Set currentchapter and currentsection to the current loop so that the next loop has a comparison point -->
 {% assign currentsection = section.section %}

@@ -1,5 +1,6 @@
 ---
-title: Dissertation
+title: Tuberculosis Specimen
+subtitle: A pithy subtitle
 layout: tableofcontents
 permalink: /dissertation
 ---
@@ -13,6 +14,3 @@ Committee members
 ### Abstract
 
 Blah blah blah
-
-## Table of Contents
-
