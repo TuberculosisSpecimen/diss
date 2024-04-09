@@ -7,7 +7,6 @@ Opacity Control for Redaction Purposes
 }
 
 .toggle-buttons {
-	display: flex;
 	gap: 10px;
 	margin-bottom: 10px;
 }
@@ -17,6 +16,7 @@ Opacity Control for Redaction Purposes
 	border: none;
 	border-radius: 4px;
 	cursor: pointer;
+	width:100%;
 }
 .toggle-button.active {
 	background-color: #007bff; /* Change to your preferred active button color */

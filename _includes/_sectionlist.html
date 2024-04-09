@@ -1,34 +1,35 @@
-<!-- Sample 1-->
-<!-- Posts panel container -->
-<div class="posts-panel">
+{% if currentchapter != section.chapter %}
+<!-- Reset section numbering within each chapter for the sake of a consistent forloop -->
+{% assign currentsection = 1 %}
+{% endif %}
 
-  <!-- Panel's content -->
-  <div class="panel-content">
-
-    <!-- Posts list -->
-    <section class="posts-list">
-{% for section in site.dissertation %}
-      <div class="post-item">
-       
-        <div class="post-text">
-          <a href="{{ site.baseurl }}{{ section.url }}">
-            <h3 class="post-title card-title accentbg">{{ section.chapter }}.{{ section.section }}.{{ section.subsection }} {{ section.title }}</h3>
-          </a>
-          <div class="post-meta">
-			 {% if post.author %}
-				{% assign author = site.data.authors[post.author] %}
-		<span class="meta"><span class="meta-icon fa fa-user-circle-o" aria-hidden="true"></span>{% if author.website %}<a class="meta-text" href="{{ author.website }}" target="_blank">{%endif%}{{ author.name }}{% if author.website %}</a>{% endif %}</span>{% endif %}
-            <span class="meta"><span class="meta-icon fa fa-clock-o" aria-hidden="true"></span><span class="meta-text">{{ post.date | date: "%d %B %Y"}}</span></span>
-          </div>
-          <div class="post-summary">
-            <p>{{ post.excerpt | strip_html | truncatewords:30 }} 
-              <a href="{{ site.baseurl }}{{ section.url }}" class="post-read-more">Read more<span class="fa fa-chevron-circle-right" aria-hidden="true"></span></a>
-            </p>
-          </div>
-        </div>
-      </div>
-
-{% endfor %}
-    </section>
-  </div>
+{% if currentsection != section.section and forloop.index != 1 %}
+<!-- Check to see what the current section number is, and make sure it's not the first loop. If not, end the unnumbered list and the indent that sets a left-margin indent for section/subsection bullet point lists -->
+</ul>
+{% endif %}
+{% if currentchapter != section.chapter and forloop.index != 1 %}
+<!-- Check to see what the current chapter number is, and make sure it's not the first loop. If not, outdent for the div -->
 </div>
+{% endif %}
+
+
+{% if currentchapter != section.chapter %}
+<!-- If the current chapter is a new chapter number, print a header with that chapter number and title -->
+{% if page.chapter %}{% else %}<h3 class="accentbg" id="{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}">
+Chapter {{ section.chapter }}: {{ section.title }}</h3>
+<div style="margin-left: 30px;">
+{% endif %}
+{% endif %}
+
+{% if currentsection != section.section %}
+<!-- If the current section is a new section number, print a header with that section number and title -->
+<h4 id="{{ section.chapter }}.{{ section.section }}">Section {{ section.chapter }}.{{ section.section }}</h4>
+<ul style="margin-left:30px; display:block;">
+{% endif %}
+
+<!-- Otherwise, print the section/subsection information and a link -->
+<li><a id="{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}" href="{{ site.baseurl }}{{ section.url }}">{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}: {{ section.title }}</a></li>
+
+<!-- Set currentchapter and currentsection to the current loop so that the next loop has a comparison point -->
+{% assign currentsection = section.section %}
+{% assign currentchapter = section.chapter %}

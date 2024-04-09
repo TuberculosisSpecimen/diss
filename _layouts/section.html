@@ -3,10 +3,35 @@ layout: page
 format: section
 ---
 
+<div class="grid-container">
+	<div class="grid-x grid-padding-x">
+		<div class="large-2 cell">
 <div class="toggle-buttons">
 <button id="opaqueBtn" class="toggle-button">Opaque</button>
 <button id="transparentBtn" class="toggle-button">Transparent</button>
 <button id="partiallyOpaqueBtn" class="toggle-button">Partially Opaque</button>
 </div>
+<div style="font-size:85%">
+{% assign listofsections = site.dissertation | where: 'chapter', page.chapter | sort: "section" %}
+{% for section in listofsections %}
+{% include _sectionlist.html %}
+{% endfor %}
+</div>
+		</div>
+		<div class="large-10 cell">
+
+<h2>{{page.title}}</h2>
 
 {{ content }}
+
+</div>
+
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
