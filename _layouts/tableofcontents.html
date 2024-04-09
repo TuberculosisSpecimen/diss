@@ -1,0 +1,31 @@
+---
+layout: page
+format: tableofcontents
+---
+
+{% for section in site.dissertation %}
+
+{% if currentsection != section.section and forloop.index != 1 %}
+	</ul>
+</div>
+{% endif %}
+
+
+{% if currentchapter != section.chapter %}
+<h3 class="accentbg" id="{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}">Chapter {{ section.chapter }}: {{ section.title }}</h3>
+
+{% endif %}
+
+{% if currentsection != section.section %}
+<div style="margin-left: 30px;">
+<h4 id="{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}"><a href="{{ site.baseurl }}{{ section.url }}">{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}: {{ section.title }}</a></h4>
+<ul style="margin-left:30px; display:block;">
+{% endif %}
+
+{% if currentsection == section.section and currentchapter == section.chapter %}
+		<li><a id="{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}" href="{{ site.baseurl }}{{ section.url }}">{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}: {{ section.title }}</a>
+{% endif %}
+
+{% assign currentsection = section.section %}
+{% assign currentchapter = section.chapter %}
+{% endfor %}
