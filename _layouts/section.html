@@ -3,24 +3,29 @@ layout: page
 format: section
 ---
 
-<div class="grid-container">
-	<div class="grid-x grid-padding-x">
-		<div class="large-2 cell">
+<div style="position:fixed; width:15%; top:15px; left:15px; border-right:1px">
 <div class="toggle-buttons">
 <button id="opaqueBtn" class="toggle-button">Opaque</button>
 <button id="transparentBtn" class="toggle-button">Transparent</button>
 <button id="partiallyOpaqueBtn" class="toggle-button">Partially Opaque</button>
 </div>
-<div style="font-size:85%">
+<div style="font-size:75%">
+<div>
+<h2>Chapter {{page.chapter}}</h2>
 {% assign listofsections = site.dissertation | where: 'chapter', page.chapter | sort: "section" %}
 {% for section in listofsections %}
 {% include _sectionlist.html %}
 {% endfor %}
 </div>
+</div>
+		</div>
+
+<div class="grid-container">
+	<div class="grid-x grid-padding-x">
+		<div class="large-2 cell">
+&nbsp;
 		</div>
 		<div class="large-10 cell">
-
-<h2>{{page.title}}</h2>
 
 {{ content }}
 

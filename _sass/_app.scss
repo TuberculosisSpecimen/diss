@@ -8,7 +8,6 @@ Base settings
 		line-height:1.15em;
 		color: $main-text-color;
 		background-color: $main-bg;
-		text-align: justify;
 	}
 	@media screen and (max-width: 39.9375em) {
 		body {
@@ -211,6 +210,20 @@ Nav and Menu Elements
 	  .no-js .title-bar {
 		display: none;
 	  }
+	}
+
+	[data-sticky] {
+	  width: 100%;
+	}
+
+	.sticky-container {
+	  z-index: 5;
+	}
+
+	@media print {
+		.sticky-container {
+		  display: none;
+		}
 	}
 
 /** == Nav hover lines **/
