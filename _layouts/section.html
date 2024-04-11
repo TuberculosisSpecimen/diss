@@ -1,31 +1,30 @@
 ---
-layout: page
+layout: default
 format: section
 ---
+<div class="darkbg" style="margin-top:-10px;">
+<div class="grid-container">
+<h4 class="center">{{ page.subheadline }}</h4>
+<h1 class="sans center">{% if page.chapter %}{{ page.chapter }}.{{ page.section }}.{{ page.subsection }}: {% endif %}{{ page.title }}</h1>
+</div>
+</div>
 
-<div style="position:fixed; width:15%; top:15px; left:15px; border-right:1px">
-<div class="toggle-buttons">
-<button id="opaqueBtn" class="toggle-button">Opaque</button>
-<button id="transparentBtn" class="toggle-button">Transparent</button>
-<button id="partiallyOpaqueBtn" class="toggle-button">Partially Opaque</button>
-</div>
-<div style="font-size:75%">
-<div>
-<h2>Chapter {{page.chapter}}</h2>
-{% assign listofsections = site.dissertation | where: 'chapter', page.chapter | sort: "section" %}
-{% for section in listofsections %}
-{% include _sectionlist.html %}
-{% endfor %}
-</div>
-</div>
-		</div>
 
 <div class="grid-container">
 	<div class="grid-x grid-padding-x">
-		<div class="large-2 cell">
-&nbsp;
+		<div class="large-2 columns darkbg show-for-landscape" style="position:fixed; overflow-y:scroll; overflow-x:hidden;">
+			<button id="opaqueBtn" class="toggle-button accentbg">Opaque</button>
+			<button id="transparentBtn" class="toggle-button accentbg">Transparent</button>
+			<button id="partiallyOpaqueBtn" class="toggle-button accentbg">Partially Opaque</button>
+			<div style="font-size:75%">
+				<h2>Chapter {{page.chapter}}</h2>
+				{% assign listofsections = site.dissertation | where: 'chapter', page.chapter | sort: "section" %}
+				{% for section in listofsections %}
+				{% include _sectionlist.html %}
+				{% endfor %}
+			</div>
 		</div>
-		<div class="large-10 cell">
+		<div class="large-9 large-offset-3 columns">
 
 {{ content }}
 

@@ -6,21 +6,16 @@ Opacity Control for Redaction Purposes
 	opacity: 1; /* Set initial opacity for partial view */
 }
 
-.toggle-buttons {
-	gap: 10px;
-	margin-bottom: 10px;
-}
 .toggle-button {
 	padding: 8px 12px;
-	background-color: #f1f1f1;
-	border: none;
+	margin:5px;
+	border: 1px;
+	border-color: $main-text-color;
 	border-radius: 4px;
 	cursor: pointer;
 	width:100%;
 }
-.toggle-button.active {
-	background-color: #007bff; /* Change to your preferred active button color */
-	color: white;
-}
 
-
+.toggle-button:hover {
+	  cursor: pointer;
+	}
