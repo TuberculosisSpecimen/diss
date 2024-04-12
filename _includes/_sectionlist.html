@@ -1,35 +1,45 @@
+<!-- Initialize current chapter and section numbers. -->
 {% if currentchapter != section.chapter %}
-<!-- Reset section numbering within each chapter for the sake of a consistent forloop -->
-{% assign currentsection = 1 %}
+  {% assign currentsection = 1 %}
 {% endif %}
 
+<!-- Check if the section number has changed within the same chapter and if it's not the first loop. If so, end the unordered list and reset the left-margin indent for section/subsection lists. -->
 {% if currentsection != section.section and forloop.index != 1 %}
-<!-- Check to see what the current section number is, and make sure it's not the first loop. If not, end the unnumbered list and the indent that sets a left-margin indent for section/subsection bullet point lists -->
-</ul>
+  </ul>
 {% endif %}
+
+<!-- Check if the chapter number has changed and if it's not the first loop. If so, close the div to outdent. -->
 {% if currentchapter != section.chapter and forloop.index != 1 %}
-<!-- Check to see what the current chapter number is, and make sure it's not the first loop. If not, outdent for the div -->
-</div>
+  </div>
 {% endif %}
 
-
+<!-- If the chapter number has changed, print the chapter header. -->
 {% if currentchapter != section.chapter %}
-<!-- If the current chapter is a new chapter number, print a header with that chapter number and title -->
-{% if page.chapter %}{% else %}<h3 class="accentbg" id="{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}">
-Chapter {{ section.chapter }}: {{ section.title }}</h3>
-<div style="margin-left: 30px;">
-{% endif %}
+  {% if page.chapter %}
+  {% else %}
+    <h3 class="accentbg" id="{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}">
+    Chapter {{ section.chapter }}: {{ section.title }}</h3>
+    <div style="margin-left: 30px;">
+  {% endif %}
 {% endif %}
 
+<!-- If the section number has changed, print the section header. -->
 {% if currentsection != section.section %}
-<!-- If the current section is a new section number, print a header with that section number and title -->
-<h4 id="{{ section.chapter }}.{{ section.section }}">Section {{ section.chapter }}.{{ section.section }}</h4>
-<ul style="margin-left:30px; display:block;">
+  <h4 id="{{ section.chapter }}.{{ section.section }}">Section {{ section.chapter }}.{{ section.section }}</h4>
+  <ul style="margin-left:30px; display:block;">
 {% endif %}
 
-<!-- Otherwise, print the section/subsection information and a link -->
-<li><a id="{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}" href="{{ site.baseurl }}{{ section.url }}">{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}: {{ section.title }}</a></li>
+<!-- If there is no page.subsection value, this is the dissertation ToC. Print the section/subsection title and link. -->
+{% unless page.subsection %}
+  <li><a id="{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}" href="{{ site.baseurl }}{{ section.url }}">{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}: {{ section.title }}</a></li>
+{% endunless %}
 
-<!-- Set currentchapter and currentsection to the current loop so that the next loop has a comparison point -->
+<!-- If there *is* a page.subsection value, this is a section ToC. Print the section/subsection number only and link with a pipe delimiter for visual division. -->
+{% if page.subsection %}
+{% if currentsection == section.section %} | {% endif %} <a id="{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}" href="{{ site.baseurl }}{{ section.url }}">{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}</a>
+{% endif %}
+
+<!-- Update current chapter and section numbers for the next loop. -->
+{% assign currentsubsection = section.subsection %}
 {% assign currentsection = section.section %}
 {% assign currentchapter = section.chapter %}
