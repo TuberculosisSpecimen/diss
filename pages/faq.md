@@ -1,6 +1,6 @@
 ---
 title: "Chapter 1, Some Random Title"
-layout: chapter
+layout: page
 permalink: "/faq/"
 ---
 

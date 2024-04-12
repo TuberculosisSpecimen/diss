@@ -1,8 +1,9 @@
-# NEEDS SOME INTRO: A "Why are we here" section
-
-# THEME.
+##############################################
+# START YOUR CONFIGURATION HERE! For more info, visit https://community-archive.kalanicraig.com/quickstart
 #---------------------
-#remote-theme: community-archive-jekyll
+# THEME. Leave Lines 4-6 alone.
+#---------------------
+remote_theme: kalanicraig/community-archive-jekyll
 
 ##############################################
 # WHAT IS ALL THIS STUFF?
@@ -67,7 +68,7 @@ instagram :
 
 # If you need to know how many people visit your site, go to https://analytics.google.com/
 # When you finish the setup assistant, it will give you a Measurement ID: G-ABCDEFGHIJ
-google_g4_analytics_id: G-LVREG1Y1DT
+google_g4_analytics_id: 
 
 ##############################################
 # FONTS AND COLORS
@@ -89,14 +90,14 @@ fontchoice: source # A modern serif font with clean sans-serif accents
 # You can see these color choices in action at https://community-archive.kalanicraig.com/docs/
 # Uncomment the line for the color you like. Comment out all of the other lines.
 
-#colorchoice: dusk # Dusky purple and olive green
-#colorchoice: lavenderred # Purple-grey with orange-red
-#colorchoice: leafgreen # Leafy green and medium brown
-colorchoice: marigold # Near-black with marigold yellow
 #colorchoice: navy # Navy with bright teal and grey
-#colorchoice: red # Black, crimson and grey
+#colorchoice: leafgreen # Leafy green and medium brown
 #colorchoice: tan # Tan and deep brown with flame-bright orange
 #colorchoice: teal # Bright teal with bright orange-yellow accents
+colorchoice: marigold # Near-black with marigold yellow
+#colorchoice: red # Black, crimson and grey
+#colorchoice: lavenderred # Purple-grey with orange-red
+#colorchoice: dusk # Dusky purple and olive green
 
 ##############################################
 # ORGANIZING YOUR COLLECTION
@@ -115,7 +116,6 @@ collections:
     permalink: /:collection/:path:output_ext
     chapter: true
     identifier: true
-
 # If your collection items need to be grouped by person, family or some other group, uncomment this collection
 #  groups:
 #    output: true
@@ -140,10 +140,9 @@ collections:
 # MOST OF THESE THINGS DON'T NEED TO BE CHANGED.
 ##############################################
 
-
 # This URL is the main address for absolute links. This will usually be blank.
 url: 
-# This will usually be blank. If this archive will be in a folder (kalanicraig.com/community-archive/) instead of in its own main site (idahatiu.github.io) add that folder name here with a slash / in front of it (e.g. /communityarchive).
+# If this archive will be in a folder (kalanicraig.com/community-archive/) instead of in its own main site (idahatiu.github.io) add that folder name here. This will usually be blank.
 baseurl: '/diss'
 
 # This URL points directly to the images directory. It needs a slash at the end.
@@ -158,15 +157,15 @@ permalink: /:categories/:year/:month/:day/:title:output_ext
 markdown : kramdown
 syntax_highlighter: rouge
 
+# This URL points directly to the images directory. It needs a slash at the end.
 exclude :
     - Gemfile
     - Gemfile.lock
     - CNAME
     - LICENSE
     - README.md
-    - pages/PagesOld
     - INSTALL.md
-    - screenshot.png
+    - vendor/bundle
 include: ['_pages']
 
 sass:
@@ -174,4 +173,5 @@ sass:
   style: compressed
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-seo-tag

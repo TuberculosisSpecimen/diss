@@ -9,13 +9,19 @@ Opacity Control for Redaction Purposes
 .toggle-button {
 	padding: 8px 12px;
 	margin:5px;
-	border: 1px;
-	border-color: $main-text-color;
 	border-radius: 4px;
 	cursor: pointer;
-	width:100%;
+	width:80%;
+	border: 2px solid $dark-bg;
 }
 
 .toggle-button:hover {
+	  background-color: $dark-bg;
+	  color: $main-bg;
 	  cursor: pointer;
 	}
+
+.selected {
+  background-color: $dark-bg;
+  color: $main-bg;
+}
