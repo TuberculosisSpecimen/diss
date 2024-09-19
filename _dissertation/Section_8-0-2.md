@@ -360,8 +360,6 @@ Department of Health, Canada. *What you Should Know about Tuberculosis*. Ottawa:
 
 *Descriptive Catalogue of the Museum of the British Congress on Tuberculosis*. Edited by Horne, W. Jobson. London: Adlard & Son, 1901.
 
-*Dispe* .
-
 *Dispensary Control of Tuberculosis in New York City*. 1918.
 
 *Dispensary Control of Tuberculosis: 1920 Yearbook*. 1920.
@@ -1391,44 +1389,6 @@ The Illinois State Board of Health. *The Early Diagnosis of Pulmonary Tuberculos
 *The Journal of Tuberculosis*. Edited by von Ruck, Karl. Asheville: , 1902.
 
 *The Journal of Tuberculosis*. Edited by von Ruck, Karl. Asheville: , 1903.
-
-*The Lancet*. 1913.
-
-*The Lancet*. Edited by Wakley, James G.. 1870.
-
-*The Lancet*. Edited by Wakley, James G.. 1870.
-
-*The Lancet*. Edited by Wakley, James G.. 1872.
-
-*The Lancet*. Edited by Wakley, James G.. 1873.
-
-*The Lancet*. Edited by Wakley, James G.. 1873.
-
-*The Lancet*. Edited by Wakley, James G.. 1874.
-
-*The Lancet*. Edited by Wakley, James G.. 1874.
-
-*The Lancet*. Edited by Wakley, James G.. 1875.
-
-*The Lancet*. Edited by Wakley, James G.. 1875.
-
-*The Lancet*. Edited by Wakley, James G.. 1876.
-
-*The Lancet*. Edited by Wakley, James G.. 1876.
-
-*The Lancet*. Edited by Wakley, James G.. 1877.
-
-*The Lancet*. Edited by Wakley, James G.. 1878.
-
-*The Lancet*. Edited by Wakley, James G.. 1881.
-
-*The Lancet*. Edited by Wakley, James G.. 1881.
-
-*The Lancet*. Edited by Wakley, James G.. 1882.
-
-*The Lancet*. Edited by Wakley, James G.. 1882.
-
-*The Lancet*. Edited by Wakley, James G.. 1883.
 
 *The Medical News*. 1892.
 

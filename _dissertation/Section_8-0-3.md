@@ -260,9 +260,7 @@ Department of Health City of New York. *Hand Book of Help for Persons Suffering 
 
 Department of Health, Canada. *What you Should Know about Tuberculosis*. Ottawa: F. A. Acland, 1922.	
 
-*Descriptive Catalogue of the Museum of the British Congress on Tuberculosis*. Edited by Horne, W. Jobson. London: Adlard & Son, 1901.	
-
-*Dispe* .	
+*Descriptive Catalogue of the Museum of the British Congress on Tuberculosis*. Edited by Horne, W. Jobson. London: Adlard & Son, 1901.		
 
 *Dispensary Control of Tuberculosis in New York City*. 1918.	
 
@@ -844,7 +842,7 @@ State of Washington. *Report of Washington State Board of Health upon House Bill
 
 *Sundry Lectures on the Medical Phases of Tuberculosis Delivered Before the Robert Koch Society for the Study of Tuberculosis*. Chicago: Chicago Tuberculosis Institute, 1916.	
 
-*The American International Congress on Tuberculosis*. New York: Medico_Legal Journal, 1904.	
+*The American International Congress on Tuberculosis*. New York: Medico-Legal Journal, 1904.	
 
 *The American Journal of the Medical Sciences*. 1898.	
 

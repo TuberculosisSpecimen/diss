@@ -9,6 +9,7 @@ chapterdisplay: 1
 sectiondisplay: 1
 subsectiondisplay: 1
 ---
+
 <b>Please use the buttons above to toggle the opacity of images and text.</b>
 
 # 1.1.1 Tuberculous Cultures
