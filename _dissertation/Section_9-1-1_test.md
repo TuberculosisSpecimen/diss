@@ -33,7 +33,7 @@ This chapter, then, works to foreground the non-specimen images which litter the
 
 <img id="Knopf_1922_0003_Cropped_partial" class="transparent" src="{{ site.baseurl }}/assets/items/Knopf_1922_0003_Cropped_partial.jpg">
 
-<img id="Knopf_1922_0003_Cropped_opaque" class="partially-opaque" src="{{ site.baseurl }}/assets/items/Knopf_1922_0003_Cropped_opaque_partial.jpg">
+<img id="Knopf_1922_0003_Cropped_opaque" class="partially-opaque" src="{{ site.baseurl }}/assets/items/Knopf_1922_0003_Cropped_partial.jpg">
 
 **Figure 1.** A photo of a girl selling Christmas seals. These stamps were used to fundraise for the National Association for the Study and Prevention of Tuberculosis, and are still sold as part of the American Lung Association's yearly fundraising efforts. Knopf, S. Adolphus. *Some Additional Notes on the Prevention of Relapses in Cases of Arrested Tuberculosis*. 1921. Image courtesy of the New York Academy of Medicine.
 
@@ -50,9 +50,9 @@ This chapter, then, works to foreground the non-specimen images which litter the
 
 <img id="CityofChicagoMunicipalTub1-4_1917-1924_358" class="opaque" src="{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub1-4_1917-1924_358_full.jpg">
 
-<img id="CityofChicagoMunicipalTub1-4_1917-1924_358_partial" class="transparent" src="{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub1-4_1917-1924_358_partial_partial.jpg">
+<img id="CityofChicagoMunicipalTub1-4_1917-1924_358" class="transparent" src="{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub1-4_1917-1924_358.jpg">
 
-<img id="CityofChicagoMunicipalTub1-4_1917-1924_358_full" class="partially-opaque" src="{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub1-4_1917-1924_358_full_partial.jpg">
+<img id="CityofChicagoMunicipalTub1-4_1917-1924_358_full" class="partially-opaque" src="{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub1-4_1917-1924_358_partial.jpg">
 
 **Figure 4.** Children doing schoolwork in an open air school. In the winter they would study with the windows open to the outside air. The City of Chicago Municipal Tuberculosis Sanatorium had received a significant donation fo the heavy coats the kids are wearing in this photograph. *City of Chicago Municipal Tuberculosis Sanatorium Monthly Bulletin* 1917-1924.
 
@@ -100,9 +100,9 @@ I ask these questions first because of the implicit connections between tubercul
 
 <img id="Mack_1920_0001" class="opaque" src="{{ site.baseurl }}/assets/items/Mack_1920_0001_full.jpg">
 
-<img id="Mack_1920_0001_partial" class="transparent" src="{{ site.baseurl }}/assets/items/Mack_1920_0001_partial.jpg">
+<img id="Mack_1920_0001_partial" class="transparent" src="{{ site.baseurl }}/assets/items/Mack_1920_0001.jpg">
 
-<img id="Mack_1920_0001_full" class="partially-opaque" src="{{ site.baseurl }}/assets/items/Mack_1920_0001_full_partial.jpg">
+<img id="Mack_1920_0001_full" class="partially-opaque" src="{{ site.baseurl }}/assets/items/Mack_1920_0001_partial.jpg">
 
 **Figure 12.** Mary Mack Blair's publication shows before and after images of patients who traveled for a cure. Of note in this publication is that the images were taped or glued into place, rather than being printed on the page itself. Mary Mack Blair. *Outwitting the "T.B. Bugs": A Little Message of Hope, Help and Common Sense for Those Who Seek Better Health*. San Francisco: Cahill Publishing Company, 1920.
 
