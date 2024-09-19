@@ -38,7 +38,7 @@ This chapter, then, works to foreground the non-specimen images which litter the
 **Figure 1.** A photo of a girl selling Christmas seals. These stamps were used to fundraise for the National Association for the Study and Prevention of Tuberculosis, and are still sold as part of the American Lung Association's yearly fundraising efforts. Knopf, S. Adolphus. *Some Additional Notes on the Prevention of Relapses in Cases of Arrested Tuberculosis*. 1921. Image courtesy of the New York Academy of Medicine.
 
 
-<img id="Brandt_ADirectoryofInstitutionsa_1904_106-+-4Brandt_ADirectoryofInstitutionsa_1904_106.jpg">
+<img id="Brandt_ADirectoryofInstitutionsa_1904_106" src"{{ site.baseurl }}/assets/items/Brandt_ADirectoryofInstitutionsa_1904_106.jpg">
 
 **Figure  2.** An example of an architectural drawing as they appear in the tuberculosis corpus (X.1.0). Brandt, Lilian. *A Directory of Institutions and Societies Dealing with Tuberculosis in the United States and Canada*. New York, 1904.
 
