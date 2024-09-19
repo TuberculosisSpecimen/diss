@@ -38,12 +38,12 @@ This chapter, then, works to foreground the non-specimen images which litter the
 **Figure 1.** A photo of a girl selling Christmas seals. These stamps were used to fundraise for the National Association for the Study and Prevention of Tuberculosis, and are still sold as part of the American Lung Association's yearly fundraising efforts. Knopf, S. Adolphus. *Some Additional Notes on the Prevention of Relapses in Cases of Arrested Tuberculosis*. 1921. Image courtesy of the New York Academy of Medicine.
 
 
-<img id="Brandt_ADirectoryofInstitutionsa_1904_106" src"{{ site.baseurl }}/assets/items/Brandt_ADirectoryofInstitutionsa_1904_106.jpg">
+<img id="Brandt_ADirectoryofInstitutionsa_1904_106" src="{{ site.baseurl }}/assets/items/Brandt_ADirectoryofInstitutionsa_1904_106.jpg">
 
 **Figure  2.** An example of an architectural drawing as they appear in the tuberculosis corpus (X.1.0). Brandt, Lilian. *A Directory of Institutions and Societies Dealing with Tuberculosis in the United States and Canada*. New York, 1904.
 
 
-<img id="CharityOrganiza_AHandbookonthePreventiono_1903_352" src"{{ site.baseurl }}/assets/items/CharityOrganiza_AHandbookonthePreventiono_1903_352.jpg">
+<img id="CharityOrganiza_AHandbookonthePreventiono_1903_352" src="{{ site.baseurl }}/assets/items/CharityOrganiza_AHandbookonthePreventiono_1903_352.jpg">
 
 **Figure 3.** An example of the way dirty spaces are shown in hygienic discourses around tuberculosis. The Charity Organization Society of the City of New York. *A Handbook on the Prevention of Tuberculosis*. New York: The Charity Organization Society of New York City, 1903.
 
@@ -57,27 +57,27 @@ This chapter, then, works to foreground the non-specimen images which litter the
 **Figure 4.** Children doing schoolwork in an open air school. In the winter they would study with the windows open to the outside air. The City of Chicago Municipal Tuberculosis Sanatorium had received a significant donation fo the heavy coats the kids are wearing in this photograph. *City of Chicago Municipal Tuberculosis Sanatorium Monthly Bulletin* 1917-1924.
 
 
-<img id="Knopf_1922_0001_Cropped" src"{{ site.baseurl }}/assets/items/Knopf_1922_0001_Cropped.jpg">
+<img id="Knopf_1922_0001_Cropped" src="{{ site.baseurl }}/assets/items/Knopf_1922_0001_Cropped.jpg">
 
 **Figure 5.** "The Little Red Cottage", the first building that Edward Livingston Trudeau treated patients within at the Adirondack Cottage Sanitorium. Knopf, S. Adolphus. *Some Additional Notes on the Prevention of Relapses in Cases of Arrested Tuberculosis*. 1921. Image courtesy of the New York Academy of Medicine.
 
 
-<img id="Jaquerod_PulmonaryTuberculosis_1921_49" src"{{ site.baseurl }}/assets/items/Jaquerod_PulmonaryTuberculosis_1921_49.jpg">
+<img id="Jaquerod_PulmonaryTuberculosis_1921_49" src="{{ site.baseurl }}/assets/items/Jaquerod_PulmonaryTuberculosis_1921_49.jpg">
 
 **Figure 6.** An image showing the fresh air cure. These images often contrast a more wild or untamed wilderness with some accouterments of relaxation, often an Adirondack chair or other lounging equipment. Jaquerod, Marc. *Pulmonary Tuberculosis*.Translated by Scott. London: S. H. Benson Limited, 1921.
 
 
-<img id="Elliott_TheAnti-TuberculosisMovem_TheBritishJournalofTuberc__16" src"{{ site.baseurl }}/assets/items/Elliott_TheAnti-TuberculosisMovem_TheBritishJournalofTuberc__16.jpg">
+<img id="Elliott_TheAnti-TuberculosisMovem_TheBritishJournalofTuberc__16" src="{{ site.baseurl }}/assets/items/Elliott_TheAnti-TuberculosisMovem_TheBritishJournalofTuberc__16.jpg">
 
 **Figure 7.** Many of the sanitaria which served tuberculous patients were located in remote locations, and would require patients to travel to get to them. This remoteness gives their visual character a striking contrast to an urban setting of which the hygienic discourses were most concerned (1.3.1). Jabez H. Elliot. "The Anti-Tuberculosis Movement in Canada" *The British Journal of Tuberculosis* 4. 1910. 73-89.
 
 
-<img id="AmericanIntlCongressonTB_1904_376" src"{{ site.baseurl }}/assets/items/AmericanIntlCongressonTB_1904_376.jpg">
+<img id="AmericanIntlCongressonTB_1904_376" src="{{ site.baseurl }}/assets/items/AmericanIntlCongressonTB_1904_376.jpg">
 
 **Figure 8.** This kind of publication and image was actually quite rare in the tuberculosis corpus (X.x.x), but represents kind of professional image that is otherwise absent. These images represent the medical researchers and workers in a professional, and explicitly higher classed, context. *The American International Congress on Tuberculosis*. New York: Medico-Legal Journal, 1904.
 
 
-<img id="Keyes_TheRenewalofLifeArguments_1909-1910_7" src"{{ site.baseurl }}/assets/items/Keyes_TheRenewalofLifeArguments_1909-1910_7.jpg">
+<img id="Keyes_TheRenewalofLifeArguments_1909-1910_7" src="{{ site.baseurl }}/assets/items/Keyes_TheRenewalofLifeArguments_1909-1910_7.jpg">
 
 **Figure 9.** Some monographs have portraits of the author in the first few pages. This was not a universal practice, but not an uncommon one either. These images work to prove the authority of the writer, and correspond with the kinds professional posturing of prominent authors like E. L. Trudeau and Robert Koch. (1.4.x). Keyes, Thomas Bassett. *The Renewal of Life: Arguments for Subcutaneous Injections of Oil in the Cure and Prevention of Senility and Disease: for Making of the Acme of Abundant Health, Stamina, Vigor, Vitality and Constitution; for the Cure of Consumption and Other Diseases, Particularly those of A Chronic Nature*. Chicago: The Tubercule Press Bureau, 1909-1910.
 
@@ -93,7 +93,7 @@ This chapter addresses this surprising observation with a series of questions: w
 I ask these questions first because of the implicit connections between tuberculosis research and the other cultural actors producing images. Some of the visual material is closely related to scientific research, as with the cases of material in public-facing magazines published by sanataria with research capabilities (*The Sanatorium* and the first few volumes of *The Journal of Outdoor Life*) (fig. 11). Other materials were linked to public health and volunteer organizations like the Anti-Tuberculosis Health League or the Charity Organization Society of the City of New York, and even more were public-facing books that were meant to help tuberculous patients find sanataria, understand how to treat their loved ones, or provide help about hygiene. Beyond this, even more images came from self published or regionally published materials that may or may not have any association with the broader scientific discourses around the disease (fig. 12).  This broad range of publications speaks also to a wide array of writers and readers. Where a visual practice---like the clinical gaze---may be trained by a majority of the actors in the discourse, many of the other actors---public health officials, volunteers, lay people, and patients---bring their own ideologies, preconceptions, and visual approaches into the discourse.
 
 
-<img id="TheJournaloftheOutdoorLif14_1917_322" src"{{ site.baseurl }}/assets/items/TheJournaloftheOutdoorLif14_1917_322.jpg">
+<img id="TheJournaloftheOutdoorLif14_1917_322" src="{{ site.baseurl }}/assets/items/TheJournaloftheOutdoorLif14_1917_322.jpg">
 
 **Figure 11.** *The Journal of the Outdoor Life: The Anti-Tuberculosis Magazine* 14(9). New York: Journal of the Outdoor Life Publishing Company, 1917.
 
