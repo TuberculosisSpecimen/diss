@@ -29,11 +29,11 @@ Perhaps most important too is that in the development of the dataset for this di
 This chapter, then, works to foreground the non-specimen images which litter the tuberculosis data set (x.x.x). What does a child selling postage seals (fig. 1), an architectural floor-plan for a sanatorium (fig. 2), an image of a filthy room (fig. 3), images of children studying in heavy coats (fig. 4), and a photograph of a cottage (fig. 5) have to do with the scientific understandings of the disease? What about a photograph of idyllic mountain resort (figs. 6 & 7), a portrait of a doctor taken for a conference (figs. 8 & 9), or a graphic of a flapper dancing with death (fig. 10) have to do with the ways doctors saw and treated their patients? 
 
 
-<img id="Knopf_1922_0003_Cropped" class="opaque" src="{{ site.baseurl }}/assets/items/Knopf_1922_0003_Cropped.jpg">
+<img id="Knopf_1922_0003_Cropped" class="opaque" src="{{ site.baseurl }}/assets/items/Knopf_1922_0003_Cropped_full.jpg">
 
 <img id="Knopf_1922_0003_Cropped_partial" class="transparent" src="{{ site.baseurl }}/assets/items/Knopf_1922_0003_Cropped_partial.jpg">
 
-<img id="Knopf_1922_0003_Cropped_opaque" class="partially-opaque" src="{{ site.baseurl }}/assets/items/Knopf_1922_0003_Cropped_opaque.jpg">
+<img id="Knopf_1922_0003_Cropped_opaque" class="partially-opaque" src="{{ site.baseurl }}/assets/items/Knopf_1922_0003_Cropped_opaque_partial.jpg">
 
 **Figure 1.** A photo of a girl selling Christmas seals. These stamps were used to fundraise for the National Association for the Study and Prevention of Tuberculosis, and are still sold as part of the American Lung Association's yearly fundraising efforts. Knopf, S. Adolphus. *Some Additional Notes on the Prevention of Relapses in Cases of Arrested Tuberculosis*. 1921. Image courtesy of the New York Academy of Medicine.
 
@@ -48,11 +48,11 @@ This chapter, then, works to foreground the non-specimen images which litter the
 **Figure 3.** An example of the way dirty spaces are shown in hygienic discourses around tuberculosis. The Charity Organization Society of the City of New York. *A Handbook on the Prevention of Tuberculosis*. New York: The Charity Organization Society of New York City, 1903.
 
 
-<img id="CityofChicagoMunicipalTub1-4_1917-1924_358" class="opaque" src="{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub1-4_1917-1924_358.jpg">
+<img id="CityofChicagoMunicipalTub1-4_1917-1924_358" class="opaque" src="{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub1-4_1917-1924_358_full.jpg">
 
-<img id="CityofChicagoMunicipalTub1-4_1917-1924_358_partial" class="transparent" src="{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub1-4_1917-1924_358_partial.jpg">
+<img id="CityofChicagoMunicipalTub1-4_1917-1924_358_partial" class="transparent" src="{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub1-4_1917-1924_358_partial_partial.jpg">
 
-<img id="CityofChicagoMunicipalTub1-4_1917-1924_358_full" class="partially-opaque" src="{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub1-4_1917-1924_358_full.jpg">
+<img id="CityofChicagoMunicipalTub1-4_1917-1924_358_full" class="partially-opaque" src="{{ site.baseurl }}/assets/items/CityofChicagoMunicipalTub1-4_1917-1924_358_full_partial.jpg">
 
 **Figure 4.** Children doing schoolwork in an open air school. In the winter they would study with the windows open to the outside air. The City of Chicago Municipal Tuberculosis Sanatorium had received a significant donation fo the heavy coats the kids are wearing in this photograph. *City of Chicago Municipal Tuberculosis Sanatorium Monthly Bulletin* 1917-1924.
 
@@ -98,11 +98,11 @@ I ask these questions first because of the implicit connections between tubercul
 **Figure 11.** *The Journal of the Outdoor Life: The Anti-Tuberculosis Magazine* 14(9). New York: Journal of the Outdoor Life Publishing Company, 1917.
 
 
-<img id="Mack_1920_0001" class="opaque" src="{{ site.baseurl }}/assets/items/Mack_1920_0001.jpg">
+<img id="Mack_1920_0001" class="opaque" src="{{ site.baseurl }}/assets/items/Mack_1920_0001_full.jpg">
 
 <img id="Mack_1920_0001_partial" class="transparent" src="{{ site.baseurl }}/assets/items/Mack_1920_0001_partial.jpg">
 
-<img id="Mack_1920_0001_full" class="partially-opaque" src="{{ site.baseurl }}/assets/items/Mack_1920_0001_full.jpg">
+<img id="Mack_1920_0001_full" class="partially-opaque" src="{{ site.baseurl }}/assets/items/Mack_1920_0001_full_partial.jpg">
 
 **Figure 12.** Mary Mack Blair's publication shows before and after images of patients who traveled for a cure. Of note in this publication is that the images were taped or glued into place, rather than being printed on the page itself. Mary Mack Blair. *Outwitting the "T.B. Bugs": A Little Message of Hope, Help and Common Sense for Those Who Seek Better Health*. San Francisco: Cahill Publishing Company, 1920.
 
@@ -110,29 +110,6 @@ In this chapter I will wrangle the sometimes disparate threads which knot around
 
 To foreground the broader cultures around tuberculosis, I am going to follow three three case studies---on hygiene, the sanatorium, and the medical practitioner at work---to define some ideological through-lines which will reappear in the next chapter (2.0.0). In doing this, my hope is to articulate in clear detail the eugenicist and capitalistic ideas which were reified in the process of fighting the disease. Concepts of class, ability, cleanliness, and health appear in relation to the cultural conception of tuberculosis, as well as the popular and scientific understandings regarding treatment. As Linda Bryder has argued, tuberculosis doctors in the early twentieth century "showed themselves to be very much a product of the middle-class society from which they came, with its fixed assumptions about the poor",[^fn11] and this chapter extends this claim to think about how discourses around the disease, made possible by medical professionals, patients, and the lay public, reinforced these structures. By examining the profusion of gazes which saw tuberculosis, the tuberculous, the sanitarium, and the doctors themselves, this chapter expands and complicates medical vision beyond the clinical (2.1.2).
 
-[Knopf_1922_003_cropped]: Knopf_1922_003_cropped.jpg width=612px height=360px
-
-[Brandt_ADirectoryofInstitutionsa_1904_106]: Brandt_ADirectoryofInstitutionsa_1904_106.jpg
-
-[CharityOrganiza_AHandbookonthePreventiono_1903_352]: CharityOrganiza_AHandbookonthePreventiono_1903_352.jpg
-
-[CityofChicagoMunicipalTub1-4_1917-1924_358]: CityofChicagoMunicipalTub1-4_1917-1924_358.jpg width=360px height=720px
-
-[image4]: image4.jpg width=212px height=285px
-
-[Jaquerod_PulmonaryTuberculosis_192149]: Jaquerod_PulmonaryTuberculosis_192149.jpg width=312px height=261px
-
-[Elliott_TheAnti-TuberculosisMovem_TheBritishJournalofTuberc_16]: Elliott_TheAnti-TuberculosisMovem_TheBritishJournalofTuberc_16.jpg width=360px height=247px
-
-[AmericanIntlCongressonTB_1904_376]: AmericanIntlCongressonTB_1904_376.jpg
-
-[Keyes_TheRenewalofLifeArguments_1909-1910_7]: Keyes_TheRenewalofLifeArguments_1909-1910_7.jpg width=225px height=360px
-
-[Knopf_AlarmingIncrease_1927_p15]: Knopf_AlarmingIncrease_1927_p15.jpg width=135px height=180px
-
-[TheJournaloftheOutdoorLif14_1917_322]: TheJournaloftheOutdoorLif14_1917_322.jpg width=234px height=360px
-
-[Mack_1920_0001]: Mack_1920_0001.jpg width=441px height=180px
 
 [^fn1]: Kübler-Ross, Elisabeth. *On Death & Dying: What the Dying Have to Teach Doctors, Nurses, Clergy & Their Own Families*. New York: Scribner, 1969; Ariés, Philippe. *Western Attitude toward Death: From the Middle Ages to the Present*. Translated by Patricia M. Ranum. Baltimore and London: The Johns Hopkins University Press, 1975; Saunders, Cicely, and Mary Baines. *Living with Dying: The Management of Terminal Disease*. Oxford: Oxford University Press, 1983.
 
