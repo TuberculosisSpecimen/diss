@@ -24,14 +24,16 @@
 {% endif %}
 
 <!-- If the section number has changed, print the section header. -->
-{% if currentsection != section.section %}
-  <h4 id="{{ section.chapter }}.{{ section.section }}">Section {{ section.chapter }}.{{ section.section }}</h4>
+{% if currentsection != section.section and section.section > 0 %}
+  <h4 id="{{ section.chapter }}.{{ section.section }}">Section {{ section.chapter }}.{{ section.section }}: {{ section.title }}</h4>
   <ul style="margin-left:30px; display:block;">
 {% endif %}
 
 <!-- If there is no page.subsection value, this is the dissertation ToC. Print the section/subsection title and link. -->
 {% unless page.subsection %}
+{% if section.subsection > 0  %}
   <li><a id="{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}" href="{{ site.baseurl }}{{ section.url }}">{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}: {{ section.title }}</a></li>
+{% endif %}
 {% endunless %}
 
 <!-- If there *is* a page.subsection value, this is a section ToC. Print the section/subsection number only and link with a pipe delimiter for visual division. -->
@@ -40,7 +42,9 @@
   {% if page.chapter == section.chapter and page.section == section.section and page.subsection == section.subsection %}
     <strong>{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}</strong>
   {% else %}
+	{% if section.subsection > 0  %}
     <a id="{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}" href="{{ site.baseurl }}{{ section.url }}">{{ section.chapter }}.{{ section.section }}.{{ section.subsection }}</a>
+  	{% endif %}
   {% endif %}
 {% endif %}
 
