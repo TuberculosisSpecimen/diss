@@ -1,8 +1,8 @@
 /** == MARIGOLD AND GREY Color Palette
 <palette>
   <color name="Black Coffee" hex="37323e" r="55" g="50" b="62" />
-  <color name="Gamboge" hex="de9e36" r="222" g="158" b="54" />
-  <color name="Cultured" hex="eceaec" r="236" g="234" b="236" />
+  <color name="celadon" hex="de9e36" r="222" g="158" b="54" />
+  <color name="dark-green" hex="eceaec" r="236" g="234" b="236" />
   <color name="Gold Metallic" hex="deb841" r="222" g="184" b="65" />
   <color name="Old Lavender" hex="6d6a75" r="109" g="106" b="117" />
 </palette>
@@ -13,29 +13,29 @@
 **/
 
 /* SCSS HEX */
-$black-coffee: #37323e;
-$gamboge: #de9e36;
-$cultured: #eceaec;
-$gold-metallic: #deb841;
-$old-lavender: #6d6a75;
+$black: #000000ff;
+$harvest-gold: #cd9300ff;
+$white: #ffffffff;
+$celadon: #b7e1b7ff;
+$dark-green: #001d00ff;
 
 /** main color scheme **/
-$main-text-color: $black-coffee;
-$main-bg: $cultured;
-$main-link: $gamboge;
-$main-link-hover: $old-lavender;
-$main-headers: $gamboge;
+$main-text-color: $black;
+$main-bg: $dark-green;
+$main-link: $celadon;
+$main-link-hover: $white;
+$main-headers: $celadon;
 
 /** dark-background color scheme **/
-$dark-text-color: $cultured;
-$dark-bg: $black-coffee;
-$dark-link: $gold-metallic;
-$dark-link-hover: $gamboge;
-$dark-headers: $gold-metallic;
+$dark-text-color: $dark-green;
+$dark-bg: $black;
+$dark-link: $harvest-gold;
+$dark-link-hover: $celadon;
+$dark-headers: $harvest-gold;
 
 /** accent-background color scheme **/
-$accent-text-color: $black-coffee;
-$accent-bg: $gold-metallic;
-$accent-link: $old-lavender;
-$accent-link-hover: $gamboge;
-$accent-headers: $old-lavender;
+$accent-text-color: $black;
+$accent-bg: $harvest-gold;
+$accent-link: $white;
+$accent-link-hover: $celadon;
+$accent-headers: $white;
