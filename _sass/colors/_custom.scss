@@ -15,6 +15,7 @@
 /* SCSS HEX */
 $black: #000000ff;
 $secondblack: #cd9300ff;
+$red: #FF0000;
 /* $harvest-gold: #cd9300ff; */
 $white: #ffffffff;
 $celadon: #b7e1b7ff;
@@ -36,7 +37,7 @@ $dark-headers: $celadon;
 
 /** accent-background color scheme **/
 $accent-text-color: $black;
-$accent-bg: $secondblack;
+$accent-bg: $red;
 $accent-link: $white;
 $accent-link-hover: $white;
 $accent-headers: $white;
