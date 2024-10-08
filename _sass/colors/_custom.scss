@@ -14,7 +14,8 @@
 
 /* SCSS HEX */
 $black: #000000ff;
-$harvest-gold: #cd9300ff;
+$secondblack: #cd9300ff;
+/* $harvest-gold: #cd9300ff; */
 $white: #ffffffff;
 /* $celadon: #b7e1b7ff; */
 $dark-green: #001d00ff;
@@ -29,13 +30,13 @@ $main-headers: $white;
 /** dark-background color scheme **/
 $dark-text-color: $dark-green;
 $dark-bg: $black;
-$dark-link: $harvest-gold;
+$dark-link: $secondblack;
 $dark-link-hover: $white;
-$dark-headers: $harvest-gold;
+$dark-headers: $secondblack;
 
 /** accent-background color scheme **/
 $accent-text-color: $black;
-$accent-bg: $harvest-gold;
+$accent-bg: $secondblack;
 $accent-link: $white;
 $accent-link-hover: $white;
 $accent-headers: $white;
