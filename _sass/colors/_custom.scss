@@ -17,22 +17,22 @@ $black: #000000ff;
 $secondblack: #cd9300ff;
 /* $harvest-gold: #cd9300ff; */
 $white: #ffffffff;
-/* $celadon: #b7e1b7ff; */
+$celadon: #b7e1b7ff;
 $dark-green: #001d00ff;
 
 /** main color scheme **/
-$main-text-color: $dark-green;
+$main-text-color: $black;
 $main-bg: $white;
-$main-link: $white;
-$main-link-hover: $white;
+$main-link: $secondblack;
+$main-link-hover: $celadon;
 $main-headers: $white;
 
 /** dark-background color scheme **/
-$dark-text-color: $dark-green;
-$dark-bg: $black;
+$dark-text-color: $celadon;
+$dark-bg: $dark-green;
 $dark-link: $secondblack;
 $dark-link-hover: $white;
-$dark-headers: $secondblack;
+$dark-headers: $celadon;
 
 /** accent-background color scheme **/
 $accent-text-color: $black;
