@@ -13,31 +13,30 @@
 **/
 
 /* SCSS HEX */
-$black: #000000ff;
-$secondblack: #cd9300ff;
-$red: #FF0000;
-/* $harvest-gold: #cd9300ff; */
-$white: #ffffffff;
-$celadon: #b7e1b7ff;
-$dark-green: #001d00ff;
+
+$harvest-gold: #cd9300ff;
+$floral-white: #F8F4EC;
+$flax: #E5D089;
+$dark-green: #063013;
+$black: #000000;
 
 /** main color scheme **/
 $main-text-color: $black;
-$main-bg: $white;
-$main-link: $secondblack;
-$main-link-hover: $celadon;
-$main-headers: $white;
+$main-bg: $floral-white;
+$main-link: $dark-green;
+$main-link-hover: $harvest-gold;
+$main-headers: $harvest-gold;
 
 /** dark-background color scheme **/
-$dark-text-color: $celadon;
+$dark-text-color: $black;
 $dark-bg: $dark-green;
-$dark-link: $secondblack;
-$dark-link-hover: $white;
-$dark-headers: $celadon;
+$dark-link: $flax;
+$dark-link-hover: $harvest-gold;
+$dark-headers: $harvest-gold;
 
 /** accent-background color scheme **/
-$accent-text-color: $black;
-$accent-bg: $red;
-$accent-link: $white;
-$accent-link-hover: $white;
-$accent-headers: $white;
+$accent-text-color: $dark-green;
+$accent-bg: $flax;
+$accent-link: $black;
+$accent-link-hover: $harvest-gold;
+$accent-headers: $black;
