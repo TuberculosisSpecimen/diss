@@ -1,8 +1,19 @@
 ---
 title: "Frequently Asked Questions"
-layout: section
+layout: page
 permalink: /faq
 ---
+
+<div class="grid-container">
+	<div class="grid-x grid-padding-x">
+		<div class="large-2 columns show-for-landscape section-toc">
+			<button id="transparentBtn" class="toggle-button accentbg">Transparent</button>
+			<button id="partiallyOpaqueBtn" class="toggle-button accentbg selected">Partially Opaque</button>
+			<button id="opaqueBtn" class="toggle-button accentbg">Opaque</button>
+		</div>
+	</div>
+</div>
+
 
 This site is designed with two main functions in mind: the application of an opacity filter, as well as the inclusion of definitions in a mouseover function.
 
