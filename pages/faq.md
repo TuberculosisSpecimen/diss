@@ -1,6 +1,6 @@
 ---
 title: "Frequently Asked Questions"
-layout: page
+layout: section
 permalink: /faq
 ---
 
