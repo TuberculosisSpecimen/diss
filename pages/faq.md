@@ -13,7 +13,7 @@ permalink: /faq
 		</div>
 	</div>
 </div>
-
+<div class="large-9 large-offset-3 columns">
 
 This site is designed with two main functions in mind: the application of an opacity filter, as well as the inclusion of definitions in a mouseover function.
 
@@ -44,3 +44,5 @@ Academics tend to love their jargon. Sometimes it can be quite helpful, especial
 Some examples
 
 > I often talk about <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" title="Discourse refers to a scholarly conversation which occurs in a field of knowledge production. I use it in a Foucauldian sense, to convey the agreed upon modes and objects of discussion which are commonly discussed in a scholarly discipline"><b>discourse</b></span> in this dissertation. I also have a problem with <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" title="Visual culture refers to an interdisciplinary field that looks at the social construction of vision."><b>visual culture</b></span>.
+
+</div>
