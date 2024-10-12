@@ -10,7 +10,12 @@
   excerpt: 
   image: 
 
-- title: Blog
-  url: /blog
-  excerpt:
+#- title: Blog
+#  url: /blog
+#  excerpt:
+#  image:
+
+- title: How to Use this Site
+  url: /faq
+  exerpt:
   image:
