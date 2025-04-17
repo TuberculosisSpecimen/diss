@@ -372,25 +372,54 @@ Typographic & Design Elements
 		}
 	}
 
-@media screen and (max-width: 39.9375em) {
-  .half-width-image {
-    width:100%;
-  }
-}
-
-@media screen and (min-width: 40em) {
-  .half-width-image {
-    width:50%;
-	clear: all;
-    float: right;
-  }
-}
-
-.card-section {
-	font-size:85%;
-}
-
-
+	@media screen and (max-width: 39.9375em) {
+	  .half-width-image {
+		width:100%;
+	  }
+	}
+	
+	@media screen and (min-width: 40em) {
+	  .half-width-image {
+		width:50%;
+		clear: all;
+		float: right;
+	  }
+	}
+	
+	.card-section {
+		font-size:85%;
+	}
+	
+	@media screen and (max-width: 39.9375em) {
+	  .quarter-width-image {
+		width:100%;
+	  }
+	}
+	
+	@media screen and (min-width: 40em) {
+	  .no-wrap {
+		clear: all;
+	  }
+	}
+	
+	.card-section {
+		font-size:85%;
+	}
+	
+	@media screen and (max-width: 39.9375em) {
+	  .quarter-width-image {
+		width:100%;
+	  }
+	}
+	
+	@media screen and (min-width: 40em) {
+	  .quarter-width-image {
+		width:25%;
+		clear: all;
+		float: right;
+	  }
+	}
+	
 /** == Stacked Table **/
 
 	tbody tr:nth-child(even) {
