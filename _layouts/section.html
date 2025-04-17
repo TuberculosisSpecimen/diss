@@ -9,18 +9,14 @@ format: section
 </div>
 </div>
 
-
 <div class="grid-container">
 	<div class="grid-x grid-padding-x">
 		<div class="large-2 columns show-for-landscape section-toc">
 			<button id="transparentBtn" class="toggle-button accentbg">Transparent</button>
 			<button id="partiallyOpaqueBtn" class="toggle-button accentbg selected">Partially Opaque</button>
 			<button id="opaqueBtn" class="toggle-button accentbg">Opaque</button>
-				<h2>Chapter {{page.chapter}}</h2>
-				{% assign listofsections = site.dissertation | where: 'chapter', page.chapter | sort: "section" %}
-				{% for section in listofsections %}
-				{% include _sectionlist.html %}
-				{% endfor %}
+				<h2>{{page.chaptertitle}}</h2>
+				{% include _sectionNew.html %}
 		</div>
 		<div class="large-9 large-offset-3 columns">
 

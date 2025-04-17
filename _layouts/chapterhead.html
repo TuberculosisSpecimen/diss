@@ -1,0 +1,41 @@
+---
+layout: default
+format: chapterhead
+---
+
+<div class="darkbg" style="margin-top:-10px;">
+<div class="grid-container">
+<h1 class="sans center">{% if page.chapter != "0" %}Chapter {{ page.chapter }}: {%endif%}{{ page.sectiontitle }}</h1>
+</div>
+</div>
+
+		<div class="large-9 large-offset-3 columns">
+
+<h1>{{ page.sectiontitle }}</h1>
+{{ page.info }}
+{% for dissloop in site.dissertation %}
+{% if dissloop.chapter == page.chapter %}
+{% if dissloop.subsection == "0" %}
+{% if dissloop.section != "0" %}
+<h4>Section: {{ dissloop.section}}: {{ dissloop.sectiontitle }}</h4>
+{{ dissloop.info }}<br><br>
+{% assign disssec = dissloop.section %}
+{% for secondloop in site.dissertation %}
+{% if secondloop.chapter == page.chapter %}
+{% if secondloop.section == disssec %}
+{% if secondloop.subsection != "0"%}
+{% if secondloop.subsection != "1" %} | {% endif %}{{ secondloop.chapter }}.{{ secondloop.section }}.{{ secondloop.subsection }}
+{% endif %}
+{% endif %}
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+</div>
+
+		</div>
+	</div>
+</div>
