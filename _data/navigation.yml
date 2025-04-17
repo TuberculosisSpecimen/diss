@@ -1,21 +1,16 @@
 # Site navigation links
 
-#- title: How to Use this Site
-#  url: /faq
-#  excerpt:
-#  image:
+- title: How to Use this Site
+  url: /faq
+  excerpt:
+  image:
 
 - title: Dissertation
-  url: /dissertation
+  url: /dissertation/tableofcontents
   excerpt: 
   image: 
 
-#- title: Blog
-#  url: /blog
-#  excerpt:
-#  image:
-
-- title: How to Use this Site
-  url: /faq
-  exerpt:
+- title: Blog
+  url: /blog
+  excerpt:
   image:
