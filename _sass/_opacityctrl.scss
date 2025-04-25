@@ -27,7 +27,9 @@ Opacity Control for Redaction Purposes
 }
 
 .section-toc {
- 	position:fixed;
- 	overflow-y:scroll;
- 	overflow-x:hidden;
+ 	position: fixed;
+	height: 58%;
+	width: 280px !important;
+ 	overflow-y: auto;
+ 	overflow-x: hidden;
  }
