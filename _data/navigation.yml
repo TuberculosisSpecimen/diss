@@ -10,7 +10,12 @@
   excerpt: 
   image: 
 
-- title: Blog
-  url: /blog
+- title: Acknowledgements
+  url: /dissertation/acknowledgements
+  excerpt:
+  image:
+
+- title: How to Use this Site
+  url: /dissertation/FAQ
   excerpt:
   image:
