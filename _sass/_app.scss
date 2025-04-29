@@ -62,6 +62,17 @@ Base settings
 	.menu-hover-lines a:before {
 	  background-color: $dark-headers;
 	}
+
+	.style-divider {
+		display: flex;
+		justify-content: center;
+		padding: 3rem;
+
+		.line {
+			width: 75%;
+			border-bottom: 2px solid #031D0B;
+		}
+	}
 	
 /** == Header styling **/
 
@@ -522,6 +533,47 @@ ItemBox
   width: 25px;
 }
 
+/** =================================
+Image/Image Layout Options
+================================= **/
+
+/*card-container-horizontal class ID goes on the parent container for all images/figure text in a row*/
+.card-container-horizontal {
+	display: flex;
+}
+
+/*card-container-horizontal-content class ID needs to be added to a NEW div around each image/figure 
+text grouping so that figure text falls below image*/
+.card-container-horizontal-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	width: 50%;
+}
+
+.center-content {
+	display: flex;
+	justify-content: center;
+}
+
+/*Adding one of these class IDs to an image will resize image based on the assigned percentage 
+(size ultimately based on the size of parent container)*/
+.image-extra-small {
+	width: 25%;
+}
+
+.image-small {
+	width: 50%;
+}
+
+.image-medium {
+	width: 75%;
+}
+
+.image-large {
+	width: 100%;
+}
 
 /** =================================
 BLOG POST LISTINGS
