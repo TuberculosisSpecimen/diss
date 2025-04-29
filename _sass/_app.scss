@@ -73,6 +73,23 @@ Base settings
 			border-bottom: 2px solid #031D0B;
 		}
 	}
+
+	/* Custom Tooltip Styling  */
+	span[data-title]:focus::after {
+		display: block;
+		content: attr(data-title);
+		position: absolute;
+		left: -250%;
+		z-index: 100;
+		background-color: #031D0B;
+		width: 30rem;
+		color: #E5D089;
+		font-size: 1rem;
+		padding: .5rem;
+		border: 1px solid #000;
+		box-shadow: 1px 1px 4px #242424;
+		border-radius: 6px;
+	}
 	
 /** == Header styling **/
 
@@ -550,6 +567,7 @@ text grouping so that figure text falls below image*/
 	justify-content: flex-start;
 	align-items: center;
 	width: 50%;
+	padding: .5em;
 }
 
 .center-content {
@@ -573,6 +591,11 @@ text grouping so that figure text falls below image*/
 
 .image-large {
 	width: 100%;
+}
+
+.caption-font {
+	font-size: .7em;
+	line-height: normal;
 }
 
 /** =================================
