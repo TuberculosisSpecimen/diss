@@ -75,7 +75,7 @@ Base settings
 	}
 
 	/* Custom Tooltip Styling  */
-	span[data-title]:focus::after {
+	span[data-title]:hover::after {
 		display: block;
 		content: attr(data-title);
 		position: absolute;
