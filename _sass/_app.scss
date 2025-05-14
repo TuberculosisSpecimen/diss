@@ -555,7 +555,7 @@ Image/Image Layout Options
 ================================= **/
 
 /*card-container-horizontal class ID goes on the parent container for all images/figure text in a row*/
-.card-container-horizontal {
+/*.card-container-horizontal {
 	display: flex;
 }
 
@@ -566,7 +566,7 @@ text grouping so that figure text falls below image*/
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	width: 100%;
+	width: 50%;
 	padding: .5em;
 }
 
