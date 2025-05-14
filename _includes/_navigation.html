@@ -1,0 +1,24 @@
+{% for dissloop in site.dissertation %}
+{% if dissloop.section == page.section %}{% if dissloop.subsection == page.subsection %}{% if dissloop.chapter == page.chapter %}{% if page.chapter != "Misc" %}<!-- checks for a subsection file -->
+<div style="text-align: right;">
+{% if dissloop.subsection != "1" %} <!-- check for section 1 -->
+{% capture minusfunc %}{{ page.subsection | minus: 1}}{% endcapture %}<a href="{{ site.baseurl }}/dissertation/{{ page.chapter }}_{{ page.section }}_{{ minusfunc }}">< Previous Section</a>{% endif %}
+
+{% if dissloop.chapter != "X" %}{% if dissloop.subsection == "1" %}{% if dissloop.chapter > "0" %}{% if dissloop.section == "1" %}<a href="{{ site.baseurl }}/dissertation/{{ page.chapter | Minus: 1}}_0_0">Previous Chapter</a>{% endif %}{% endif %}{% endif %}{% endif %}<!-- previous chapter -->
+{% if dissloop.subsection == "1" %}{% if dissloop.section > "1" %}<a href="{{ site.baseurl }}/dissertation/{{ page.chapter }}_{{ page.section | minus: 1}}_{{ page.previous.previous.subsection }}">Previous Section</a>{% endif %}{% endif %}
+ | 
+
+{% if page.finalcheck != "FINAL" %} <!-- check for last page -->
+
+{% if dissloop.next.subsection != "0" %}<!-- default for next section with no change -->
+{% if dissloop.next.chapter == page.chapter %}{% capture plusfunc %}{{ page.subsection | plus: 1}}{% endcapture %}<a href="{{ site.baseurl }}/dissertation/{{ page.chapter }}_{{ page.section }}_{{ plusfunc }}"> Next Section ></a>{% endif %}{% endif %}
+
+{% if dissloop.next.subsection == "0" %}{% if dissloop.next.section == "0" %}<!-- checking for chapter change -->
+<a href="{{ site.baseurl }}/dissertation/{{ page.next.chapter }}_0_0"> Next Chapter ></a>{% endif %}{% endif %}
+
+{% if dissloop.next.subsection == "0" %}{% if dissloop.next.section != "0" %}<a href="{{ site.baseurl }}/dissertation/{{ page.chapter }}_{{ page.next.section }}_1"> Next Section ></a>{% endif %}{% endif %}
+
+{% endif %}</div>
+
+{% endif %}{% endif %}{% endif %}{% endif %}
+{% endfor %}
