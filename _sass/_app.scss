@@ -506,7 +506,6 @@ ItemBox
 
 .card {
   background-color: transparent;
-  border: 1px solid $dark-bg;
   padding: 1rem;
   margin: 0 .25rem 1.5rem .25rem;
 }
@@ -575,6 +574,11 @@ text grouping so that figure text falls below image*/
 	justify-content: center;
 }
 
+.image-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /*Adding one of these class IDs to an image will resize image based on the assigned percentage 
 (size ultimately based on the size of parent container)*/
 .image-extra-small {
@@ -594,8 +598,11 @@ text grouping so that figure text falls below image*/
 }
 
 .caption-font {
-	font-size: .7em;
+	font-size:.9em;
 	line-height: normal;
+	display: block;
+	margin-top: .625rem;
+	margin-bottom: .625rem;
 }
 
 /** =================================
