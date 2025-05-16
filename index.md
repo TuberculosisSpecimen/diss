@@ -23,4 +23,4 @@ Please skip any sections that may cause emotional distress. This dissertation wa
 
 Thank you for taking the time to read this project.
 
-[Access the dissertation]({{ site.baseurl }}/tableofcontents).
+[Access the dissertation]({{ site.baseurl }}/dissertation/tableofcontents).
