@@ -11,7 +11,7 @@ As this dissertation deals with many sensitive topics, I wanted to have a conten
 
 Some sensitive topics that are in this dissertation include:
 
-* Non-<span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" data-title="I use the phrase 'consent' to refer to the idea of informed consent: that a research subject needs to be aware of what will happen to them in a research project, and that they have the ability to say 'no' at any point during the research program."><b>consensual</span> medical research practices.
+* Non-<span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" data-title="I use the phrase 'consent' to refer to the idea of informed consent: that a research subject needs to be aware of what will happen to them in a research project, and that they have the ability to say 'no' at any point during the research program."><b>consensual</b></span> medical research practices.
 * Depiction of human remains.
 * Discussion of systemic racism and ableism, especially related to eugenics.
 * Discussion of death and dying.
@@ -23,4 +23,4 @@ Please skip any sections that may cause emotional distress. This dissertation wa
 
 Thank you for taking the time to read this project.
 
-[Access the dissertation](tuberculosisspecimen.github.io/diss/tableofcontents).
+[Access the dissertation]({{ site.baseurl }}/tableofcontents).
