@@ -1,5 +1,5 @@
 {% for dissloop in site.dissertation %}
-{% if dissloop.section == page.section %}{% if dissloop.subsection == page.subsection %}{% if dissloop.chapter == page.chapter %}{% if page.chapter != "Misc" %}<!-- checks for a subsection file -->
+{% if page.chapter != "misc" %}{% if dissloop.section == page.section %}{% if dissloop.subsection == page.subsection %}{% if dissloop.chapter == page.chapter %}{% if page.chapter != "Misc" %}<!-- checks for a subsection file -->
 <div style="text-align: right;">
 {% if dissloop.subsection != "1" %} <!-- check for section 1 -->
 {% capture minusfunc %}{{ page.subsection | minus: 1}}{% endcapture %}<a href="{{ site.baseurl }}/dissertation/{{ page.chapter }}_{{ page.section }}_{{ minusfunc }}">< Previous Section</a>{% endif %}
@@ -20,5 +20,5 @@
 
 {% endif %}</div>
 
-{% endif %}{% endif %}{% endif %}{% endif %}
+{% endif %}{% endif %}{% endif %}{% endif %}{% endif %}
 {% endfor %}

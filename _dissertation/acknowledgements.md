@@ -1,7 +1,7 @@
 ---
 layout: section
 title: "Acknowledgments"
-chapter: "Preface"
+chapter: "misc"
 section: "1"
 subsection: "1"
 indexterms: ""
