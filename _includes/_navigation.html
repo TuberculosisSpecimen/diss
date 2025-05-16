@@ -4,8 +4,8 @@
 {% if dissloop.subsection != "1" %} <!-- check for section 1 -->
 {% capture minusfunc %}{{ page.subsection | minus: 1}}{% endcapture %}<a href="{{ site.baseurl }}/dissertation/{{ page.chapter }}_{{ page.section }}_{{ minusfunc }}">< Previous Section</a>{% endif %}
 
-{% if dissloop.chapter != "X" %}{% if dissloop.subsection == "1" %}{% if dissloop.chapter > "0" %}{% if dissloop.section == "1" %}<a href="{{ site.baseurl }}/dissertation/{{ page.chapter | Minus: 1}}_0_0">Previous Chapter</a>{% endif %}{% endif %}{% endif %}{% endif %}<!-- previous chapter -->
-{% if dissloop.subsection == "1" %}{% if dissloop.section > "1" %}<a href="{{ site.baseurl }}/dissertation/{{ page.chapter }}_{{ page.section | minus: 1}}_{{ page.previous.previous.subsection }}">Previous Section</a>{% endif %}{% endif %}
+{% if dissloop.chapter != "X" %}{% if dissloop.subsection == "1" %}{% if dissloop.chapter > "0" %}{% if dissloop.section == "1" %}<a href="{{ site.baseurl }}/dissertation/{{ page.chapter | Minus: 1}}_0_0">< Previous Chapter</a>{% endif %}{% endif %}{% endif %}{% endif %}<!-- previous chapter -->
+{% if dissloop.subsection == "1" %}{% if dissloop.section > "1" %}<a href="{{ site.baseurl }}/dissertation/{{ page.chapter }}_{{ page.section | minus: 1}}_{{ page.previous.previous.subsection }}">< Previous Section</a>{% endif %}{% endif %}
  | 
 
 {% if page.finalcheck != "FINAL" %} <!-- check for last page -->

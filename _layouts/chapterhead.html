@@ -18,13 +18,13 @@ format: chapterhead
 {% if dissloop.subsection == "0" %}
 {% if dissloop.section != "0" %}
 <h4>Section: {{ dissloop.section}}: {{ dissloop.sectiontitle }}</h4>
-{{ dissloop.info }}<br><br>
+{% if dissloop.info != "nil" %}{{ dissloop.info }}<br><br>{% endif %}
 {% assign disssec = dissloop.section %}
 {% for secondloop in site.dissertation %}
 {% if secondloop.chapter == page.chapter %}
 {% if secondloop.section == disssec %}
 {% if secondloop.subsection != "0"%}
-{% if secondloop.subsection != "1" %} | {% endif %}{{ secondloop.chapter }}.{{ secondloop.section }}.{{ secondloop.subsection }}
+{% if secondloop.subsection != "1" %} | {% endif %}<a href="{{ base.url }}/diss/dissertation/{{ secondloop.chapter }}_{{ secondloop.section }}_{{ secondloop.subsection }}">{{ secondloop.chapter }}.{{ secondloop.section }}.{{ secondloop.subsection }}</a>
 {% endif %}
 {% endif %}
 {% endif %}

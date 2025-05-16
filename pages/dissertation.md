@@ -1,7 +1,9 @@
 ---
 permalink: dissertation/tableofcontents
 layout: page
+title: Table of Contents
 ---
+<h1><a href="{{ site.baseful }}/dissertation/preface">Preface</a></h1>
 {% for chapterloop in site.dissertation %}
 {% if chapterloop.section == "0" %}
 {% if chapterloop.subsection == "0" %}
@@ -13,7 +15,7 @@ layout: page
 {% if sectionloop.subsection == "0" %}
 {% if sectionloop.section != "0" %}
 <h4>{{ sectionloop.sectiontitle }}</h4>
-{{ sectionloop.info }}<br>
+{% if sectionloop.info != "nil" %}{{ sectionloop.info }}<br>{% endif %}
 <b>Subsections:</b>
 {% endif %}{% endif %}
 {%- if sectionloop.subsection != "0" -%}{% if sectionloop.subsection != "1" %} | {% endif %}<a href="{{ site.baseurl }}/dissertation/{{ sectionloop.chapter }}_{{ sectionloop.section }}_{{ sectionloop.subsection }}">{{ sectionloop.chapter }}.{{ sectionloop.section }}.{{ sectionloop.subsection }}</a>{%- endif -%}{%- endif -%}
@@ -21,4 +23,5 @@ layout: page
 {% endif %}
 {% endif %}
 {% endfor %}
-<h2><a href="{{ site.baseurl }}/dissertation/index">Index</a></h2>
+<h1><a href="{{ site.baseurl }}/dissertation/index">Index</a></h1>
+<h1><a href="{{ site.baseurl }}/dissertation/citations">Works Cited</a></h1>
