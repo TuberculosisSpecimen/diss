@@ -1,5 +1,5 @@
 ---
-layout: section
+layout: page
 title: "Welcome to the Tuberculosis Specimen"
 ---
 
