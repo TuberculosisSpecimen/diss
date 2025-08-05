@@ -3,7 +3,7 @@ permalink: dissertation/tableofcontents
 layout: page
 title: Table of Contents
 ---
-<h1><a href="{{ site.baseful }}/dissertation/preface">Preface</a></h1>
+<h1><a href="{{ site.baseful }}/diss/dissertation/preface">Preface</a></h1>
 {% for chapterloop in site.dissertation %}
 {% if chapterloop.section == "0" %}
 {% if chapterloop.subsection == "0" %}
